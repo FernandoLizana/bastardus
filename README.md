@@ -109,7 +109,7 @@ Enunciado formal: [`reports/CHORDWIDTH_FORMAL_PROBLEM_STATEMENT.md`](reports/CHO
 
 ### 3.2 Diagrama del pipeline
 
-\\	ext
+```text
 ┌──────────────────┐     ┌─────────────────────┐     ┌──────────────────┐
 │  Generación G    │────▶│  L(G) + treewidth   │────▶│  CSV / JSON E2   │
 │  C_n + 2 chords  │     │  scripts/treewidth  │     │  reports/        │
@@ -127,7 +127,8 @@ Enunciado formal: [`reports/CHORDWIDTH_FORMAL_PROBLEM_STATEMENT.md`](reports/CHO
                                                      │  smokes / Route  │
                                                      │  F+A scaffold    │
                                                      └──────────────────┘
-\
+```
+
 ### 3.3 Diagrama de decisión (rutas)
 
 ```text
