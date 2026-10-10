@@ -6,7 +6,7 @@
 
 | | |
 |---|---|
-| **Estado del repo** | **Privado** (preparado para publicación posterior) |
+| **Estado del repo** | **Público** |
 | **Clasificación científica** | **PARTIAL FORMAL PROGRESS** |
 | **Conjetura estrella (G1)** | tw(L(G))=3 (noncrossing) / 4 (crossing) para Cₙ + 2 cuerdas válidas — **∀n sigue OPEN** |
 | **Evidencia E2 clave** | **2870 / 2870** configs Δ=3, n=5..14, **0 contraejemplos** (treewidth exacto) |
@@ -254,7 +254,7 @@ cd frontend && npm install && npm run dev
 | Hub placement paramétrico | OPEN | Diseño + Lean (no solo smokes) |
 | Sweeps TW n≥15 | PENDIENTE farm | `portable_cpu` jobs |
 | G2 / G5 | OPEN | Fuera del camino crítico G1 |
-| Publicación del repo | **Después** | Ahora **privado** |
+| Publicación del repo | **Hecha** | Repo **público** |
 
 Los “pendientes” de prueba Lean **no se cierran con más smokes**; requieren trabajo paramétrico documentado en la matriz de rutas.
 
@@ -262,10 +262,10 @@ Los “pendientes” de prueba Lean **no se cierran con más smokes**; requieren
 
 ## 8. Privacidad y publicación
 
-- El repositorio se mantiene **privado**.
-- No deben existir tokens, `.env`, ni rutas absolutas personales en el árbol versionado (ver [`SECURITY.md`](SECURITY.md)).
+- El repositorio es / será **público**.
+- No deben existir tokens, `.env` con secretos, ni rutas absolutas personales en el árbol versionado (ver [`SECURITY.md`](SECURITY.md)).
 - Logs locales de build (con paths de máquina) están en `.gitignore`.
-- Cuando se decida hacerlo público: revisar `gh repo edit --visibility public` **solo tras** una pasada de secret scanning.
+- Antes de publicar se realizó una pasada de secret scanning sobre archivos trackeados.
 
 ---
 
