@@ -1,0 +1,8 @@
+{
+  "total": 461,
+  "proj_ok": 461,
+  "proj_fail": 0,
+  "all_ok": true,
+  "fail_samples": [],
+  "claim": "Every crossing n=5..10 satisfies parametricProjOK (G\u2192R projection inclusion)."
+}

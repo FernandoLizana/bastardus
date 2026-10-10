@@ -1,0 +1,75 @@
+{
+  "evidence_level": "E2_certified_computation",
+  "claim_type": "observation_experimental_mass_verification",
+  "disclaimer": "Mass verification of constructive certificates is NOT a proof of P vs NP. It supports Width=Δ for trees/paths/stars and Width=2 for cycles on enumerated orbits.",
+  "profile": "laptop",
+  "elapsed_ms": 991,
+  "variants": [
+    {
+      "variant": "V1_trees_labeled_allOddCharges_n2..6",
+      "checked": 43614,
+      "failed": 0,
+      "elapsed_ms": 124,
+      "note": "Claim: Width=Δ. Enumerates all labeled trees × all odd GF(2) charges (no Aut filter).",
+      "first_failure": null
+    },
+    {
+      "variant": "V1b_trees_labeled_AutChargeOrbits_n2..5",
+      "checked": 1419,
+      "failed": 0,
+      "elapsed_ms": 3,
+      "note": "Group: Aut(G) on GF(2)^V. Use only for tiny n (Aut search is n!-ish).",
+      "first_failure": null
+    },
+    {
+      "variant": "V5_trees_unitChargeFlood_n2..7",
+      "checked": 126125,
+      "failed": 0,
+      "elapsed_ms": 502,
+      "note": "All labeled trees × all single-1 charge positions.",
+      "first_failure": null
+    },
+    {
+      "variant": "V2_paths_Z2ChargeOrbits_n2..16",
+      "checked": 32894,
+      "failed": 0,
+      "elapsed_ms": 268,
+      "note": "Paths ⊆ trees ⇒ Width=Δ (=2 for n≥3). Group ℤ₂ (reversal).",
+      "first_failure": null
+    },
+    {
+      "variant": "V6_paths_weight3_n3..14",
+      "checked": 1365,
+      "failed": 0,
+      "elapsed_ms": 8,
+      "note": "All weight-3 charge patterns on paths.",
+      "first_failure": null
+    },
+    {
+      "variant": "V3_stars_SymChargeOrbits_n3..12",
+      "checked": 75,
+      "failed": 0,
+      "elapsed_ms": 14,
+      "note": "Stars: Width=Δ=n-1. Group S_{n-1} via sorted leaf-charge canonicalization.",
+      "first_failure": null
+    },
+    {
+      "variant": "V4_cycles_DihedralChargeOrbits_n3..14",
+      "checked": 771,
+      "failed": 0,
+      "elapsed_ms": 52,
+      "note": "Claim: Width=Δ=2. Group: D_n acting on GF(2)^n charges.",
+      "first_failure": null
+    },
+    {
+      "variant": "V7_caterpillars_spine4_pend≤2",
+      "checked": 3879,
+      "failed": 0,
+      "elapsed_ms": 16,
+      "note": "Caterpillar trees (path + pending). Still trees ⇒ Width=Δ.",
+      "first_failure": null
+    }
+  ],
+  "total_checked": 210142,
+  "total_failed": 0
+}

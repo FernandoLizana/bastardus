@@ -1,0 +1,39 @@
+{
+  "pendants": [
+    {
+      "kind": "noncross",
+      "ok": true,
+      "Wcap": 3,
+      "delta": 3
+    },
+    {
+      "kind": "cross_safe_attach",
+      "certified": "Width > \u0394",
+      "delta_full": 3,
+      "delta_core": 3,
+      "peeled_leaves": 1
+    }
+  ],
+  "bicyclic_cycle_chord": [
+    {
+      "n": 4,
+      "delta": 3,
+      "max_width": 3
+    },
+    {
+      "n": 5,
+      "delta": 3,
+      "max_width": 3
+    },
+    {
+      "n": 6,
+      "delta": 3,
+      "max_width": 3
+    },
+    {
+      "n": 7,
+      "delta": 3,
+      "max_width": 3
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "family": "C_n+2 chords, Delta<=3, all (or capped) odd charges",
+  "checked": 394768,
+  "by_n": {
+    "5": {
+      "graphs": 5,
+      "charges_per_graph": 16,
+      "checked": 80,
+      "eq": 0,
+      "gt": 80,
+      "inconclusive": 0,
+      "mismatches": 0
+    },
+    "6": {
+      "graphs": 18,
+      "charges_per_graph": 32,
+      "checked": 576,
+      "eq": 96,
+      "gt": 480,
+      "inconclusive": 0,
+      "mismatches": 0
+    },
+    "7": {
+      "graphs": 49,
+      "charges_per_graph": 64,
+      "checked": 3136,
+      "eq": 896,
+      "gt": 2240,
+      "inconclusive": 0,
+      "mismatches": 0
+    },
+    "8": {
+      "graphs": 110,
+      "charges_per_graph": 128,
+      "checked": 14080,
+      "eq": 5120,
+      "gt": 8960,
+      "inconclusive": 0,
+      "mismatches": 0
+    },
+    "9": {
+      "graphs": 216,
+      "charges_per_graph": 64,
+      "checked": 13824,
+      "eq": 5760,
+      "gt": 8064,
+      "inconclusive": 0,
+      "mismatches": 0,
+      "gpu_chunk": 16,
+      "max_c": 4096,
+      "elapsed_s": 184.08
+    },
+    "10": {
+      "graphs": 385,
+      "charges_per_graph": 64,
+      "checked": 24640,
+      "eq": 11200,
+      "gt": 13440,
+      "inconclusive": 0,
+      "mismatches": 0,
+      "gpu_chunk": 16,
+      "max_c": 4096,
+      "elapsed_s": 636.01
+    },
+    "11": {
+      "graphs": 638,
+      "charges_per_graph": 64,
+      "checked": 40832,
+      "eq": 19712,
+      "gt": 21120,
+      "inconclusive": 0,
+      "mismatches": 0,
+      "gpu_chunk": 16,
+      "max_c": 4096,
+      "elapsed_s": 1855.07
+    },
+    "12": {
+      "graphs": 999,
+      "charges_per_graph": 64,
+      "checked": 63936,
+      "eq": 32256,
+      "gt": 31680,
+      "inconclusive": 0,
+      "mismatches": 0,
+      "gpu_chunk": 16,
+      "max_c": 4096,
+      "elapsed_s": 4897.71
+    },
+    "13": {
+      "graphs": 1495,
+      "charges_per_graph": 64,
+      "checked": 95680,
+      "eq": 49920,
+      "gt": 45760,
+      "inconclusive": 0,
+      "mismatches": 0,
+      "gpu_chunk": 16,
+      "max_c": 4096,
+      "elapsed_s": 11330.78
+    },
+    "14": {
+      "graphs": 2156,
+      "charges_per_graph": 64,
+      "checked": 137984,
+      "eq": 73920,
+      "gt": 64064,
+      "inconclusive": 0,
+      "mismatches": 0,
+      "gpu_chunk": 16,
+      "max_c": 8192,
+      "max_c_cap": 32768,
+      "elapsed_s": 25626.63
+    }
+  },
+  "mismatches": [],
+  "inconclusive": [],
+  "law_holds": true,
+  "sources": [
+    "reports/discovery/crossing_law_all_odd_n5_8.json",
+    "reports/discovery/crossing_law_all_odd_n9.json",
+    "reports/discovery/crossing_law_all_odd_n10.json",
+    "reports/discovery/crossing_law_all_odd_n11.json",
+    "reports/discovery/crossing_law_all_odd_n12.json",
+    "reports/discovery/crossing_law_all_odd_n13.json",
+    "reports/discovery/crossing_law_all_odd_n14.json"
+  ],
+  "statement": "crossing \u21d2 Width>\u0394 and non-crossing \u21d2 Width=\u0394 for odd charges in the enumerated range"
+}

@@ -1,0 +1,23 @@
+{
+  "source": "reports/discovery/multihop_chains_full.json",
+  "n_chains": 461,
+  "tip_histogram": {
+    "1": 5,
+    "2": 15,
+    "3": 35,
+    "4": 70,
+    "5": 126,
+    "6": 210
+  },
+  "min_tips": 1,
+  "max_tips": 6,
+  "all_in_1_to_6": true,
+  "pack_family": {
+    "1": "oneFold",
+    "2": "multiFold",
+    "3": "tripleFold",
+    "4": "fourFold",
+    "5": "fiveFold",
+    "6": "sixFold"
+  }
+}

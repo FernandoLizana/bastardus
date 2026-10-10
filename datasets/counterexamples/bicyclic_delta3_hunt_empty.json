@@ -1,0 +1,8 @@
+{
+  "hunt": "bicyclic_unit_charge_dleq3_n5_6",
+  "checked": 31050,
+  "width_gt_delta": 0,
+  "conclusion": "No W>\u0394 found; conjecture C-BICYCLIC-WIDTH-EQ-DELTA remains open/experimental",
+  "known_W_gt_delta_elsewhere": "datasets/counterexamples/C2_width_eq_delta.json (3-regular n=6)",
+  "evidence_level": "E2"
+}

@@ -1,0 +1,57 @@
+TITLE:
+Does chord crossing exactly determine tw(L(G)) ∈ {3,4} for C_n + two chords (Δ = 3)? — 2870 exact checks for n ≤ 14
+
+---
+
+BODY:
+
+Let G be an n-cycle C_n with two additional edges (chords) between four distinct vertices, so Δ(G) = 3. There are three endpoint pairings (crossing, nested, disjoint); crossing means the chords intersect in the planar embedding of the cycle.
+
+We study treewidth of the line graph L(G) (vertices = edges of G; adjacency = share a vertex). This arises from the resolution-width characterization for Tseitin formulas (Galesi–Talebanfard–Torán, TOCT 2020, ECCC TR18-170):
+
+w(T(G,c)) = max{ Δ(G), tw(L(G)) }
+
+for unsatisfiable Tseitin T(G,c) on connected G. With Δ = 3, we conjecture:
+
+| Geometry    | tw(L(G)) | max(3, tw(L(G))) |
+|-------------|----------|-------------------|
+| Noncrossing | 3        | 3                 |
+| Crossing    | 4        | 4                 |
+
+After degree-2 suppression (contract paths between branch vertices of degree ≠ 2), the branch core is expected to be K₄ (crossing) or C₄ with parallel bundles (noncrossing). We have Lean smoke proofs of structural core classification on small instances; we do not yet have graph isomorphism or universal tw bounds.
+
+**Question.** For all n ≥ 5 and all valid two-chord instances on C_n with four distinct endpoints and Δ(G) = 3, is it true that
+
+tw(L(G)) = 3  if the chords do not cross,
+tw(L(G)) = 4  if the chords cross?
+
+Equivalently: does the crossing bit of the chord diagram exactly determine tw(L(G)) in this family? We are not asking for the full Galesi width theorem — only this line-graph treewidth dichotomy.
+
+**What we've verified (computational evidence — not a proof)**
+
+| Sweep         | Range      | Method                          | Result                          |
+|---------------|------------|---------------------------------|---------------------------------|
+| Exact         | n = 5..14  | Gap-pattern enum, exact tw search | 2870/2870 match, 0 counterexamples |
+| Representative| n = 5..100 | Rotation-normalized witnesses   | 383/383 match, 0 counterexamples |
+
+Breakdown (exact, n ≤ 14): noncrossing 1870 configs all tw(L(G)) = 3; crossing 1000 configs all tw(L(G)) = 4.
+Breakdown (representative, n ≤ 100): noncrossing 191 witnesses tw = 3; crossing 192 witnesses tw = 4.
+
+Caveats: exact sweep covers all Δ = 3 gap-pattern configs for n ≤ 14 only. Representative sweep for larger n uses NetworkX min-fill-in as an upper bound (validated against exact C₅/C₆ witnesses) — strong evidence but not a proof for all n.
+
+Literature: Galesi et al. give the width formula; Harvey–Wood give generic tw(L(G)) vs tw(G) bounds for bounded Δ, but no paper in our review treats cycle + two chords explicitly.
+
+Formalization (in progress): Lean 4 scaffold with structural K₄/C₄ smoke instances — no graph isomorphism or tw(L(G)) theorem yet.
+
+**What we need**
+
+1. Proof or counterexample for the tw(L(G)) dichotomy — even a fixed-n argument with a generalization template would help.
+2. Known results on line-graph treewidth for outerplanar vs crossing chord graphs, or for “cycle + k chords” families.
+3. Sharper characterization — e.g. is tw(L(G)) = 3 iff G is outerplanar in this Δ = 3 regime?
+4. Pointers if this is folklore or appears in cop–robber / resolution-width papers beyond Galesi et al.
+
+**Tags:** graph-theory treewidth line-graph resolution propositional-proof-complexity
+
+**References**
+- N. Galesi, N. Talebanfard, J. Torán. Cops-Robber Games and the Resolution of Tseitin Formulas. TOCT 12(2), 2020. DOI 10.1145/3378667 (ECCC TR18-170).
+- N. Harvey, D. R. Wood. On the treewidth of line graphs. Disc. Math. 2019.

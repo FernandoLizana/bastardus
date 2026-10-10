@@ -1,0 +1,340 @@
+{
+  "family": "non-crossing C_n + two length-2 chords, unit charge",
+  "checked": 22,
+  "ok": 22,
+  "failed": [],
+  "by_residual": {
+    "cycle": 22
+  },
+  "examples": [
+    {
+      "n": 6,
+      "chords": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "status": "ok",
+      "clips": 2,
+      "clip_log": [
+        {
+          "clip_v": 1,
+          "absorb_into": 0,
+          "base_edge": [
+            0,
+            2
+          ],
+          "chi_v": 0
+        },
+        {
+          "clip_v": 4,
+          "absorb_into": 3,
+          "base_edge": [
+            3,
+            5
+          ],
+          "chi_v": 0
+        }
+      ],
+      "residual_kind": "cycle",
+      "residual_max_width": 2,
+      "residual_delta": 2,
+      "residual_verify": [],
+      "full_max_width": 3,
+      "full_delta": 3
+    },
+    {
+      "n": 6,
+      "chords": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "status": "ok",
+      "clips": 2,
+      "clip_log": [
+        {
+          "clip_v": 2,
+          "absorb_into": 1,
+          "base_edge": [
+            1,
+            3
+          ],
+          "chi_v": 0
+        },
+        {
+          "clip_v": 5,
+          "absorb_into": 0,
+          "base_edge": [
+            0,
+            4
+          ],
+          "chi_v": 0
+        }
+      ],
+      "residual_kind": "cycle",
+      "residual_max_width": 2,
+      "residual_delta": 2,
+      "residual_verify": [],
+      "full_max_width": 3,
+      "full_delta": 3
+    },
+    {
+      "n": 6,
+      "chords": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "status": "ok",
+      "clips": 2,
+      "clip_log": [
+        {
+          "clip_v": 0,
+          "absorb_into": 1,
+          "base_edge": [
+            1,
+            5
+          ],
+          "chi_v": 1
+        },
+        {
+          "clip_v": 3,
+          "absorb_into": 2,
+          "base_edge": [
+            2,
+            4
+          ],
+          "chi_v": 0
+        }
+      ],
+      "residual_kind": "cycle",
+      "residual_max_width": 2,
+      "residual_delta": 2,
+      "residual_verify": [],
+      "full_max_width": 3,
+      "full_delta": 3
+    },
+    {
+      "n": 7,
+      "chords": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "status": "ok",
+      "clips": 2,
+      "clip_log": [
+        {
+          "clip_v": 1,
+          "absorb_into": 0,
+          "base_edge": [
+            0,
+            2
+          ],
+          "chi_v": 0
+        },
+        {
+          "clip_v": 4,
+          "absorb_into": 3,
+          "base_edge": [
+            3,
+            5
+          ],
+          "chi_v": 0
+        }
+      ],
+      "residual_kind": "cycle",
+      "residual_max_width": 2,
+      "residual_delta": 2,
+      "residual_verify": [],
+      "full_max_width": 3,
+      "full_delta": 3
+    },
+    {
+      "n": 7,
+      "chords": [
+        [
+          0,
+          2
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "status": "ok",
+      "clips": 2,
+      "clip_log": [
+        {
+          "clip_v": 1,
+          "absorb_into": 0,
+          "base_edge": [
+            0,
+            2
+          ],
+          "chi_v": 0
+        },
+        {
+          "clip_v": 5,
+          "absorb_into": 4,
+          "base_edge": [
+            4,
+            6
+          ],
+          "chi_v": 0
+        }
+      ],
+      "residual_kind": "cycle",
+      "residual_max_width": 2,
+      "residual_delta": 2,
+      "residual_verify": [],
+      "full_max_width": 3,
+      "full_delta": 3
+    },
+    {
+      "n": 7,
+      "chords": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "status": "ok",
+      "clips": 2,
+      "clip_log": [
+        {
+          "clip_v": 2,
+          "absorb_into": 1,
+          "base_edge": [
+            1,
+            3
+          ],
+          "chi_v": 0
+        },
+        {
+          "clip_v": 6,
+          "absorb_into": 0,
+          "base_edge": [
+            0,
+            5
+          ],
+          "chi_v": 0
+        }
+      ],
+      "residual_kind": "cycle",
+      "residual_max_width": 2,
+      "residual_delta": 2,
+      "residual_verify": [],
+      "full_max_width": 3,
+      "full_delta": 3
+    },
+    {
+      "n": 7,
+      "chords": [
+        [
+          0,
+          5
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "status": "ok",
+      "clips": 2,
+      "clip_log": [
+        {
+          "clip_v": 3,
+          "absorb_into": 2,
+          "base_edge": [
+            2,
+            4
+          ],
+          "chi_v": 0
+        },
+        {
+          "clip_v": 6,
+          "absorb_into": 0,
+          "base_edge": [
+            0,
+            5
+          ],
+          "chi_v": 0
+        }
+      ],
+      "residual_kind": "cycle",
+      "residual_max_width": 2,
+      "residual_delta": 2,
+      "residual_verify": [],
+      "full_max_width": 3,
+      "full_delta": 3
+    },
+    {
+      "n": 7,
+      "chords": [
+        [
+          1,
+          3
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "status": "ok",
+      "clips": 2,
+      "clip_log": [
+        {
+          "clip_v": 2,
+          "absorb_into": 1,
+          "base_edge": [
+            1,
+            3
+          ],
+          "chi_v": 0
+        },
+        {
+          "clip_v": 5,
+          "absorb_into": 4,
+          "base_edge": [
+            4,
+            6
+          ],
+          "chi_v": 0
+        }
+      ],
+      "residual_kind": "cycle",
+      "residual_max_width": 2,
+      "residual_delta": 2,
+      "residual_verify": [],
+      "full_max_width": 3,
+      "full_delta": 3
+    }
+  ],
+  "note": "Ear-clip reduces to cycle/unicyclic/bicyclic; residual proved by existing lemmas. Full graph still certified via peel+\u0394-sat."
+}

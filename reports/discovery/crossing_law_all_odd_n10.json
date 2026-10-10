@@ -1,0 +1,25 @@
+{
+  "family": "C_n+2 chords, Delta<=3, all (or capped) odd charges",
+  "checked": 24640,
+  "by_n": {
+    "10": {
+      "graphs": 385,
+      "charges_per_graph": 64,
+      "checked": 24640,
+      "eq": 11200,
+      "gt": 13440,
+      "inconclusive": 0,
+      "mismatches": 0,
+      "gpu_chunk": 16,
+      "max_c": 4096,
+      "elapsed_s": 636.01
+    }
+  },
+  "mismatches": [],
+  "inconclusive": [],
+  "law_holds": true,
+  "elapsed_s": 636.01,
+  "engine": "gpu_width_status_streamed",
+  "max_c": 4096,
+  "statement": "crossing \u21d2 Width>\u0394 and non-crossing \u21d2 Width=\u0394 for odd charges in the enumerated range"
+}

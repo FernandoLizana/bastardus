@@ -1,0 +1,159 @@
+{
+  "demo_triangle": {
+    "steps": 13,
+    "mode": "pure_xor_empty",
+    "pure_xor": true,
+    "empty_present": true,
+    "ok": true
+  },
+  "len2_ear_clips": {
+    "ok": 39,
+    "fail": 0,
+    "modes": {
+      "target_sat_residuals": 39
+    }
+  },
+  "samples": [
+    {
+      "n": 4,
+      "chord": [
+        0,
+        2
+      ],
+      "tip": 1,
+      "ou_len": 1,
+      "ow_len": 1,
+      "mode": "target_sat_residuals",
+      "pure_xor": false,
+      "empty": false,
+      "steps": 72
+    },
+    {
+      "n": 4,
+      "chord": [
+        1,
+        3
+      ],
+      "tip": 2,
+      "ou_len": 1,
+      "ow_len": 1,
+      "mode": "target_sat_residuals",
+      "pure_xor": false,
+      "empty": false,
+      "steps": 72
+    },
+    {
+      "n": 4,
+      "chord": [
+        2,
+        0
+      ],
+      "tip": 3,
+      "ou_len": 1,
+      "ow_len": 1,
+      "mode": "target_sat_residuals",
+      "pure_xor": false,
+      "empty": false,
+      "steps": 72
+    },
+    {
+      "n": 4,
+      "chord": [
+        3,
+        1
+      ],
+      "tip": 0,
+      "ou_len": 1,
+      "ow_len": 1,
+      "mode": "target_sat_residuals",
+      "pure_xor": false,
+      "empty": false,
+      "steps": 72
+    },
+    {
+      "n": 5,
+      "chord": [
+        0,
+        2
+      ],
+      "tip": 1,
+      "ou_len": 1,
+      "ow_len": 1,
+      "mode": "target_sat_residuals",
+      "pure_xor": false,
+      "empty": false,
+      "steps": 198
+    },
+    {
+      "n": 5,
+      "chord": [
+        1,
+        3
+      ],
+      "tip": 2,
+      "ou_len": 1,
+      "ow_len": 1,
+      "mode": "target_sat_residuals",
+      "pure_xor": false,
+      "empty": false,
+      "steps": 198
+    },
+    {
+      "n": 5,
+      "chord": [
+        2,
+        4
+      ],
+      "tip": 3,
+      "ou_len": 1,
+      "ow_len": 1,
+      "mode": "target_sat_residuals",
+      "pure_xor": false,
+      "empty": false,
+      "steps": 198
+    },
+    {
+      "n": 5,
+      "chord": [
+        3,
+        0
+      ],
+      "tip": 4,
+      "ou_len": 1,
+      "ow_len": 1,
+      "mode": "target_sat_residuals",
+      "pure_xor": false,
+      "empty": false,
+      "steps": 198
+    },
+    {
+      "n": 5,
+      "chord": [
+        4,
+        1
+      ],
+      "tip": 0,
+      "ou_len": 1,
+      "ow_len": 1,
+      "mode": "target_sat_residuals",
+      "pure_xor": false,
+      "empty": false,
+      "steps": 198
+    },
+    {
+      "n": 6,
+      "chord": [
+        0,
+        2
+      ],
+      "tip": 1,
+      "ou_len": 1,
+      "ow_len": 1,
+      "mode": "target_sat_residuals",
+      "pure_xor": false,
+      "empty": true,
+      "steps": 375
+    }
+  ],
+  "note": "Each directed length-2 ear (a,a+2) clipped once at tip a+1."
+}

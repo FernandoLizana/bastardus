@@ -1,0 +1,163 @@
+{
+  "ok": 792,
+  "fails": [],
+  "examples": [
+    {
+      "n": 4,
+      "chords": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "ends": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "res_var_count": 6,
+      "cl_g_size": 16,
+      "cl_res_size": 16,
+      "cl_k4_size": 16,
+      "proj_size": 16,
+      "proj_subseteq_residual_closure": true,
+      "missing_from_residual": 0,
+      "empty_g_at_3": false,
+      "empty_k4_at_3": false,
+      "forward_fold_ok": true,
+      "charges_match": true,
+      "projection_support": true
+    },
+    {
+      "n": 5,
+      "chords": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "ends": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "res_var_count": 6,
+      "cl_g_size": 42,
+      "cl_res_size": 16,
+      "cl_k4_size": 16,
+      "proj_size": 16,
+      "proj_subseteq_residual_closure": true,
+      "missing_from_residual": 0,
+      "empty_g_at_3": false,
+      "empty_k4_at_3": false,
+      "forward_fold_ok": true,
+      "charges_match": true,
+      "projection_support": true
+    },
+    {
+      "n": 5,
+      "chords": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "ends": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "res_var_count": 6,
+      "cl_g_size": 42,
+      "cl_res_size": 16,
+      "cl_k4_size": 16,
+      "proj_size": 16,
+      "proj_subseteq_residual_closure": true,
+      "missing_from_residual": 0,
+      "empty_g_at_3": false,
+      "empty_k4_at_3": false,
+      "forward_fold_ok": true,
+      "charges_match": true,
+      "projection_support": true
+    },
+    {
+      "n": 5,
+      "chords": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "ends": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "res_var_count": 6,
+      "cl_g_size": 42,
+      "cl_res_size": 16,
+      "cl_k4_size": 16,
+      "proj_size": 16,
+      "proj_subseteq_residual_closure": true,
+      "missing_from_residual": 0,
+      "empty_g_at_3": false,
+      "empty_k4_at_3": false,
+      "forward_fold_ok": true,
+      "charges_match": true,
+      "projection_support": true
+    },
+    {
+      "n": 5,
+      "chords": [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "ends": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "res_var_count": 6,
+      "cl_g_size": 42,
+      "cl_res_size": 16,
+      "cl_k4_size": 16,
+      "proj_size": 16,
+      "proj_subseteq_residual_closure": true,
+      "missing_from_residual": 0,
+      "empty_g_at_3": false,
+      "empty_k4_at_3": false,
+      "forward_fold_ok": true,
+      "charges_match": true,
+      "projection_support": true
+    }
+  ],
+  "lemma_statement": "If Proj\u2083(G)|_{V_res} \u2286 Closure\u2083(residual K4 XORs), then \u25a1\u2208Closure\u2083(G) \u21d2 \u25a1\u2208Closure\u2083(K4). Checked on sampled crossings.",
+  "note": "This is machine support for the restriction step, not a Lean proof. Together with Width(K4)=4 it yields Width(G)\u22654 without saturating G to decide emptiness \u2014 provided the inclusion holds."
+}

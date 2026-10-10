@@ -1,0 +1,42 @@
+{
+  "backend": "opencl_nvidia",
+  "checked": 200,
+  "gpu_said_refutable_at_delta": 0,
+  "width_eq_delta": 0,
+  "width_gt_delta": 200,
+  "first_gt": {
+    "width": 4,
+    "delta": 3,
+    "edges": [
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ]
+  },
+  "elapsed_ms": 15317
+}

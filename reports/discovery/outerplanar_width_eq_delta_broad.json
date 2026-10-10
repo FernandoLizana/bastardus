@@ -1,0 +1,14 @@
+{
+  "checked": 196,
+  "counts": {
+    "ears_k0_eq": 6,
+    "ears_k1_eq": 51,
+    "ears_k2_eq": 98,
+    "ears_k3_eq": 35,
+    "nested_d1_eq": 5,
+    "triangle_chain_t1_eq": 1
+  },
+  "outerplanar_gt_delta": [],
+  "conjecture": "C-OUTERPLANAR-WIDTH-EQ-DELTA",
+  "status": "supported"
+}

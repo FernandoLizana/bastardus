@@ -1,0 +1,50 @@
+{
+  "n": 6,
+  "graph": "C6 + chords {0-2, 3-5}",
+  "edges": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      5,
+      0
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      3,
+      5
+    ]
+  ],
+  "charges": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "delta": 3,
+  "width": 3,
+  "gamma": 3,
+  "certified": "GPU bitmask saturation derives empty at width \u0394; axiom width=\u0394 \u21d2 Width=\u0394"
+}

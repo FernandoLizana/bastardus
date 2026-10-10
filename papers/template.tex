@@ -1,0 +1,49 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{hyperref}
+
+\title{Partial Results in Empirical Complexity:\\
+\large Template for PNP Research Laboratory Reports}
+\author{PNP Research Laboratory}
+\date{\today}
+
+\newtheorem{conjecture}{Conjecture}
+\newtheorem{lemma}{Lemma}
+\newtheorem{observation}{Observation}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+This template separates \emph{observations}, \emph{conjectures}, and \emph{theorems}.
+Experimental claims are at most evidence level E2 and do not resolve $\mathrm{P}$ vs $\mathrm{NP}$.
+\end{abstract}
+
+\section{Evidence statement}
+Every numbered claim below is tagged with an evidence level (E0--E6)
+as defined in the laboratory methodology.
+
+\section{Definitions}
+Cite Arora--Barak / Sipser; do not invent definitions.
+
+\section{Experimental setup}
+Record seeds, generator, $n$, ratios, solvers, timeouts, code commit.
+
+\begin{observation}[E2]
+State only finite-sample measurements here.
+\end{observation}
+
+\begin{conjecture}[E3]
+State a precise mathematical conjecture. Prioritize attempted refutation.
+\end{conjecture}
+
+\section{Why this does not settle P vs NP}
+Explicit barriers: finite vs asymptotic; average vs worst case; \ldots
+
+\section{Reproducibility}
+Exact CLI and artifact hashes.
+
+\section*{Disclaimer}
+AI-assisted text must be labelled and independently audited.
+\end{document}

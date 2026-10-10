@@ -1,0 +1,47 @@
+{
+  "family": "C_n+2 chords, Delta<=3, all (or capped) odd charges",
+  "checked": 17872,
+  "by_n": {
+    "5": {
+      "graphs": 5,
+      "charges_per_graph": 16,
+      "checked": 80,
+      "eq": 0,
+      "gt": 80,
+      "inconclusive": 0,
+      "mismatches": 0
+    },
+    "6": {
+      "graphs": 18,
+      "charges_per_graph": 32,
+      "checked": 576,
+      "eq": 96,
+      "gt": 480,
+      "inconclusive": 0,
+      "mismatches": 0
+    },
+    "7": {
+      "graphs": 49,
+      "charges_per_graph": 64,
+      "checked": 3136,
+      "eq": 896,
+      "gt": 2240,
+      "inconclusive": 0,
+      "mismatches": 0
+    },
+    "8": {
+      "graphs": 110,
+      "charges_per_graph": 128,
+      "checked": 14080,
+      "eq": 5120,
+      "gt": 8960,
+      "inconclusive": 0,
+      "mismatches": 0
+    }
+  },
+  "mismatches": [],
+  "inconclusive": [],
+  "law_holds": true,
+  "elapsed_s": 270.62,
+  "statement": "crossing \u21d2 Width>\u0394 and non-crossing \u21d2 Width=\u0394 for odd charges in the enumerated range"
+}

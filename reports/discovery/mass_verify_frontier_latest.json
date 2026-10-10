@@ -1,0 +1,125 @@
+{
+  "evidence_level": "E2_certified_computation",
+  "claim_type": "observation_experimental_mass_verification",
+  "disclaimer": "Mass verification / frontier width oracles are NOT a proof of P vs NP. Resolution lower bounds live in a restricted proof system (fails Camino B restricted_model / claim gate).",
+  "profile": "frontier",
+  "elapsed_ms": 196644,
+  "variants": [
+    {
+      "variant": "FRONTIER_sanity_cycle_path",
+      "checked": 2,
+      "failed": 0,
+      "elapsed_ms": 0,
+      "note": "C5 W=2 (expect 2); P6 W=2 (expect 2)",
+      "first_failure": null
+    },
+    {
+      "variant": "FRONTIER_unicyclic_unit_charge",
+      "checked": 708,
+      "failed": 0,
+      "elapsed_ms": 320,
+      "note": "W>Δ=0 W=Δ=708 W<Δ=0 inconclusive=0",
+      "first_failure": null
+    },
+    {
+      "variant": "FRONTIER_cycle_pendant_unit_charge",
+      "checked": 3,
+      "failed": 0,
+      "elapsed_ms": 14,
+      "note": "W>Δ=0 W=Δ=3 W<Δ=0 inconclusive=0",
+      "first_failure": null
+    },
+    {
+      "variant": "FRONTIER_diamond_parallel_odd_charges",
+      "checked": 56,
+      "failed": 0,
+      "elapsed_ms": 7529,
+      "note": "W>Δ=0 W=Δ=56 W<Δ=0 inconclusive=0",
+      "first_failure": null
+    },
+    {
+      "variant": "FRONTIER_unicyclic_unit_charge",
+      "checked": 9900,
+      "failed": 0,
+      "elapsed_ms": 11167,
+      "note": "W>Δ=0 W=Δ=9900 W<Δ=0 inconclusive=0",
+      "first_failure": null
+    },
+    {
+      "variant": "V8_unicyclic_constructive_n4..5",
+      "checked": 708,
+      "failed": 0,
+      "elapsed_ms": 7,
+      "note": "Constructive peel+cycle certificates for Width≤Δ on unicyclic Δ≤3.",
+      "first_failure": null
+    },
+    {
+      "variant": "FRONTIER_bicyclic_unit_charge_dleq3",
+      "checked": 31050,
+      "failed": 0,
+      "elapsed_ms": 177603,
+      "note": "W>Δ=0 W=Δ=31050 W<Δ=0 inconclusive=0",
+      "first_failure": null
+    }
+  ],
+  "frontier": [
+    {
+      "variant": "unicyclic_unit_charge",
+      "checked": 708,
+      "width_gt_delta": 0,
+      "width_eq_delta": 708,
+      "width_lt_delta": 0,
+      "inconclusive": 0,
+      "elapsed_ms": 320,
+      "hits_gt": [],
+      "note": "Resolution width lower bounds on Tseitin; restricted system ≠ P≠NP."
+    },
+    {
+      "variant": "cycle_pendant_unit_charge",
+      "checked": 3,
+      "width_gt_delta": 0,
+      "width_eq_delta": 3,
+      "width_lt_delta": 0,
+      "inconclusive": 0,
+      "elapsed_ms": 14,
+      "hits_gt": [],
+      "note": "Resolution width lower bounds on Tseitin; restricted system ≠ P≠NP."
+    },
+    {
+      "variant": "diamond_parallel_odd_charges",
+      "checked": 56,
+      "width_gt_delta": 0,
+      "width_eq_delta": 56,
+      "width_lt_delta": 0,
+      "inconclusive": 0,
+      "elapsed_ms": 7529,
+      "hits_gt": [],
+      "note": "Resolution width lower bounds on Tseitin; restricted system ≠ P≠NP."
+    },
+    {
+      "variant": "unicyclic_unit_charge",
+      "checked": 9900,
+      "width_gt_delta": 0,
+      "width_eq_delta": 9900,
+      "width_lt_delta": 0,
+      "inconclusive": 0,
+      "elapsed_ms": 11167,
+      "hits_gt": [],
+      "note": "Resolution width lower bounds on Tseitin; restricted system ≠ P≠NP."
+    },
+    {
+      "variant": "bicyclic_unit_charge_dleq3",
+      "checked": 31050,
+      "width_gt_delta": 0,
+      "width_eq_delta": 31050,
+      "width_lt_delta": 0,
+      "inconclusive": 0,
+      "elapsed_ms": 177603,
+      "hits_gt": [],
+      "note": "Resolution width lower bounds on Tseitin; restricted system ≠ P≠NP."
+    }
+  ],
+  "total_checked": 42427,
+  "total_failed": 0,
+  "camino_b_status": "BLOCKED: resolution-width LBs are restricted-model; claim gate must FAIL on P≠NP via this route"
+}

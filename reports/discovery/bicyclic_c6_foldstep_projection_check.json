@@ -1,0 +1,22 @@
+{
+  "ok": false,
+  "mode": "stop_at_empty_projection_closures",
+  "before_size": 379,
+  "after_size": 46,
+  "before_has_empty": true,
+  "after_has_empty": true,
+  "missing_count": 85,
+  "conclusion": (
+    "EliminationStep/ProjectionInclusion is the right abstraction for "
+    "lower-bound residual restrictions (crossing multihop → K4), not for "
+    "upper-bound pathfold rewrites. Pathfold changes XOR axioms/charges on "
+    "the residual graph; stop-at-□ still yields ~full before-closure on C6 "
+    "because □ appears late. Use prove_bicyclic_pathfold_lemma (210/210) + "
+    "ThetaFoldBridge for upper-bound induction, not bi6 Closure projection."
+  ),
+  "recommendation": (
+    "Keep BicyclicC6Width3 as Width≤Δ upper pack; keep ThetaFoldBridge for "
+    "tip+pack bundle; do not emit BicyclicC6FoldStep from full/stop-at-empty "
+    "closures."
+  )
+}

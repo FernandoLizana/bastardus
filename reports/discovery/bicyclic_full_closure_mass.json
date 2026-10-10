@@ -1,0 +1,619 @@
+{
+  "total_ok": 48,
+  "total_fail": 0,
+  "rows": [
+    {
+      "kind": "cycle_plus_chord",
+      "n": 4,
+      "chord": [
+        0,
+        2
+      ],
+      "delta": 3,
+      "closure_size": 131,
+      "has_empty": true,
+      "lean_sound_closed": true,
+      "ok": true
+    },
+    {
+      "kind": "cycle_plus_chord",
+      "n": 5,
+      "chord": [
+        0,
+        2
+      ],
+      "delta": 3,
+      "closure_size": 233,
+      "has_empty": true,
+      "lean_sound_closed": true,
+      "ok": true
+    },
+    {
+      "kind": "cycle_plus_chord",
+      "n": 5,
+      "chord": [
+        0,
+        3
+      ],
+      "delta": 3,
+      "closure_size": 233,
+      "has_empty": true,
+      "lean_sound_closed": true,
+      "ok": true
+    },
+    {
+      "kind": "cycle_plus_chord",
+      "n": 6,
+      "chord": [
+        0,
+        2
+      ],
+      "delta": 3,
+      "closure_size": 379,
+      "has_empty": true,
+      "lean_sound_closed": true,
+      "ok": true
+    },
+    {
+      "kind": "cycle_plus_chord",
+      "n": 6,
+      "chord": [
+        0,
+        3
+      ],
+      "delta": 3,
+      "closure_size": 379,
+      "has_empty": true,
+      "lean_sound_closed": true,
+      "ok": true
+    },
+    {
+      "kind": "cycle_plus_chord",
+      "n": 6,
+      "chord": [
+        0,
+        4
+      ],
+      "delta": 3,
+      "closure_size": 379,
+      "has_empty": true,
+      "lean_sound_closed": true,
+      "ok": true
+    },
+    {
+      "kind": "cycle_plus_chord",
+      "n": 7,
+      "chord": [
+        0,
+        2
+      ],
+      "delta": 3,
+      "closure_size": 577,
+      "has_empty": true,
+      "lean_sound_closed": null,
+      "ok": true
+    },
+    {
+      "kind": "cycle_plus_chord",
+      "n": 7,
+      "chord": [
+        0,
+        3
+      ],
+      "delta": 3,
+      "closure_size": 577,
+      "has_empty": true,
+      "lean_sound_closed": null,
+      "ok": true
+    },
+    {
+      "kind": "cycle_plus_chord",
+      "n": 7,
+      "chord": [
+        0,
+        4
+      ],
+      "delta": 3,
+      "closure_size": 577,
+      "has_empty": true,
+      "lean_sound_closed": null,
+      "ok": true
+    },
+    {
+      "kind": "cycle_plus_chord",
+      "n": 7,
+      "chord": [
+        0,
+        5
+      ],
+      "delta": 3,
+      "closure_size": 577,
+      "has_empty": true,
+      "lean_sound_closed": null,
+      "ok": true
+    },
+    {
+      "kind": "cycle_plus_chord",
+      "n": 8,
+      "chord": [
+        0,
+        2
+      ],
+      "delta": 3,
+      "closure_size": 835,
+      "has_empty": true,
+      "lean_sound_closed": null,
+      "ok": true
+    },
+    {
+      "kind": "cycle_plus_chord",
+      "n": 8,
+      "chord": [
+        0,
+        3
+      ],
+      "delta": 3,
+      "closure_size": 835,
+      "has_empty": true,
+      "lean_sound_closed": null,
+      "ok": true
+    },
+    {
+      "kind": "cycle_plus_chord",
+      "n": 8,
+      "chord": [
+        0,
+        4
+      ],
+      "delta": 3,
+      "closure_size": 835,
+      "has_empty": true,
+      "lean_sound_closed": null,
+      "ok": true
+    },
+    {
+      "kind": "cycle_plus_chord",
+      "n": 8,
+      "chord": [
+        0,
+        5
+      ],
+      "delta": 3,
+      "closure_size": 835,
+      "has_empty": true,
+      "lean_sound_closed": null,
+      "ok": true
+    },
+    {
+      "kind": "cycle_plus_chord",
+      "n": 8,
+      "chord": [
+        0,
+        6
+      ],
+      "delta": 3,
+      "closure_size": 835,
+      "has_empty": true,
+      "lean_sound_closed": null,
+      "ok": true
+    },
+    {
+      "kind": "cycle_plus_chord",
+      "n": 9,
+      "chord": [
+        0,
+        2
+      ],
+      "delta": 3,
+      "closure_size": 1161,
+      "has_empty": true,
+      "lean_sound_closed": null,
+      "ok": true
+    },
+    {
+      "kind": "cycle_plus_chord",
+      "n": 9,
+      "chord": [
+        0,
+        3
+      ],
+      "delta": 3,
+      "closure_size": 1161,
+      "has_empty": true,
+      "lean_sound_closed": null,
+      "ok": true
+    },
+    {
+      "kind": "cycle_plus_chord",
+      "n": 9,
+      "chord": [
+        0,
+        4
+      ],
+      "delta": 3,
+      "closure_size": 1161,
+      "has_empty": true,
+      "lean_sound_closed": null,
+      "ok": true
+    },
+    {
+      "kind": "cycle_plus_chord",
+      "n": 9,
+      "chord": [
+        0,
+        5
+      ],
+      "delta": 3,
+      "closure_size": 1161,
+      "has_empty": true,
+      "lean_sound_closed": null,
+      "ok": true
+    },
+    {
+      "kind": "cycle_plus_chord",
+      "n": 9,
+      "chord": [
+        0,
+        6
+      ],
+      "delta": 3,
+      "closure_size": 1161,
+      "has_empty": true,
+      "lean_sound_closed": null,
+      "ok": true
+    },
+    {
+      "kind": "cycle_plus_chord",
+      "n": 9,
+      "chord": [
+        0,
+        7
+      ],
+      "delta": 3,
+      "closure_size": 1161,
+      "has_empty": true,
+      "lean_sound_closed": null,
+      "ok": true
+    },
+    {
+      "kind": "cycle_plus_chord",
+      "n": 10,
+      "chord": [
+        0,
+        2
+      ],
+      "delta": 3,
+      "closure_size": 1563,
+      "has_empty": true,
+      "lean_sound_closed": null,
+      "ok": true
+    },
+    {
+      "kind": "cycle_plus_chord",
+      "n": 10,
+      "chord": [
+        0,
+        3
+      ],
+      "delta": 3,
+      "closure_size": 1563,
+      "has_empty": true,
+      "lean_sound_closed": null,
+      "ok": true
+    },
+    {
+      "kind": "cycle_plus_chord",
+      "n": 10,
+      "chord": [
+        0,
+        4
+      ],
+      "delta": 3,
+      "closure_size": 1563,
+      "has_empty": true,
+      "lean_sound_closed": null,
+      "ok": true
+    },
+    {
+      "kind": "cycle_plus_chord",
+      "n": 10,
+      "chord": [
+        0,
+        5
+      ],
+      "delta": 3,
+      "closure_size": 1563,
+      "has_empty": true,
+      "lean_sound_closed": null,
+      "ok": true
+    },
+    {
+      "kind": "cycle_plus_chord",
+      "n": 10,
+      "chord": [
+        0,
+        6
+      ],
+      "delta": 3,
+      "closure_size": 1563,
+      "has_empty": true,
+      "lean_sound_closed": null,
+      "ok": true
+    },
+    {
+      "kind": "cycle_plus_chord",
+      "n": 10,
+      "chord": [
+        0,
+        7
+      ],
+      "delta": 3,
+      "closure_size": 1563,
+      "has_empty": true,
+      "lean_sound_closed": null,
+      "ok": true
+    },
+    {
+      "kind": "cycle_plus_chord",
+      "n": 10,
+      "chord": [
+        0,
+        8
+      ],
+      "delta": 3,
+      "closure_size": 1563,
+      "has_empty": true,
+      "lean_sound_closed": null,
+      "ok": true
+    },
+    {
+      "kind": "cycle_plus_chord",
+      "n": 11,
+      "chord": [
+        0,
+        2
+      ],
+      "delta": 3,
+      "closure_size": 2049,
+      "has_empty": true,
+      "lean_sound_closed": null,
+      "ok": true
+    },
+    {
+      "kind": "cycle_plus_chord",
+      "n": 11,
+      "chord": [
+        0,
+        3
+      ],
+      "delta": 3,
+      "closure_size": 2049,
+      "has_empty": true,
+      "lean_sound_closed": null,
+      "ok": true
+    },
+    {
+      "kind": "cycle_plus_chord",
+      "n": 11,
+      "chord": [
+        0,
+        4
+      ],
+      "delta": 3,
+      "closure_size": 2049,
+      "has_empty": true,
+      "lean_sound_closed": null,
+      "ok": true
+    },
+    {
+      "kind": "cycle_plus_chord",
+      "n": 11,
+      "chord": [
+        0,
+        5
+      ],
+      "delta": 3,
+      "closure_size": 2049,
+      "has_empty": true,
+      "lean_sound_closed": null,
+      "ok": true
+    },
+    {
+      "kind": "cycle_plus_chord",
+      "n": 11,
+      "chord": [
+        0,
+        6
+      ],
+      "delta": 3,
+      "closure_size": 2049,
+      "has_empty": true,
+      "lean_sound_closed": null,
+      "ok": true
+    },
+    {
+      "kind": "cycle_plus_chord",
+      "n": 11,
+      "chord": [
+        0,
+        7
+      ],
+      "delta": 3,
+      "closure_size": 2049,
+      "has_empty": true,
+      "lean_sound_closed": null,
+      "ok": true
+    },
+    {
+      "kind": "cycle_plus_chord",
+      "n": 11,
+      "chord": [
+        0,
+        8
+      ],
+      "delta": 3,
+      "closure_size": 2049,
+      "has_empty": true,
+      "lean_sound_closed": null,
+      "ok": true
+    },
+    {
+      "kind": "cycle_plus_chord",
+      "n": 11,
+      "chord": [
+        0,
+        9
+      ],
+      "delta": 3,
+      "closure_size": 2049,
+      "has_empty": true,
+      "lean_sound_closed": null,
+      "ok": true
+    },
+    {
+      "kind": "cycle_plus_chord",
+      "n": 12,
+      "chord": [
+        0,
+        2
+      ],
+      "delta": 3,
+      "closure_size": 2627,
+      "has_empty": true,
+      "lean_sound_closed": null,
+      "ok": true
+    },
+    {
+      "kind": "cycle_plus_chord",
+      "n": 12,
+      "chord": [
+        0,
+        3
+      ],
+      "delta": 3,
+      "closure_size": 2627,
+      "has_empty": true,
+      "lean_sound_closed": null,
+      "ok": true
+    },
+    {
+      "kind": "cycle_plus_chord",
+      "n": 12,
+      "chord": [
+        0,
+        4
+      ],
+      "delta": 3,
+      "closure_size": 2627,
+      "has_empty": true,
+      "lean_sound_closed": null,
+      "ok": true
+    },
+    {
+      "kind": "cycle_plus_chord",
+      "n": 12,
+      "chord": [
+        0,
+        5
+      ],
+      "delta": 3,
+      "closure_size": 2627,
+      "has_empty": true,
+      "lean_sound_closed": null,
+      "ok": true
+    },
+    {
+      "kind": "cycle_plus_chord",
+      "n": 12,
+      "chord": [
+        0,
+        6
+      ],
+      "delta": 3,
+      "closure_size": 2627,
+      "has_empty": true,
+      "lean_sound_closed": null,
+      "ok": true
+    },
+    {
+      "kind": "cycle_plus_chord",
+      "n": 12,
+      "chord": [
+        0,
+        7
+      ],
+      "delta": 3,
+      "closure_size": 2627,
+      "has_empty": true,
+      "lean_sound_closed": null,
+      "ok": true
+    },
+    {
+      "kind": "cycle_plus_chord",
+      "n": 12,
+      "chord": [
+        0,
+        8
+      ],
+      "delta": 3,
+      "closure_size": 2627,
+      "has_empty": true,
+      "lean_sound_closed": null,
+      "ok": true
+    },
+    {
+      "kind": "cycle_plus_chord",
+      "n": 12,
+      "chord": [
+        0,
+        9
+      ],
+      "delta": 3,
+      "closure_size": 2627,
+      "has_empty": true,
+      "lean_sound_closed": null,
+      "ok": true
+    },
+    {
+      "kind": "cycle_plus_chord",
+      "n": 12,
+      "chord": [
+        0,
+        10
+      ],
+      "delta": 3,
+      "closure_size": 2627,
+      "has_empty": true,
+      "lean_sound_closed": null,
+      "ok": true
+    },
+    {
+      "kind": "cycle_plus_triangle_ear",
+      "n": 5,
+      "delta": 3,
+      "closure_size": 379,
+      "has_empty": true,
+      "lean_sound_closed": true,
+      "ok": true
+    },
+    {
+      "kind": "cycle_plus_triangle_ear",
+      "n": 6,
+      "delta": 3,
+      "closure_size": 577,
+      "has_empty": true,
+      "lean_sound_closed": null,
+      "ok": true
+    },
+    {
+      "kind": "cycle_plus_triangle_ear",
+      "n": 7,
+      "delta": 3,
+      "closure_size": 835,
+      "has_empty": true,
+      "lean_sound_closed": null,
+      "ok": true
+    }
+  ],
+  "claim": "Full Closure_\u0394 of bicyclic samples (C_n+chord n\u226412; cycle+triangle ear) with \u0394\u22643 unit odd contains \u25a1; |Cl|\u2264500 Lean-sound when checked."
+}

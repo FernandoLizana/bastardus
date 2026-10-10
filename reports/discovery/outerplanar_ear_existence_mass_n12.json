@@ -1,0 +1,11 @@
+{
+  "total_ok": 701,
+  "total_fail": 0,
+  "by_kind": {
+    "cycle": 19,
+    "needs_fold": 682
+  },
+  "fails": [],
+  "max_n": 14,
+  "claim": "After tree peel, every sampled connected outerplanar \u0394\u22643 residual that is not a cycle has a triangle ear or a deg-2 tip next to deg\u22653 (earLaw combinatorial content)."
+}

@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "description": "High-RAM supplemental jobs (merged by job_runner when PORTABLE_CPU_EXTRA_MANIFEST is set).",
+  "jobs": [
+    {
+      "id": "tw_exact_n15_n24_push_exact18",
+      "title": "TW n=15..24 exact-max-nodes=18 (high-RAM, no memory-safe)",
+      "category": "tw_sweep",
+      "parallel_group": "python_tw",
+      "cpus_hint": 4,
+      "estimated_cpu_hours": 16,
+      "depends_on": ["tw_exact_n15_n18"],
+      "checkpoint": true,
+      "command": [
+        "portable_cpu/.venv/bin/python",
+        "portable_cpu/lib/chunked_tw_sweep.py",
+        "--job-id", "tw_exact_n15_n24_push_exact18",
+        "--n-lo", "15", "--n-hi", "24",
+        "--no-representative",
+        "--exact-max-nodes", "18",
+        "--no-memory-safe",
+        "--csv", "experiments/chord_treewidth_n15_n24_exact18.csv"
+      ]
+    },
+    {
+      "id": "tw_exact_n19_n24_highram",
+      "title": "TW exact gap sweep n=19..24 (high-RAM, exact-max-nodes=18)",
+      "category": "tw_sweep",
+      "parallel_group": "python_tw",
+      "cpus_hint": 4,
+      "estimated_cpu_hours": 10,
+      "depends_on": [],
+      "checkpoint": true,
+      "command": [
+        "portable_cpu/.venv/bin/python",
+        "portable_cpu/lib/chunked_tw_sweep.py",
+        "--job-id", "tw_exact_n19_n24_highram",
+        "--n-lo", "19", "--n-hi", "24",
+        "--no-representative",
+        "--exact-max-nodes", "18",
+        "--no-memory-safe",
+        "--csv", "experiments/chord_treewidth_n19_n24_highram.csv"
+      ]
+    }
+  ]
+}

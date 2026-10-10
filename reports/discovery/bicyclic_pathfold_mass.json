@@ -1,0 +1,10 @@
+{
+  "ok": 210,
+  "fail": 0,
+  "errs": [],
+  "n_range": [
+    4,
+    12
+  ],
+  "claim": "prove_bicyclic_pathfold_lemma succeeds for every C_n+chord with \u0394\u22643, unit odd, n=4..12."
+}

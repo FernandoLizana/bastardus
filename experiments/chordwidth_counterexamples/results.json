@@ -1,0 +1,20 @@
+{
+  "summary": {
+    "seed": 20260804,
+    "n_range": [
+      5,
+      14
+    ],
+    "total_configs": 3000,
+    "valid_configs": 2870,
+    "degenerate_configs": 130,
+    "crossing_valid": 1000,
+    "noncrossing_valid": 1870,
+    "counterexamples_found": 0,
+    "non_exact_tw_count": 1296,
+    "elapsed_seconds": 99.75,
+    "conjecture_status": "NO_COUNTEREXAMPLE_IN_RANGE"
+  },
+  "counterexamples": [],
+  "records_hash": "ac0f4313de3e812bf0fdd83daefcaddfe0c0cdffb790c94e6513fe72cce33ba6"
+}

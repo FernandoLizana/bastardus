@@ -1,0 +1,36 @@
+{
+  "config": {
+    "n": 6,
+    "chord": [
+      1,
+      3
+    ],
+    "tip": 2,
+    "ou": [
+      1
+    ],
+    "ow": [
+      6
+    ],
+    "charges_endpoints": [
+      0,
+      0,
+      0
+    ],
+    "note": "both stub sides nonempty (cycle neighbors)"
+  },
+  "pure_xor_sums": {
+    "mid_error": null,
+    "global_error": "xor-sum incomplete: missing 2 of 4 target clauses for vars=[1, 4, 6] \u03c7=0",
+    "residual_u_present": false,
+    "residual_w_present": false,
+    "splits_residuals": false
+  },
+  "hybrid_clip": {
+    "mode": "local_xor_residuals",
+    "pure_xor_flag": false,
+    "residuals_present": true
+  },
+  "obstruction": "With both Ou, Ow nonempty, pivot XOR-sums alone do not place the separate endpoint residual CNFs; clip_triangle_ear_xor uses target-sat.",
+  "ok": true
+}

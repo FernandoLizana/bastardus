@@ -1,0 +1,4 @@
+{
+  "command": "python -m backend.experiments.run --problem 3sat --generator random-k-sat --variables 15 --instances 20 --seed 12345 --solvers dpll,pysat --experiment phase-transition --timeout 2.0",
+  "does_not_resolve_p_vs_np": true
+}

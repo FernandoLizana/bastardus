@@ -1,0 +1,1893 @@
+{
+  "total_instances": 461,
+  "arc_shapes_total": 209,
+  "arc_shapes_unique_perm": 83,
+  "arc_shapes_ambiguous_perm": 126,
+  "instances_unique_perm": 83,
+  "instances_ambiguous_perm": 378,
+  "partial_key_analysis": {
+    "(n, arcs)": {
+      "keys": 209,
+      "multi_keys": 126,
+      "inst_unique": 83,
+      "inst_ambig": 378
+    },
+    "(n, cyclic_norm)": {
+      "keys": 55,
+      "multi_keys": 55,
+      "inst_unique": 0,
+      "inst_ambig": 461
+    },
+    "(n, rev_cyclic)": {
+      "keys": 55,
+      "multi_keys": 55,
+      "inst_unique": 0,
+      "inst_ambig": 461
+    },
+    "(n, arcs, p0)": {
+      "keys": 461,
+      "multi_keys": 0,
+      "inst_unique": 461,
+      "inst_ambig": 0
+    },
+    "(n, arcs, p1)": {
+      "keys": 461,
+      "multi_keys": 0,
+      "inst_unique": 461,
+      "inst_ambig": 0
+    },
+    "(n, arcs, p0, p1)": {
+      "keys": 461,
+      "multi_keys": 0,
+      "inst_unique": 461,
+      "inst_ambig": 0
+    },
+    "(n, arcs, p0, p1, p2)": {
+      "keys": 461,
+      "multi_keys": 0,
+      "inst_unique": 461,
+      "inst_ambig": 0
+    },
+    "(n, arcs, Vres)": {
+      "keys": 460,
+      "multi_keys": 1,
+      "inst_unique": 459,
+      "inst_ambig": 2
+    },
+    "(n, arcs, Vres sorted)": {
+      "keys": 460,
+      "multi_keys": 1,
+      "inst_unique": 459,
+      "inst_ambig": 2
+    },
+    "(n, arcs, chord parity)": {
+      "keys": 461,
+      "multi_keys": 0,
+      "inst_unique": 461,
+      "inst_ambig": 0
+    },
+    "(n, chords sorted)": {
+      "keys": 461,
+      "multi_keys": 0,
+      "inst_unique": 461,
+      "inst_ambig": 0
+    },
+    "full endpoints": {
+      "keys": 461,
+      "multi_keys": 0,
+      "inst_unique": 461,
+      "inst_ambig": 0
+    }
+  },
+  "partial_key_ladder": [
+    {
+      "key": "(n, arcs)",
+      "inst_unique": 83,
+      "inst_ambig": 378,
+      "notes": "83/461; 126/209 arc shapes multi-perm"
+    },
+    {
+      "key": "(n, cyclic_norm)",
+      "inst_unique": 0,
+      "inst_ambig": 461,
+      "notes": "0/461; rotation-invariant keys fail"
+    },
+    {
+      "key": "(n, arcs, Vres)",
+      "inst_unique": 459,
+      "inst_ambig": 2,
+      "notes": "459/461; sole collision documented below"
+    },
+    {
+      "key": "(n, arcs, p0)",
+      "inst_unique": 461,
+      "inst_ambig": 0,
+      "notes": "461/461; minimal anchor (no p1..p3)"
+    },
+    {
+      "key": "(n, arcs, p1)",
+      "inst_unique": 461,
+      "inst_ambig": 0,
+      "notes": "461/461; symmetric anchor to p0"
+    },
+    {
+      "key": "(n, arcs, p0, p1)",
+      "inst_unique": 461,
+      "inst_ambig": 0,
+      "notes": "461/461; redundant given p0 + arcs"
+    },
+    {
+      "key": "(n, arcs, p0, p1, p2)",
+      "inst_unique": 461,
+      "inst_ambig": 0,
+      "notes": "461/461; redundant given p0 + arcs"
+    },
+    {
+      "key": "full endpoints",
+      "inst_unique": 461,
+      "inst_ambig": 0,
+      "notes": "461/461; emit hash endpointsLookupKey"
+    }
+  ],
+  "best_partial_key": "(n, arcs, p0)",
+  "best_partial_coverage": "461/461 instances (weaker than full endpoints; no p1,p2,p3)",
+  "minimal_perfect_partial_keys": [
+    "(n, arcs, p0)",
+    "(n, arcs, p1)"
+  ],
+  "vres_collision_count": 1,
+  "vres_collisions": [
+    {
+      "n": 6,
+      "arcs": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "Vres": [
+        2,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "perm_class_ids": [
+        5,
+        7
+      ],
+      "instances": [
+        {
+          "catalog_index": 10,
+          "p0": 0,
+          "p1": 2,
+          "p2": 3,
+          "p3": 4,
+          "perm_class_id": 7
+        },
+        {
+          "catalog_index": 18,
+          "p0": 1,
+          "p1": 3,
+          "p2": 4,
+          "p3": 5,
+          "perm_class_id": 5
+        }
+      ]
+    }
+  ],
+  "fundamental_limit": "(n, toArcs) fixes perm for 83/461 instances only; 126/209 arc shapes need endpoint placement. Cyclic/reverse-cyclic normalization: 0/461 (all 55 shapes multi-perm). (n, arcs, Vres): 459/461 \u2014 one collision at n=6 arcs=(1,0,0,1), Vres=[2,4,5,6,7,8], catalog idx 10 vs 18 (p0=0 vs p0=1). (n, arcs, p0): 461/461 \u2014 minimal perfect partial key on catalog; p0+p1+p2 keys redundant (arcs + one anchor fixes placement).",
+  "closed_form_analysis": {
+    "(n, total, p0)": {
+      "keys": 27,
+      "multi_keys": 21,
+      "inst_unique": 6,
+      "inst_ambig": 455
+    },
+    "(n, hop_budget, p0)": {
+      "keys": 27,
+      "multi_keys": 21,
+      "inst_unique": 6,
+      "inst_ambig": 455
+    },
+    "(n, a0, p0)": {
+      "keys": 83,
+      "multi_keys": 56,
+      "inst_unique": 27,
+      "inst_ambig": 434
+    },
+    "(n, max(arcs), p0)": {
+      "keys": 73,
+      "multi_keys": 50,
+      "inst_unique": 23,
+      "inst_ambig": 438
+    },
+    "(n, sorted(arcs), p0)": {
+      "keys": 99,
+      "multi_keys": 69,
+      "inst_unique": 43,
+      "inst_ambig": 418
+    },
+    "(n, arcs, total mod 2)": {
+      "keys": 209,
+      "multi_keys": 126,
+      "inst_unique": 83,
+      "inst_ambig": 378
+    },
+    "(n, arcs, p0 mod n)": {
+      "keys": 461,
+      "multi_keys": 0,
+      "inst_unique": 461,
+      "inst_ambig": 0
+    },
+    "(n, arcs, p0, perm_class_id)": {
+      "keys": 461,
+      "multi_keys": 0,
+      "inst_unique": 461,
+      "inst_ambig": 0
+    }
+  },
+  "closed_form_verdict": {
+    "status": "no_combinatorial_closed_form_without_tabulation",
+    "catalog_instances": 461,
+    "perm_classes": 10,
+    "perm_class_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "perm_classes_by_n": {
+      "5": [
+        0,
+        2,
+        3,
+        4,
+        6
+      ],
+      "6": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "7": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "8": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "9": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "10": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    "minimal_perfect_partial_keys": [
+      "(n, arcs, p0)",
+      "(n, arcs, p1)"
+    ],
+    "weaker_keys_fail": {
+      "(n, arcs)": "83/461 (378 need endpoint anchor)",
+      "(n, cyclic_norm)": "0/461",
+      "(n, arcs, Vres)": "459/461 (c6 collision idx 10/18)",
+      "(n, total, p0)": "6/461",
+      "(n, hop_budget, p0)": "6/461",
+      "(n, sorted(arcs), p0)": "43/461"
+    },
+    "why_impossible": [
+      "Perm dst is the signed K4 isomorphism from E2 witness search, not a polynomial in schedule counts.",
+      "126/209 arc shapes carry 2+ perm classes: endpoint placement (p0 anchor) is necessary.",
+      "Cyclic/reverse-cyclic normalization fixes 0/461: perm depends on cycle labeling, not shape alone.",
+      "Residual variable set Vres is almost but not enough: sole collision n=6 arcs=(1,0,0,1) Vres=[2,4,5,6,7,8].",
+      "Simple schedule invariants (total, hop budget, sorted arcs) + p0 still collide on catalog.",
+      "461/461 coverage requires emit tabulation (461-key endpointsLookupKey or 461-key arcsP0LookupKey).",
+      "Lean bridge: topologyPermForArcsP0 461/461 agrees with full hash; ParametricArcP0GoalSufficient."
+    ],
+    "honest_remainder": "Combinatorial closed form without emit/native_decide = ruled out on catalog evidence; use topologyPermForArcsP0Of (461/461 tabulation) or topologyPermForEndpoints (461/461 hash)."
+  },
+  "unique_arcs_keys": [
+    {
+      "key": 50010,
+      "perm_class_id": 0
+    },
+    {
+      "key": 50100,
+      "perm_class_id": 2
+    },
+    {
+      "key": 51000,
+      "perm_class_id": 3
+    },
+    {
+      "key": 60020,
+      "perm_class_id": 0
+    },
+    {
+      "key": 60110,
+      "perm_class_id": 2
+    },
+    {
+      "key": 60200,
+      "perm_class_id": 2
+    },
+    {
+      "key": 61010,
+      "perm_class_id": 3
+    },
+    {
+      "key": 61100,
+      "perm_class_id": 5
+    },
+    {
+      "key": 62000,
+      "perm_class_id": 3
+    },
+    {
+      "key": 70030,
+      "perm_class_id": 0
+    },
+    {
+      "key": 70120,
+      "perm_class_id": 2
+    },
+    {
+      "key": 70210,
+      "perm_class_id": 2
+    },
+    {
+      "key": 70300,
+      "perm_class_id": 2
+    },
+    {
+      "key": 71020,
+      "perm_class_id": 3
+    },
+    {
+      "key": 71110,
+      "perm_class_id": 5
+    },
+    {
+      "key": 71200,
+      "perm_class_id": 5
+    },
+    {
+      "key": 72010,
+      "perm_class_id": 3
+    },
+    {
+      "key": 72100,
+      "perm_class_id": 5
+    },
+    {
+      "key": 73000,
+      "perm_class_id": 3
+    },
+    {
+      "key": 80040,
+      "perm_class_id": 0
+    },
+    {
+      "key": 80130,
+      "perm_class_id": 2
+    },
+    {
+      "key": 80220,
+      "perm_class_id": 2
+    },
+    {
+      "key": 80310,
+      "perm_class_id": 2
+    },
+    {
+      "key": 80400,
+      "perm_class_id": 2
+    },
+    {
+      "key": 81030,
+      "perm_class_id": 3
+    },
+    {
+      "key": 81120,
+      "perm_class_id": 5
+    },
+    {
+      "key": 81210,
+      "perm_class_id": 5
+    },
+    {
+      "key": 81300,
+      "perm_class_id": 5
+    },
+    {
+      "key": 82020,
+      "perm_class_id": 3
+    },
+    {
+      "key": 82110,
+      "perm_class_id": 5
+    },
+    {
+      "key": 82200,
+      "perm_class_id": 5
+    },
+    {
+      "key": 83010,
+      "perm_class_id": 3
+    },
+    {
+      "key": 83100,
+      "perm_class_id": 5
+    },
+    {
+      "key": 84000,
+      "perm_class_id": 3
+    },
+    {
+      "key": 90050,
+      "perm_class_id": 0
+    },
+    {
+      "key": 90140,
+      "perm_class_id": 2
+    },
+    {
+      "key": 90230,
+      "perm_class_id": 2
+    },
+    {
+      "key": 90320,
+      "perm_class_id": 2
+    },
+    {
+      "key": 90410,
+      "perm_class_id": 2
+    },
+    {
+      "key": 90500,
+      "perm_class_id": 2
+    },
+    {
+      "key": 91040,
+      "perm_class_id": 3
+    },
+    {
+      "key": 91130,
+      "perm_class_id": 5
+    },
+    {
+      "key": 91220,
+      "perm_class_id": 5
+    },
+    {
+      "key": 91310,
+      "perm_class_id": 5
+    },
+    {
+      "key": 91400,
+      "perm_class_id": 5
+    },
+    {
+      "key": 92030,
+      "perm_class_id": 3
+    },
+    {
+      "key": 92120,
+      "perm_class_id": 5
+    },
+    {
+      "key": 92210,
+      "perm_class_id": 5
+    },
+    {
+      "key": 92300,
+      "perm_class_id": 5
+    },
+    {
+      "key": 93020,
+      "perm_class_id": 3
+    },
+    {
+      "key": 93110,
+      "perm_class_id": 5
+    },
+    {
+      "key": 93200,
+      "perm_class_id": 5
+    },
+    {
+      "key": 94010,
+      "perm_class_id": 3
+    },
+    {
+      "key": 94100,
+      "perm_class_id": 5
+    },
+    {
+      "key": 95000,
+      "perm_class_id": 3
+    },
+    {
+      "key": 100060,
+      "perm_class_id": 0
+    },
+    {
+      "key": 100150,
+      "perm_class_id": 2
+    },
+    {
+      "key": 100240,
+      "perm_class_id": 2
+    },
+    {
+      "key": 100330,
+      "perm_class_id": 2
+    },
+    {
+      "key": 100420,
+      "perm_class_id": 2
+    },
+    {
+      "key": 100510,
+      "perm_class_id": 2
+    },
+    {
+      "key": 100600,
+      "perm_class_id": 2
+    },
+    {
+      "key": 101050,
+      "perm_class_id": 3
+    },
+    {
+      "key": 101140,
+      "perm_class_id": 5
+    },
+    {
+      "key": 101230,
+      "perm_class_id": 5
+    },
+    {
+      "key": 101320,
+      "perm_class_id": 5
+    },
+    {
+      "key": 101410,
+      "perm_class_id": 5
+    },
+    {
+      "key": 101500,
+      "perm_class_id": 5
+    },
+    {
+      "key": 102040,
+      "perm_class_id": 3
+    },
+    {
+      "key": 102130,
+      "perm_class_id": 5
+    },
+    {
+      "key": 102220,
+      "perm_class_id": 5
+    },
+    {
+      "key": 102310,
+      "perm_class_id": 5
+    },
+    {
+      "key": 102400,
+      "perm_class_id": 5
+    },
+    {
+      "key": 103030,
+      "perm_class_id": 3
+    },
+    {
+      "key": 103120,
+      "perm_class_id": 5
+    },
+    {
+      "key": 103210,
+      "perm_class_id": 5
+    },
+    {
+      "key": 103300,
+      "perm_class_id": 5
+    },
+    {
+      "key": 104020,
+      "perm_class_id": 3
+    },
+    {
+      "key": 104110,
+      "perm_class_id": 5
+    },
+    {
+      "key": 104200,
+      "perm_class_id": 5
+    },
+    {
+      "key": 105010,
+      "perm_class_id": 3
+    },
+    {
+      "key": 105100,
+      "perm_class_id": 5
+    },
+    {
+      "key": 106000,
+      "perm_class_id": 3
+    }
+  ],
+  "ambiguous_samples": [
+    {
+      "n": 5,
+      "arcs": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "arcs_key": 50001,
+      "perm_class_ids": [
+        4,
+        6
+      ],
+      "instance_count": 2,
+      "examples": [
+        {
+          "catalog_index": 0,
+          "n": 5,
+          "p0": 0,
+          "p1": 1,
+          "p2": 2,
+          "p3": 3,
+          "arcs": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "endpoints": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "endpoint_key": 50123,
+          "arcs_key": 50001,
+          "arcs_p0_key": 500010,
+          "perm_class_id": 6,
+          "perm_name": "ofoldGlobalRenameDst",
+          "perm": [
+            1,
+            2,
+            4,
+            5,
+            6,
+            3
+          ],
+          "Vres": [
+            1,
+            2,
+            4,
+            5,
+            6,
+            7
+          ],
+          "vres": [
+            1,
+            2,
+            4,
+            5,
+            6,
+            7
+          ],
+          "c1": [
+            0,
+            2
+          ],
+          "c2": [
+            1,
+            3
+          ]
+        },
+        {
+          "catalog_index": 4,
+          "n": 5,
+          "p0": 1,
+          "p1": 2,
+          "p2": 3,
+          "p3": 4,
+          "arcs": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "endpoints": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "endpoint_key": 51234,
+          "arcs_key": 50001,
+          "arcs_p0_key": 500011,
+          "perm_class_id": 4,
+          "perm_name": "catalogPerm123645",
+          "perm": [
+            1,
+            2,
+            3,
+            6,
+            4,
+            5
+          ],
+          "Vres": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "vres": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "c1": [
+            1,
+            3
+          ],
+          "c2": [
+            2,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "arcs": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "arcs_key": 60002,
+      "perm_class_ids": [
+        4,
+        6
+      ],
+      "instance_count": 3,
+      "examples": [
+        {
+          "catalog_index": 5,
+          "n": 6,
+          "p0": 0,
+          "p1": 1,
+          "p2": 2,
+          "p3": 3,
+          "arcs": [
+            0,
+            0,
+            0,
+            2
+          ],
+          "endpoints": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "endpoint_key": 60123,
+          "arcs_key": 60002,
+          "arcs_p0_key": 600020,
+          "perm_class_id": 6,
+          "perm_name": "ofoldGlobalRenameDst",
+          "perm": [
+            1,
+            2,
+            4,
+            5,
+            6,
+            3
+          ],
+          "Vres": [
+            1,
+            2,
+            4,
+            5,
+            6,
+            8
+          ],
+          "vres": [
+            1,
+            2,
+            4,
+            5,
+            6,
+            8
+          ],
+          "c1": [
+            0,
+            2
+          ],
+          "c2": [
+            1,
+            3
+          ]
+        },
+        {
+          "catalog_index": 15,
+          "n": 6,
+          "p0": 1,
+          "p1": 2,
+          "p2": 3,
+          "p3": 4,
+          "arcs": [
+            0,
+            0,
+            0,
+            2
+          ],
+          "endpoints": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "endpoint_key": 61234,
+          "arcs_key": 60002,
+          "arcs_p0_key": 600021,
+          "perm_class_id": 6,
+          "perm_name": "ofoldGlobalRenameDst",
+          "perm": [
+            1,
+            2,
+            4,
+            5,
+            6,
+            3
+          ],
+          "Vres": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "vres": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "c1": [
+            1,
+            3
+          ],
+          "c2": [
+            2,
+            4
+          ]
+        },
+        {
+          "catalog_index": 19,
+          "n": 6,
+          "p0": 2,
+          "p1": 3,
+          "p2": 4,
+          "p3": 5,
+          "arcs": [
+            0,
+            0,
+            0,
+            2
+          ],
+          "endpoints": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "endpoint_key": 62345,
+          "arcs_key": 60002,
+          "arcs_p0_key": 600022,
+          "perm_class_id": 4,
+          "perm_name": "catalogPerm123645",
+          "perm": [
+            1,
+            2,
+            3,
+            6,
+            4,
+            5
+          ],
+          "Vres": [
+            2,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "vres": [
+            2,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "c1": [
+            2,
+            4
+          ],
+          "c2": [
+            3,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "arcs": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "arcs_key": 60011,
+      "perm_class_ids": [
+        4,
+        6
+      ],
+      "instance_count": 2,
+      "examples": [
+        {
+          "catalog_index": 6,
+          "n": 6,
+          "p0": 0,
+          "p1": 1,
+          "p2": 2,
+          "p3": 4,
+          "arcs": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "endpoints": [
+            0,
+            1,
+            2,
+            4
+          ],
+          "endpoint_key": 60124,
+          "arcs_key": 60011,
+          "arcs_p0_key": 600110,
+          "perm_class_id": 6,
+          "perm_name": "ofoldGlobalRenameDst",
+          "perm": [
+            1,
+            2,
+            4,
+            5,
+            6,
+            3
+          ],
+          "Vres": [
+            1,
+            2,
+            4,
+            5,
+            7,
+            8
+          ],
+          "vres": [
+            1,
+            2,
+            4,
+            5,
+            7,
+            8
+          ],
+          "c1": [
+            0,
+            2
+          ],
+          "c2": [
+            1,
+            4
+          ]
+        },
+        {
+          "catalog_index": 16,
+          "n": 6,
+          "p0": 1,
+          "p1": 2,
+          "p2": 3,
+          "p3": 5,
+          "arcs": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "endpoints": [
+            1,
+            2,
+            3,
+            5
+          ],
+          "endpoint_key": 61235,
+          "arcs_key": 60011,
+          "arcs_p0_key": 600111,
+          "perm_class_id": 4,
+          "perm_name": "catalogPerm123645",
+          "perm": [
+            1,
+            2,
+            3,
+            6,
+            4,
+            5
+          ],
+          "Vres": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            8
+          ],
+          "vres": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            8
+          ],
+          "c1": [
+            1,
+            3
+          ],
+          "c2": [
+            2,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "arcs": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "arcs_key": 60101,
+      "perm_class_ids": [
+        1,
+        8
+      ],
+      "instance_count": 2,
+      "examples": [
+        {
+          "catalog_index": 8,
+          "n": 6,
+          "p0": 0,
+          "p1": 1,
+          "p2": 3,
+          "p3": 4,
+          "arcs": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "endpoints": [
+            0,
+            1,
+            3,
+            4
+          ],
+          "endpoint_key": 60134,
+          "arcs_key": 60101,
+          "arcs_p0_key": 601010,
+          "perm_class_id": 8,
+          "perm_name": "catalogPerm125463",
+          "perm": [
+            1,
+            2,
+            5,
+            4,
+            6,
+            3
+          ],
+          "Vres": [
+            1,
+            2,
+            5,
+            6,
+            7,
+            8
+          ],
+          "vres": [
+            1,
+            2,
+            5,
+            6,
+            7,
+            8
+          ],
+          "c1": [
+            0,
+            3
+          ],
+          "c2": [
+            1,
+            4
+          ]
+        },
+        {
+          "catalog_index": 17,
+          "n": 6,
+          "p0": 1,
+          "p1": 2,
+          "p2": 4,
+          "p3": 5,
+          "arcs": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "endpoints": [
+            1,
+            2,
+            4,
+            5
+          ],
+          "endpoint_key": 61245,
+          "arcs_key": 60101,
+          "arcs_p0_key": 601011,
+          "perm_class_id": 1,
+          "perm_name": "catalogPerm123465",
+          "perm": [
+            1,
+            2,
+            3,
+            4,
+            6,
+            5
+          ],
+          "Vres": [
+            2,
+            3,
+            4,
+            6,
+            7,
+            8
+          ],
+          "vres": [
+            2,
+            3,
+            4,
+            6,
+            7,
+            8
+          ],
+          "c1": [
+            1,
+            4
+          ],
+          "c2": [
+            2,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "arcs": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "arcs_key": 61001,
+      "perm_class_ids": [
+        5,
+        7
+      ],
+      "instance_count": 2,
+      "examples": [
+        {
+          "catalog_index": 10,
+          "n": 6,
+          "p0": 0,
+          "p1": 2,
+          "p2": 3,
+          "p3": 4,
+          "arcs": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "endpoints": [
+            0,
+            2,
+            3,
+            4
+          ],
+          "endpoint_key": 60234,
+          "arcs_key": 61001,
+          "arcs_p0_key": 610010,
+          "perm_class_id": 7,
+          "perm_name": "catalogPerm124653",
+          "perm": [
+            1,
+            2,
+            4,
+            6,
+            5,
+            3
+          ],
+          "Vres": [
+            2,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "vres": [
+            2,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "c1": [
+            0,
+            3
+          ],
+          "c2": [
+            2,
+            4
+          ]
+        },
+        {
+          "catalog_index": 18,
+          "n": 6,
+          "p0": 1,
+          "p1": 3,
+          "p2": 4,
+          "p3": 5,
+          "arcs": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "endpoints": [
+            1,
+            3,
+            4,
+            5
+          ],
+          "endpoint_key": 61345,
+          "arcs_key": 61001,
+          "arcs_p0_key": 610011,
+          "perm_class_id": 5,
+          "perm_name": "catalogPerm123654",
+          "perm": [
+            1,
+            2,
+            3,
+            6,
+            5,
+            4
+          ],
+          "Vres": [
+            2,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "vres": [
+            2,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "c1": [
+            1,
+            4
+          ],
+          "c2": [
+            3,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "arcs": [
+        0,
+        0,
+        0,
+        3
+      ],
+      "arcs_key": 70003,
+      "perm_class_ids": [
+        4,
+        6
+      ],
+      "instance_count": 4,
+      "examples": [
+        {
+          "catalog_index": 20,
+          "n": 7,
+          "p0": 0,
+          "p1": 1,
+          "p2": 2,
+          "p3": 3,
+          "arcs": [
+            0,
+            0,
+            0,
+            3
+          ],
+          "endpoints": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "endpoint_key": 70123,
+          "arcs_key": 70003,
+          "arcs_p0_key": 700030,
+          "perm_class_id": 6,
+          "perm_name": "ofoldGlobalRenameDst",
+          "perm": [
+            1,
+            2,
+            4,
+            5,
+            6,
+            3
+          ],
+          "Vres": [
+            1,
+            2,
+            4,
+            5,
+            6,
+            8
+          ],
+          "vres": [
+            1,
+            2,
+            4,
+            5,
+            6,
+            8
+          ],
+          "c1": [
+            0,
+            2
+          ],
+          "c2": [
+            1,
+            3
+          ]
+        },
+        {
+          "catalog_index": 40,
+          "n": 7,
+          "p0": 1,
+          "p1": 2,
+          "p2": 3,
+          "p3": 4,
+          "arcs": [
+            0,
+            0,
+            0,
+            3
+          ],
+          "endpoints": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "endpoint_key": 71234,
+          "arcs_key": 70003,
+          "arcs_p0_key": 700031,
+          "perm_class_id": 6,
+          "perm_name": "ofoldGlobalRenameDst",
+          "perm": [
+            1,
+            2,
+            4,
+            5,
+            6,
+            3
+          ],
+          "Vres": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            9
+          ],
+          "vres": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            9
+          ],
+          "c1": [
+            1,
+            3
+          ],
+          "c2": [
+            2,
+            4
+          ]
+        },
+        {
+          "catalog_index": 50,
+          "n": 7,
+          "p0": 2,
+          "p1": 3,
+          "p2": 4,
+          "p3": 5,
+          "arcs": [
+            0,
+            0,
+            0,
+            3
+          ],
+          "endpoints": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "endpoint_key": 72345,
+          "arcs_key": 70003,
+          "arcs_p0_key": 700032,
+          "perm_class_id": 6,
+          "perm_name": "ofoldGlobalRenameDst",
+          "perm": [
+            1,
+            2,
+            4,
+            5,
+            6,
+            3
+          ],
+          "Vres": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "vres": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "c1": [
+            2,
+            4
+          ],
+          "c2": [
+            3,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "arcs": [
+        0,
+        0,
+        1,
+        2
+      ],
+      "arcs_key": 70012,
+      "perm_class_ids": [
+        4,
+        6
+      ],
+      "instance_count": 3,
+      "examples": [
+        {
+          "catalog_index": 21,
+          "n": 7,
+          "p0": 0,
+          "p1": 1,
+          "p2": 2,
+          "p3": 4,
+          "arcs": [
+            0,
+            0,
+            1,
+            2
+          ],
+          "endpoints": [
+            0,
+            1,
+            2,
+            4
+          ],
+          "endpoint_key": 70124,
+          "arcs_key": 70012,
+          "arcs_p0_key": 700120,
+          "perm_class_id": 6,
+          "perm_name": "ofoldGlobalRenameDst",
+          "perm": [
+            1,
+            2,
+            4,
+            5,
+            6,
+            3
+          ],
+          "Vres": [
+            1,
+            2,
+            4,
+            5,
+            7,
+            9
+          ],
+          "vres": [
+            1,
+            2,
+            4,
+            5,
+            7,
+            9
+          ],
+          "c1": [
+            0,
+            2
+          ],
+          "c2": [
+            1,
+            4
+          ]
+        },
+        {
+          "catalog_index": 41,
+          "n": 7,
+          "p0": 1,
+          "p1": 2,
+          "p2": 3,
+          "p3": 5,
+          "arcs": [
+            0,
+            0,
+            1,
+            2
+          ],
+          "endpoints": [
+            1,
+            2,
+            3,
+            5
+          ],
+          "endpoint_key": 71235,
+          "arcs_key": 70012,
+          "arcs_p0_key": 700121,
+          "perm_class_id": 6,
+          "perm_name": "ofoldGlobalRenameDst",
+          "perm": [
+            1,
+            2,
+            4,
+            5,
+            6,
+            3
+          ],
+          "Vres": [
+            3,
+            4,
+            5,
+            6,
+            8,
+            9
+          ],
+          "vres": [
+            3,
+            4,
+            5,
+            6,
+            8,
+            9
+          ],
+          "c1": [
+            1,
+            3
+          ],
+          "c2": [
+            2,
+            5
+          ]
+        },
+        {
+          "catalog_index": 51,
+          "n": 7,
+          "p0": 2,
+          "p1": 3,
+          "p2": 4,
+          "p3": 6,
+          "arcs": [
+            0,
+            0,
+            1,
+            2
+          ],
+          "endpoints": [
+            2,
+            3,
+            4,
+            6
+          ],
+          "endpoint_key": 72346,
+          "arcs_key": 70012,
+          "arcs_p0_key": 700122,
+          "perm_class_id": 4,
+          "perm_name": "catalogPerm123645",
+          "perm": [
+            1,
+            2,
+            3,
+            6,
+            4,
+            5
+          ],
+          "Vres": [
+            2,
+            4,
+            5,
+            6,
+            7,
+            9
+          ],
+          "vres": [
+            2,
+            4,
+            5,
+            6,
+            7,
+            9
+          ],
+          "c1": [
+            2,
+            4
+          ],
+          "c2": [
+            3,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "arcs": [
+        0,
+        0,
+        2,
+        1
+      ],
+      "arcs_key": 70021,
+      "perm_class_ids": [
+        4,
+        6
+      ],
+      "instance_count": 2,
+      "examples": [
+        {
+          "catalog_index": 22,
+          "n": 7,
+          "p0": 0,
+          "p1": 1,
+          "p2": 2,
+          "p3": 5,
+          "arcs": [
+            0,
+            0,
+            2,
+            1
+          ],
+          "endpoints": [
+            0,
+            1,
+            2,
+            5
+          ],
+          "endpoint_key": 70125,
+          "arcs_key": 70021,
+          "arcs_p0_key": 700210,
+          "perm_class_id": 6,
+          "perm_name": "ofoldGlobalRenameDst",
+          "perm": [
+            1,
+            2,
+            4,
+            5,
+            6,
+            3
+          ],
+          "Vres": [
+            1,
+            2,
+            4,
+            5,
+            7,
+            9
+          ],
+          "vres": [
+            1,
+            2,
+            4,
+            5,
+            7,
+            9
+          ],
+          "c1": [
+            0,
+            2
+          ],
+          "c2": [
+            1,
+            5
+          ]
+        },
+        {
+          "catalog_index": 42,
+          "n": 7,
+          "p0": 1,
+          "p1": 2,
+          "p2": 3,
+          "p3": 6,
+          "arcs": [
+            0,
+            0,
+            2,
+            1
+          ],
+          "endpoints": [
+            1,
+            2,
+            3,
+            6
+          ],
+          "endpoint_key": 71236,
+          "arcs_key": 70021,
+          "arcs_p0_key": 700211,
+          "perm_class_id": 4,
+          "perm_name": "catalogPerm123645",
+          "perm": [
+            1,
+            2,
+            3,
+            6,
+            4,
+            5
+          ],
+          "Vres": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            8
+          ],
+          "vres": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            8
+          ],
+          "c1": [
+            1,
+            3
+          ],
+          "c2": [
+            2,
+            6
+          ]
+        }
+      ]
+    }
+  ]
+}

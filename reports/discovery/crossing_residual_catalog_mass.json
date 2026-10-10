@@ -1,0 +1,20 @@
+{
+  "total": 461,
+  "shape_ok": 461,
+  "iso_ok": 461,
+  "iso_fail": 0,
+  "flip_needed_count": 0,
+  "tip_histogram": {
+    "1": 5,
+    "2": 15,
+    "3": 35,
+    "4": 70,
+    "5": 126,
+    "6": 210
+  },
+  "all_shape_and_iso": true,
+  "fail_samples": [],
+  "claim": "Every crossing n=5..10 residual Closure\u2083 is set-isomorphic to k4Axioms under a signed edge-variable bijection (permutation \u00b1 optional complementation).",
+  "lean": "lean/PNPLab/CrossingResidualCatalog.lean",
+  "catalog": "reports/discovery/crossing_residual_catalog.json"
+}

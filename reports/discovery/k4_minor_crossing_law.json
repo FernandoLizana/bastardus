@@ -1,0 +1,194 @@
+{
+  "k4_unit": {
+    "graph": "K4",
+    "charges": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "delta": 3,
+    "width": 4,
+    "empty_at_width_3": false,
+    "closure_size_at_3": 16,
+    "empty_at_width_4": true,
+    "closure_size_at_4": 473,
+    "certified_gt_delta": true
+  },
+  "crossing_family": {
+    "checked_crossing": 1286,
+    "missing_k4_minor": []
+  },
+  "lift_ingredients": {
+    "checked_ok": 461,
+    "even_contracted_initial_skips_handled": 0,
+    "bad_k4": [],
+    "bad_g_not_gt_delta": [],
+    "examples": [
+      {
+        "n": 5,
+        "chords": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "ends": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "contracted_charges": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "delta": 3,
+        "k4_width": 4
+      },
+      {
+        "n": 5,
+        "chords": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            4
+          ]
+        ],
+        "ends": [
+          0,
+          1,
+          2,
+          4
+        ],
+        "contracted_charges": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "delta": 3,
+        "k4_width": 4
+      },
+      {
+        "n": 5,
+        "chords": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            4
+          ]
+        ],
+        "ends": [
+          0,
+          1,
+          3,
+          4
+        ],
+        "contracted_charges": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "delta": 3,
+        "k4_width": 4
+      },
+      {
+        "n": 5,
+        "chords": [
+          [
+            0,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "ends": [
+          0,
+          2,
+          3,
+          4
+        ],
+        "contracted_charges": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "delta": 3,
+        "k4_width": 4
+      },
+      {
+        "n": 5,
+        "chords": [
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "ends": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "contracted_charges": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "delta": 3,
+        "k4_width": 4
+      },
+      {
+        "n": 6,
+        "chords": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "ends": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "contracted_charges": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "delta": 3,
+        "k4_width": 4
+      }
+    ],
+    "lift_statement": "For each crossing instance checked: charge contraction yields odd K4 charges with Width=4>3, and G itself has Width>\u0394. Formal resolution projection G \u2192 K4 still open."
+  },
+  "law_support": "Crossing \u21d2 K4-minor; K4 Width>\u0394; contracted charges keep Width>3 on the abstract K4, matching G's Width>\u0394 on the checked family."
+}

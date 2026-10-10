@@ -1,0 +1,30 @@
+**Context — ChordWidth / line-graph treewidth (PNPLab pivot)**
+
+We are formalizing a graph-theoretic route to the PNPLab **crossing law** for Tseitin resolution width on **C_n + two chords** (four distinct endpoints, Δ = 3). Pipeline:
+
+1. **Literature (Galesi–Talebanfard–Torán, TOCT 2020):** w(T(G,φ)) = max(Δ(G), tw(L(G))) for unsatisfiable Tseitin on connected G.
+2. **Graph side:** after degree-2 suppression the branch core is **K₄** (crossing chords) or **C₄** (noncrossing) — target tw(L(G)) ∈ {4, 3}.
+3. **Lean (Phase 3 done):** `PNPLab.ChordWidth` has conditional width theorems, degree-2 suppression, and structural K₄/C₄ smoke proofs — but **no real treewidth API** yet (`TreewidthWitness` stubs). Phase 4 needs Mathlib tw bounds on L(G).
+4. **Python (computational evidence, not proof):** exact sweep **2870/2870** for n = 5..14; representative sweep **383/383** for n = 5..100.
+
+Mathlib pin: **v4.32.0** — `SimpleGraph.lineGraph` exists; `SimpleGraph.treeWidth` does not.
+
+---
+
+**Question A — Mathlib treewidth / TreeDecomp (blocking Phase 4)**
+
+We need real `SimpleGraph.treeWidth` (or pathwidth) to prove tw(L(G)) ∈ {3, 4} for cycle + two chords. Does v4.32+ already have this, and what is the status of PR [#38334](https://github.com/leanprover-community/mathlib4/pull/38334)? Should we upgrade our pin or keep local elimination witnesses until it lands?
+
+Verified: v4.32 has `SimpleGraph.lineGraph`; no `TreeDecomp`, `treeWidth`, or `IsOuterplanar` in our pin. PR #38334 (Apr 2026, assignee YaelDillies) is still **open** as of Aug 2026 — defines `TreeDecomp`, `HasTreeDecomp`, and `SimpleGraph.treeWidth` (+73 declarations); follow-up #39939 (clique lemma, tw(K_n) = n−1) depends on it. Phase 3 Lean MVP is green (1056 jobs, no sorry) but tw bounds on L(G) are stubs.
+
+We need: (i) whether upgrading past v4.32 is worthwhile **now** vs local witnesses until #38334 merges; (ii) pointers to any **already-merged** treewidth lemmas we missed; (iii) review guidance — pathwidth-first design was raised in #38334 review; should ChordWidth target pathwidth initially?
+
+---
+
+**Question B — tw(L(G)) = 3 vs 4 from K₄/C₄ core**
+
+For G = C_n + two chords (Δ = 3), after degree-2 suppression the branch core is K₄ (crossing) or C₄ + parallel bundles (noncrossing) — we have Lean smoke proofs on c5Ofold / c8Nested. What is the recommended Mathlib approach to lift this to tw(L(G)) ∈ {3, 4}? Direct elimination on L(G), or primal tw(G) + Harvey–Wood line-graph inequalities?
+
+Evidence (computational, not proof): exact n = 5..14 — **2870/2870** (1870 noncrossing all tw = 3; 1000 crossing all tw = 4); representative n = 5..100 — **383/383** (191 / 192). Lean smoke: `c5Ofold_crossing_core_k4`, `c8Nested_noncrossing_core` — structural `SuppressedCore.isK4` / `isFourCycle`, not full graph isomorphism to `completeGraph (Fin 4)` / `cycleGraph 4`.
+
+We need: proof strategy for tw(L(G)) = 4 from K₄-type core and tw(L(G)) = 3 from C₄-type core (ideally ∀n); similar “suppress → classify → bound tw” examples in Mathlib; whether outerplanarity is the right lever for the noncrossing branch.

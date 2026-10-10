@@ -1,0 +1,177 @@
+{
+  "family": "C_n + 3..4 noncrossing length-2 ears, Delta<=3, outerplanar, unit",
+  "n_range": [
+    9,
+    12
+  ],
+  "checked": 78,
+  "counts": {
+    "eq": 75,
+    "g4_eq": 3
+  },
+  "outerplanar_gt_delta": [],
+  "outerplanar_eq_examples": [
+    {
+      "n": 9,
+      "gamma": 4,
+      "delta": 3,
+      "chords": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          6,
+          8
+        ]
+      ],
+      "lab": "eq"
+    },
+    {
+      "n": 9,
+      "gamma": 4,
+      "delta": 3,
+      "chords": [
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "lab": "eq"
+    },
+    {
+      "n": 9,
+      "gamma": 4,
+      "delta": 3,
+      "chords": [
+        [
+          1,
+          8
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "lab": "eq"
+    },
+    {
+      "n": 10,
+      "gamma": 4,
+      "delta": 3,
+      "chords": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          6,
+          8
+        ]
+      ],
+      "lab": "eq"
+    },
+    {
+      "n": 10,
+      "gamma": 4,
+      "delta": 3,
+      "chords": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          7,
+          9
+        ]
+      ],
+      "lab": "eq"
+    },
+    {
+      "n": 10,
+      "gamma": 4,
+      "delta": 3,
+      "chords": [
+        [
+          0,
+          2
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          7,
+          9
+        ]
+      ],
+      "lab": "eq"
+    },
+    {
+      "n": 10,
+      "gamma": 4,
+      "delta": 3,
+      "chords": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "lab": "eq"
+    },
+    {
+      "n": 10,
+      "gamma": 4,
+      "delta": 3,
+      "chords": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "lab": "eq"
+    }
+  ],
+  "conjecture": "C-OUTERPLANAR-WIDTH-EQ-DELTA",
+  "status": "supported"
+}

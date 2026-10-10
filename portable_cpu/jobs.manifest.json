@@ -1,0 +1,354 @@
+{
+  "version": 1,
+  "description": "Portable CPU jobs for ChordWidth / bastardus. All paths relative to repo root.",
+  "defaults": {
+    "python": "portable_cpu/.venv/bin/python",
+    "lean_threads": 0,
+    "retry_delay_sec": 120,
+    "max_attempts": 0
+  },
+  "jobs": [
+    {
+      "id": "lean_cache_get",
+      "title": "Download Mathlib cache (lake exe cache get)",
+      "category": "lean",
+      "parallel_group": "lean",
+      "cpus_hint": 2,
+      "estimated_cpu_hours": 1,
+      "depends_on": [],
+      "checkpoint": false,
+      "command": ["bash", "portable_cpu/bin/resume_lean_chordwidth.sh", "--cache-only"]
+    },
+    {
+      "id": "lean_build_chordwidth",
+      "title": "Build PNPLab.ChordWidth.Main (resumable)",
+      "category": "lean",
+      "parallel_group": "lean",
+      "cpus_hint": 8,
+      "estimated_cpu_hours": 6,
+      "depends_on": ["lean_cache_get"],
+      "checkpoint": true,
+      "command": ["bash", "portable_cpu/bin/resume_lean_chordwidth.sh"]
+    },
+    {
+      "id": "tw_exact_n5_n14_baseline",
+      "title": "TW exact gap sweep n=5..14 (baseline re-run)",
+      "category": "tw_sweep",
+      "parallel_group": "python_tw",
+      "cpus_hint": 4,
+      "estimated_cpu_hours": 0.5,
+      "depends_on": [],
+      "checkpoint": true,
+      "command": [
+        "portable_cpu/.venv/bin/python",
+        "portable_cpu/lib/chunked_tw_sweep.py",
+        "--job-id", "tw_exact_n5_n14_baseline",
+        "--n-lo", "5", "--n-hi", "14",
+        "--no-representative",
+        "--exact-max-nodes", "32",
+        "--csv", "experiments/chord_treewidth_n5_n14_baseline.csv"
+      ]
+    },
+    {
+      "id": "tw_exact_n15_n18",
+      "title": "TW exact gap sweep n=15..18",
+      "category": "tw_sweep",
+      "parallel_group": "python_tw",
+      "cpus_hint": 4,
+      "estimated_cpu_hours": 4,
+      "depends_on": [],
+      "checkpoint": true,
+      "command": [
+        "portable_cpu/.venv/bin/python",
+        "portable_cpu/lib/chunked_tw_sweep.py",
+        "--job-id", "tw_exact_n15_n18",
+        "--n-lo", "15", "--n-hi", "18",
+        "--no-representative",
+        "--exact-max-nodes", "14",
+        "--memory-safe",
+        "--csv", "experiments/chord_treewidth_n15_n18.csv"
+      ]
+    },
+    {
+      "id": "tw_exact_n19_n24",
+      "title": "TW exact gap sweep n=19..24",
+      "category": "tw_sweep",
+      "parallel_group": "python_tw",
+      "cpus_hint": 4,
+      "estimated_cpu_hours": 8,
+      "depends_on": [],
+      "checkpoint": true,
+      "command": [
+        "portable_cpu/.venv/bin/python",
+        "portable_cpu/lib/chunked_tw_sweep.py",
+        "--job-id", "tw_exact_n19_n24",
+        "--n-lo", "19", "--n-hi", "24",
+        "--no-representative",
+        "--exact-max-nodes", "14",
+        "--memory-safe",
+        "--csv", "experiments/chord_treewidth_n19_n24.csv"
+      ]
+    },
+    {
+      "id": "tw_exact_n25_n32",
+      "title": "TW exact gap sweep n=25..32",
+      "category": "tw_sweep",
+      "parallel_group": "python_tw",
+      "cpus_hint": 4,
+      "estimated_cpu_hours": 20,
+      "depends_on": [],
+      "checkpoint": true,
+      "command": [
+        "portable_cpu/.venv/bin/python",
+        "portable_cpu/lib/chunked_tw_sweep.py",
+        "--job-id", "tw_exact_n25_n32",
+        "--n-lo", "25", "--n-hi", "32",
+        "--no-representative",
+        "--exact-max-nodes", "12",
+        "--memory-safe",
+        "--csv", "experiments/chord_treewidth_n25_n32.csv"
+      ]
+    },
+    {
+      "id": "tw_exact_n15_n24_push_exact16",
+      "title": "TW n=15..24 with exact-max-nodes=16 (boundary push)",
+      "category": "tw_sweep",
+      "parallel_group": "python_tw",
+      "cpus_hint": 4,
+      "estimated_cpu_hours": 12,
+      "depends_on": ["tw_exact_n15_n18"],
+      "checkpoint": true,
+      "command": [
+        "portable_cpu/.venv/bin/python",
+        "portable_cpu/lib/chunked_tw_sweep.py",
+        "--job-id", "tw_exact_n15_n24_push_exact16",
+        "--n-lo", "15", "--n-hi", "24",
+        "--no-representative",
+        "--exact-max-nodes", "16",
+        "--memory-safe",
+        "--csv", "experiments/chord_treewidth_n15_n24_exact16.csv"
+      ]
+    },
+    {
+      "id": "tw_representative_n16_n50",
+      "title": "TW representative witnesses n=16..50",
+      "category": "tw_sweep",
+      "parallel_group": "python_tw",
+      "cpus_hint": 2,
+      "estimated_cpu_hours": 2,
+      "depends_on": [],
+      "checkpoint": true,
+      "command": [
+        "portable_cpu/.venv/bin/python",
+        "portable_cpu/lib/chunked_tw_sweep.py",
+        "--job-id", "tw_representative_n16_n50",
+        "--n-lo", "16", "--n-hi", "50",
+        "--representative",
+        "--exact-max-nodes", "10",
+        "--csv", "experiments/chord_treewidth_representative_n16_n50.csv"
+      ]
+    },
+    {
+      "id": "tw_full_endpoints_n5_n16",
+      "title": "TW full C(n,4) endpoints n=5..16",
+      "category": "tw_sweep",
+      "parallel_group": "python_tw",
+      "cpus_hint": 4,
+      "estimated_cpu_hours": 8,
+      "depends_on": [],
+      "checkpoint": true,
+      "command": [
+        "portable_cpu/.venv/bin/python",
+        "portable_cpu/lib/chunked_tw_sweep.py",
+        "--job-id", "tw_full_endpoints_n5_n16",
+        "--n-lo", "5", "--n-hi", "16",
+        "--full-endpoints",
+        "--exact-max-nodes", "32",
+        "--csv", "experiments/chord_treewidth_full_endpoints_n5_n16.csv"
+      ]
+    },
+    {
+      "id": "tw_crossing_focus_n10_n30",
+      "title": "TW gap sweep crossing pairings only n=10..30",
+      "category": "tw_sweep",
+      "parallel_group": "python_tw",
+      "cpus_hint": 4,
+      "estimated_cpu_hours": 6,
+      "depends_on": [],
+      "checkpoint": true,
+      "command": [
+        "portable_cpu/.venv/bin/python",
+        "portable_cpu/lib/chunked_tw_sweep.py",
+        "--job-id", "tw_crossing_focus_n10_n30",
+        "--n-lo", "10", "--n-hi", "30",
+        "--no-representative",
+        "--pairing-filter", "crossing",
+        "--exact-max-nodes", "14",
+        "--memory-safe",
+        "--csv", "experiments/chord_treewidth_crossing_n10_n30.csv"
+      ]
+    },
+    {
+      "id": "tw_noncrossing_focus_n10_n30",
+      "title": "TW gap sweep nested+disjoint n=10..30",
+      "category": "tw_sweep",
+      "parallel_group": "python_tw",
+      "cpus_hint": 4,
+      "estimated_cpu_hours": 6,
+      "depends_on": [],
+      "checkpoint": true,
+      "command": [
+        "portable_cpu/.venv/bin/python",
+        "portable_cpu/lib/chunked_tw_sweep.py",
+        "--job-id", "tw_noncrossing_focus_n10_n30",
+        "--n-lo", "10", "--n-hi", "30",
+        "--no-representative",
+        "--pairing-filter", "noncrossing",
+        "--exact-max-nodes", "14",
+        "--memory-safe",
+        "--csv", "experiments/chord_treewidth_noncrossing_n10_n30.csv"
+      ]
+    },
+    {
+      "id": "cx_n5_n20",
+      "title": "Counterexample search n=5..20",
+      "category": "counterexample",
+      "parallel_group": "python_cx",
+      "cpus_hint": 4,
+      "estimated_cpu_hours": 1,
+      "depends_on": [],
+      "checkpoint": true,
+      "command": [
+        "portable_cpu/.venv/bin/python",
+        "portable_cpu/lib/chunked_cx_search.py",
+        "--job-id", "cx_n5_n20",
+        "--n-lo", "5", "--n-hi", "20",
+        "--exact-max-nodes", "20",
+        "--memory-safe",
+        "--out", "experiments/chordwidth_counterexamples_n5_n20.json"
+      ]
+    },
+    {
+      "id": "cx_n5_n30",
+      "title": "Counterexample search n=5..30",
+      "category": "counterexample",
+      "parallel_group": "python_cx",
+      "cpus_hint": 4,
+      "estimated_cpu_hours": 4,
+      "depends_on": ["cx_n5_n20"],
+      "checkpoint": true,
+      "command": [
+        "portable_cpu/.venv/bin/python",
+        "portable_cpu/lib/chunked_cx_search.py",
+        "--job-id", "cx_n5_n30",
+        "--n-lo", "5", "--n-hi", "30",
+        "--exact-max-nodes", "16",
+        "--memory-safe",
+        "--out", "experiments/chordwidth_counterexamples_n5_n30.json"
+      ]
+    },
+    {
+      "id": "hub_placement_search_small",
+      "title": "Hub placement combinatorics (small gaps)",
+      "category": "proof_route",
+      "parallel_group": "python_misc",
+      "cpus_hint": 4,
+      "estimated_cpu_hours": 2,
+      "depends_on": [],
+      "checkpoint": true,
+      "command": [
+        "portable_cpu/.venv/bin/python",
+        "portable_cpu/lib/hub_placement_search.py",
+        "--job-id", "hub_placement_search_small",
+        "--max-n", "12",
+        "--max-gap-sum", "16",
+        "--out", "experiments/hub_placement_small.json"
+      ]
+    },
+    {
+      "id": "hub_placement_search_medium",
+      "title": "Hub placement combinatorics (medium)",
+      "category": "proof_route",
+      "parallel_group": "python_misc",
+      "cpus_hint": 4,
+      "estimated_cpu_hours": 8,
+      "depends_on": ["hub_placement_search_small"],
+      "checkpoint": true,
+      "command": [
+        "portable_cpu/.venv/bin/python",
+        "portable_cpu/lib/hub_placement_search.py",
+        "--job-id", "hub_placement_search_medium",
+        "--max-n", "16",
+        "--max-gap-sum", "20",
+        "--out", "experiments/hub_placement_medium.json"
+      ]
+    },
+    {
+      "id": "route_fa_interval_path_7_10",
+      "title": "Route F+A interval RI search (path 7-10 nodes)",
+      "category": "proof_route",
+      "parallel_group": "python_misc",
+      "cpus_hint": 4,
+      "estimated_cpu_hours": 4,
+      "depends_on": [],
+      "checkpoint": true,
+      "command": [
+        "portable_cpu/.venv/bin/python",
+        "portable_cpu/lib/route_fa_interval_search.py",
+        "--job-id", "route_fa_interval_path_7_10",
+        "--shape", "path",
+        "--nodes-lo", "7", "--nodes-hi", "10",
+        "--max-bag-card", "4",
+        "--out", "experiments/route_fa_interval_path_7_10.json"
+      ]
+    },
+    {
+      "id": "route_fa_interval_fork_7_10",
+      "title": "Route F+A interval RI search (fork 7-10 nodes)",
+      "category": "proof_route",
+      "parallel_group": "python_misc",
+      "cpus_hint": 4,
+      "estimated_cpu_hours": 4,
+      "depends_on": [],
+      "checkpoint": true,
+      "command": [
+        "portable_cpu/.venv/bin/python",
+        "portable_cpu/lib/route_fa_interval_search.py",
+        "--job-id", "route_fa_interval_fork_7_10",
+        "--shape", "fork",
+        "--nodes-lo", "7", "--nodes-hi", "10",
+        "--max-bag-card", "4",
+        "--out", "experiments/route_fa_interval_fork_7_10.json"
+      ]
+    },
+    {
+      "id": "asymptotic_cubic_n6_n40",
+      "title": "Asymptotic cubic Hamiltonian family tw n=6..40",
+      "category": "asymptotic",
+      "parallel_group": "python_misc",
+      "cpus_hint": 2,
+      "estimated_cpu_hours": 1,
+      "depends_on": [],
+      "checkpoint": true,
+      "command": [
+        "portable_cpu/.venv/bin/python",
+        "scripts/asymptotic_cubic_hamiltonian_family.py",
+        "--n-lo", "6", "--n-hi", "40"
+      ]
+    },
+    {
+      "id": "verify_chordwidth_axioms_grep",
+      "title": "Quick axiom/sorry audit (ChordWidth)",
+      "category": "audit",
+      "parallel_group": "python_misc",
+      "cpus_hint": 1,
+      "estimated_cpu_hours": 0.05,
+      "depends_on": [],
+      "checkpoint": false,
+      "command": [
+        "bash", "-c",
+        "grep -rn 'sorry\\|axiom' lean/PNPLab/ChordWidth/ | tee portable_cpu/results/chordwidth_axiom_grep.txt; test ! -s portable_cpu/results/chordwidth_axiom_grep.txt"
+      ]
+    }
+  ]
+}

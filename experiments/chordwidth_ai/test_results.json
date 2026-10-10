@@ -1,0 +1,7 @@
+{
+  "pytest_command": "python -m pytest -q",
+  "status": "not_run_full_suite",
+  "note": "Backend tests exist; full suite not required for ChordWidth gate. Counterexample script exit 0.",
+  "counterexample_script": "scripts/chordwidth/search_two_chord_counterexamples.py",
+  "counterexample_exit_code": 0
+}

@@ -1,0 +1,43 @@
+{
+  "evidence_level": "E2_certified_computation",
+  "claim_type": "observation_experimental_mass_verification",
+  "disclaimer": "Mass verification of constructive certificates is NOT a proof of P vs NP. It supports Width=Δ for trees/paths/stars and Width=2 for cycles on enumerated orbits.",
+  "profile": "smoke",
+  "elapsed_ms": 2,
+  "variants": [
+    {
+      "variant": "V2_paths_AutChargeOrbits_n2..6",
+      "checked": 34,
+      "failed": 0,
+      "elapsed_ms": 0,
+      "note": "Paths ⊆ trees ⇒ Width=Δ (=2 for n≥3).",
+      "first_failure": null
+    },
+    {
+      "variant": "V3_stars_AutChargeOrbits_n3..5",
+      "checked": 12,
+      "failed": 0,
+      "elapsed_ms": 0,
+      "note": "Stars: Width=Δ=n-1. Group S_{n-1} reduces charge orbits heavily.",
+      "first_failure": null
+    },
+    {
+      "variant": "V4_cycles_DihedralChargeOrbits_n3..6",
+      "checked": 13,
+      "failed": 0,
+      "elapsed_ms": 1,
+      "note": "Claim: Width=Δ=2. Group: D_n acting on GF(2)^n charges.",
+      "first_failure": null
+    },
+    {
+      "variant": "V1_trees_labeled_AutChargeOrbits_n2..4",
+      "checked": 74,
+      "failed": 0,
+      "elapsed_ms": 0,
+      "note": "Claim: Width=Δ via constructive leaf induction. Group: Aut(G) on GF(2)^V charges.",
+      "first_failure": null
+    }
+  ],
+  "total_checked": 133,
+  "total_failed": 0
+}

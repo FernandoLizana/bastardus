@@ -1,0 +1,33 @@
+{
+  "total_ok": 461,
+  "total_fail": 0,
+  "by_n": {
+    "5": {
+      "ok": 5,
+      "fail": 0
+    },
+    "6": {
+      "ok": 15,
+      "fail": 0
+    },
+    "7": {
+      "ok": 35,
+      "fail": 0
+    },
+    "8": {
+      "ok": 70,
+      "fail": 0
+    },
+    "9": {
+      "ok": 126,
+      "fail": 0
+    },
+    "10": {
+      "ok": 210,
+      "fail": 0
+    }
+  },
+  "fail_samples": [],
+  "claim": "Every crossing n=5..10 after multihop fold: residual is K\u2084 (4 nodes, 6 edges/vars), Closure\u2083 size 16 without \u25a1 (ResidualK4Shape / K4ResidualID).",
+  "lean": "lean/PNPLab/K4ResidualID.lean"
+}

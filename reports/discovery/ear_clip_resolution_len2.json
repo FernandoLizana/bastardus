@@ -1,0 +1,61 @@
+{
+  "family": "noncrossing two length-2 chords unit",
+  "ok": 65,
+  "examples": [
+    {
+      "n": 6,
+      "chords": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "steps": 569,
+      "max_width": 3,
+      "note": [
+        "len2-ears: peel + ear-clips [1, 4] + width-2 finish on residual cycle"
+      ]
+    },
+    {
+      "n": 6,
+      "chords": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "steps": 569,
+      "max_width": 3,
+      "note": [
+        "len2-ears: peel + ear-clips [2, 5] + width-2 finish on residual cycle"
+      ]
+    },
+    {
+      "n": 6,
+      "chords": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "steps": 569,
+      "max_width": 3,
+      "note": [
+        "len2-ears: peel + ear-clips [0, 3] + width-2 finish on residual cycle"
+      ]
+    }
+  ],
+  "method": "prove_noncrossing_len2_ears_lemma"
+}

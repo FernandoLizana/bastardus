@@ -1,0 +1,333 @@
+[
+  {
+    "identifier": "C-phase-peak-effort",
+    "formal_statement": "For fixed n in a chosen finite range, the median DPLL decision count on random 3-SAT is maximized at some \u03b1 in [3.5, 5.0].",
+    "motivation": "Classic easy-hard-easy empirical pattern; used as a smoke conjecture for the meta-solver line.",
+    "variables": [
+      "n",
+      "alpha",
+      "median_decisions"
+    ],
+    "domain": "random 3-SAT ensembles of fixed finite n",
+    "evidence_for": [],
+    "evidence_against": [],
+    "minimal_counterexample": null,
+    "relation_to_known_results": "Related to Mitchell\u2013Selman\u2013Levesque (1992) observations; not a theorem here.",
+    "theoretical_barriers": [
+      "finite_vs_asymptotic",
+      "average_vs_worst_case"
+    ],
+    "status": "idea",
+    "evidence_level": "E0_INFORMAL",
+    "proof_attempts": [],
+    "refutation_attempts": [],
+    "dependencies": [],
+    "created_at": "2026-07-13T00:00:00+00:00",
+    "author": "pnp-lab-bootstrap",
+    "code_commit": "uncommitted",
+    "barrier_report": ""
+  },
+  {
+    "identifier": "C-UNICLIC-WIDTH-EQ-DELTA",
+    "formal_statement": "For connected unicyclic G and odd charge c, Width(T(G,c)) = Delta(G).",
+    "motivation": "Interpolate tree (Width=Delta) and cycle (Width=2) lemmas; frontier found W=Delta on 768 small unicyclic.",
+    "variables": [
+      "G unicyclic",
+      "c odd",
+      "Delta(G)"
+    ],
+    "domain": "resolution proof complexity / Tseitin",
+    "evidence_for": [
+      "constructive peel+cycle certificates in constructive_proofs.py",
+      "exhaustive path+chord n<=8 unit charges: 378 proofs matched exact width",
+      "native frontier unicyclic n<=5: 768 W=Delta",
+      "Rust constructive campaign V8: 708 certificates n=4..5 failed=0",
+      "Native frontier unicyclic n<=6 \u0394\u22643: 10608 W=\u0394"
+    ],
+    "evidence_against": [],
+    "minimal_counterexample": null,
+    "relation_to_known_results": "Folklore-adjacent; trees/cycles known in dossier TD-TSEITIN-WIDTH-TREES-001; unicyclic composition recorded in TD-TSEITIN-WIDTH-UNICYCLIC-001.",
+    "theoretical_barriers": [
+      "restricted_vs_general_lower_bounds"
+    ],
+    "status": "parcialmente_demostrada",
+    "evidence_level": "E4_MANUAL_PARTIAL_PROOF",
+    "proof_attempts": [
+      "papers/theorem_dossier_TD-TSEITIN-WIDTH-UNICYCLIC-001/PROOF.md"
+    ],
+    "refutation_attempts": [],
+    "dependencies": [],
+    "created_at": "2026-07-14T04:17:21.857081+00:00",
+    "author": "anonymous",
+    "code_commit": "unknown",
+    "barrier_report": "Resolution-only; does not clear Camino B. claim_gate: not a P vs NP candidate."
+  },
+  {
+    "identifier": "C-BICYCLIC-WIDTH-EQ-DELTA",
+    "formal_statement": "For connected bicyclic G (|E|=|V|+1) with Delta(G)<=3 and odd charge c, Width(T(G,c))=Delta(G).",
+    "motivation": "Frontier hunt for W>Delta on bicyclic \u0394\u22643 found 0 counterexamples in 31050 unit-charge instances (n=5..6). Known W>\u0394 witnesses are denser (3-regular, cyclomatic number >2).",
+    "variables": [
+      "G bicyclic",
+      "Delta<=3",
+      "c odd"
+    ],
+    "domain": "resolution proof complexity / Tseitin",
+    "evidence_for": [
+      "native frontier_bicyclic n=5..6 Δ≤3 unit charge: checked=31050 W>Δ=0 W=Δ=31050",
+      "reports/discovery/mass_verify_frontier_latest.json",
+      "all odd charges n=4..5 Delta<=3: 20544 checks, W>Delta=0",
+      "constructive peel+width-Δ saturation certificates: prove_bicyclic_lemma; dossier TD-TSEITIN-WIDTH-BICYCLIC-001",
+      "prove_bicyclic_pathfold_lemma mass: reports/discovery/bicyclic_pathfold_mass.json (210/210 n=4..12)",
+      "full Closure_Δ∋□ mass: reports/discovery/bicyclic_full_closure_mass.json (48/48)",
+      "Lean packs: BicyclicWidth3 / BicyclicC5Width3 / BicyclicC6Width3; ThetaFoldBridge C6 tip + Width≤Δ bundle",
+      "INDUCTION_WIDTH_EQ_DELTA.md — bicyclic induction skeleton"
+    ],
+    "evidence_against": [],
+    "minimal_counterexample": null,
+    "relation_to_known_results": "Strengthens unicyclic lemma surface; does not contradict C2 (3-regular) which is not bicyclic.",
+    "theoretical_barriers": [
+      "restricted_vs_general_lower_bounds"
+    ],
+    "status": "experimental",
+    "evidence_level": "E3_FORMULATED_CONJECTURE",
+    "proof_attempts": [
+      "peel trees + width-Δ saturation certificates (verified ResolutionProof); inductive non-search proof still open"
+    ],
+    "refutation_attempts": [],
+    "dependencies": [],
+    "created_at": "2026-07-14T04:25:59.988936+00:00",
+    "author": "anonymous",
+    "code_commit": "unknown",
+    "barrier_report": "Resolution-only. Not a P vs NP candidate. claim_gate: N/A."
+  },
+  {
+    "identifier": "C-TRICYCLIC-CAN-EXCEED-DELTA",
+    "formal_statement": "There exist connected tricyclic graphs G (|E|=|V|+2) with Delta(G)<=3 and odd charge such that Width(T(G,c)) > Delta(G).",
+    "motivation": "Classify the Width=Delta boundary by cyclomatic number: gamma<=2 holds in massive checks; gamma=3 already fails at n=5.",
+    "variables": [
+      "G tricyclic",
+      "Delta<=3",
+      "c odd"
+    ],
+    "domain": "resolution proof complexity / Tseitin",
+    "evidence_for": [
+      "native classify: 720/720 tricyclic n=5 Delta<=3 unit charge have W>Delta (first W=4 Delta=3)",
+      "datasets/counterexamples/C_tricyclic_width_gt_delta.json",
+      "minimal witness edges=[[0, 1], [0, 2], [0, 3], [1, 2], [1, 4], [2, 3], [3, 4]] width=4"
+    ],
+    "evidence_against": [],
+    "minimal_counterexample": {
+      "n": 5,
+      "delta": 3,
+      "width": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "chords": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "tree_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "charges": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "formula_hash": "004e61d5c61d06170d0f6d9d1efa560b801c301f96f0c268554891af5ed26def"
+    },
+    "relation_to_known_results": "Consistent with C2 3-regular (higher gamma). Separates sparse biclique/bicyclic regime from multicyclic.",
+    "theoretical_barriers": [
+      "restricted_vs_general_lower_bounds"
+    ],
+    "status": "experimental",
+    "evidence_level": "E2_REPRODUCIBLE_COMPUTATIONAL",
+    "proof_attempts": [],
+    "refutation_attempts": [],
+    "dependencies": [],
+    "created_at": "2026-07-14T05:10:05.400055+00:00",
+    "author": "anonymous",
+    "code_commit": "unknown",
+    "barrier_report": "Observation with certificates. Not P vs NP. claim_gate: N/A."
+  },
+  {
+    "identifier": "C-TRICYCLIC-CAN-EQ-DELTA",
+    "formal_statement": "There exist connected tricyclic graphs G (|E|=|V|+2) with Delta(G)<=3 and odd charge c such that Width(T(G,c))=Delta(G).",
+    "motivation": "Complements C-TRICYCLIC-CAN-EXCEED-DELTA: gamma=3 is mixed, not uniformly W>Delta. Dense n=5 unit were all W>Delta; C_n+2 chords admit W=Delta from n=6.",
+    "variables": ["G tricyclic", "Delta<=3", "c odd"],
+    "domain": "resolution proof complexity / Tseitin",
+    "evidence_for": [
+      "witness C6+{0-2,3-5} unit charge: Width=Delta=3 (datasets/examples/tricyclic_width_eq_delta.json)",
+      "family C_n+2 chords unit Delta<=3: n=6 eq=3/18, n=7 eq=14/49, n=8 eq=40/110",
+      "reports/discovery/tricyclic_eq_vs_gt_structure.json"
+    ],
+    "evidence_against": [],
+    "minimal_counterexample": null,
+    "relation_to_known_results": "Does not contradict C-TRICYCLIC-CAN-EXCEED-DELTA. Shows Width=Delta boundary is not exactly gamma<=2.",
+    "theoretical_barriers": ["restricted_vs_general_lower_bounds"],
+    "status": "experimental",
+    "evidence_level": "E2_REPRODUCIBLE_COMPUTATIONAL",
+    "proof_attempts": [],
+    "refutation_attempts": [],
+    "dependencies": [],
+    "created_at": "2026-07-14T06:00:00+00:00",
+    "author": "anonymous",
+    "code_commit": "unknown",
+    "barrier_report": "Computational existence. Not P vs NP. claim_gate: N/A."
+  },
+  {
+    "identifier": "C-CYCLE-TWO-CHORDS-CROSSING-LAW",
+    "formal_statement": "For G = C_n plus two chords with four distinct endpoints and Delta(G)<=3, and unit odd charge c: Width(T(G,c))=Delta(G) if and only if the two chords are non-crossing on the cycle; Width>Delta iff they cross.",
+    "motivation": "Exhaustive search over C_n+2 chords (n=5..10, Delta<=3, unit charge) found a perfect classifier: chord crossing geometry.",
+    "variables": ["n", "two chords", "unit charge"],
+    "domain": "resolution proof complexity / Tseitin",
+    "evidence_for": [
+      "783/783 agreement n=5..10 (reports/discovery/chord_law_Cn_plus_2.json)",
+      "1421/1421 agreement n=5..11 unit charge (chord_law_Cn_plus_2.json re-run; n=11 eq=308 gt=330)",
+      "dossier TD-TSEITIN-WIDTH-CYCLE-TWO-CHORDS-001",
+      "crossing: 461 W>Delta, 0 W=Delta; non-crossing: 322 W=Delta, 0 W>Delta",
+      "path-fold residual K4: 462/462; projection inclusion: 792/792 n=4..11 (k4_projection_restriction.json)",
+      "multihop tip-by-tip projection: 461/461 n=5..10 (multihop_projection_mass.json)",
+      "multihop tip-kind sequences: 461/461, 2310/2310 shortcut_fold (multihop_tip_kinds_mass.json)",
+      "Lean CrossingTipSchedule.crossing_schedule_tip_exists + crossing_frontier_tip_exists",
+      "Lean OpenArcPath + crossing_open_frontier_exists; frontier mass 461/461 (multihop_frontier_invariant_mass.json)",
+      "Lean CrossingFoldSchedule.reaches_k4 (schedule count-level: any crossing residual -> K4 in total folds)",
+      "Lean K4ResidualCatalog.reaches_k4_skeleton + catalogWitness (G3 combinatorial K4 template)",
+      "Lean K4ResidualID ResidualK4Shape + VarRename; shape mass 461/461 (multihop_k4_residual_shape_mass.json)",
+      "Lean K4ResidualID allPackShapes (One..SixFold Vres length 6)",
+      "Lean OuterplanarEarPath.earLaw + thetaToEarPath (G6 tip dichotomy)",
+      "Lean OuterplanarCoreResidual.earExists + upper_step_of_legal_ear (Whitney hook)",
+      "Lean VarRenameTransport (renameClause empty/identity; all packs dst=template)",
+      "Lean MembershipTransport all_packs_topology_set_eq; signed K4 iso search 6/6",
+      "Lean OuterplanarPeel.peelAll + peelC4_upper_ready",
+      "Lean BicyclicUpperSketch.bicyclic_measure_induction (G8)",
+      "Lean XorObstruction both_stub_obstruction_bundle (G7 stub; 45/45 gap mass)",
+      "Index-order VarRename ≠ K4 iso; topology-aware bijections close packs 1–6",
+      "Lean projectionOfLinkedChain / eliminationOfLinkedChain (generic LinkedChain fold; G2)",
+      "Packs Multi/Triple/Four/Five/Six via projectionOfLinkedChain",
+      "FoldTipElimination ×4 + openArcElim bridge (OuterplanarFoldBridge)",
+      "Lean OuterplanarUpperSketch.upperFoldStep_exists + outerplanar_measure_induction (G6 measure induction)",
+      "XOR_OBSTRUCTION_FORMAL.md — both-stub local Gaussian gap (45/45 E2)",
+      "multihop chains export: hop_sizes + nest_monotone 461/461 (multihop_chains_full.json)",
+      "Lean composeProjection_trans + composeProjection6 (ResolutionClosure.lean)",
+      "FAMILY_PROJECTION_E5.md — inductive E5 outline",
+      "Lean packs: OneFold / MultiFold / LongArc / TripleFold / FourFold / FiveFold / SixFold ProjectionInclusion via LinkedChain",
+      "noncrossing pathfold certificates: 147/147",
+      "E5_GAPS_CHECKLIST.md — explicit G1..G8 remaining gaps",
+      "crossing_law_all_odd.json — 256784/256784 all-odd n=5..13, law_holds=true (GPU streamed)",
+      "Lean CrossingChordsToArcs — G1 endpoints→CrossingArcs discharge",
+      "Lean CycleChordEar — G6 unicyclic Whitney ear constructive",
+      "Lean NoncrossingTwoChordsEar — G6 nested/disjoint two-chord ear",
+      "Lean XorObstruction — GF(2) 2-/3-span C₆ obstruction",
+      "Lean ResidualClosureAll — 461/461 residual topology set-eq (G5)",
+      "papers/CROSSING_LAW_ANSWER.md — consolidated validated answer",
+      "pytest test_chord_crossing_law + test_crossing_law_certificates pass",
+      "crossing_residual_catalog_mass.json — 461/461 residual signed iso to k4Axioms (0 flips)",
+      "Lean MathlibBridge — tree leaf + pathGraph/cycleGraph (Mathlib v4.32.0)"
+    ],
+    "evidence_against": [],
+    "minimal_counterexample": null,
+    "relation_to_known_results": "Refines C-TRICYCLIC-CAN-EXCEED-DELTA and C-TRICYCLIC-CAN-EQ-DELTA for the cycle+2chords subfamily.",
+    "theoretical_barriers": ["restricted_vs_general_lower_bounds"],
+    "status": "parcialmente_demostrada",
+    "evidence_level": "E4_MANUAL_PARTIAL_PROOF",
+    "proof_attempts": [
+      "papers/CROSSING_LAW_ANSWER.md",
+      "papers/FAMILY_PROJECTION_E5.md",
+      "papers/E5_GAPS_CHECKLIST.md"
+    ],
+    "refutation_attempts": [],
+    "dependencies": [],
+    "created_at": "2026-07-14T06:30:00+00:00",
+    "author": "anonymous",
+    "code_commit": "unknown",
+    "barrier_report": "E2 combinatorial law in a restricted family. Not P vs NP."
+  },
+  {
+    "identifier": "C-OUTERPLANAR-WIDTH-EQ-DELTA",
+    "formal_statement": "For connected outerplanar G with Delta(G)<=3 and odd charge c, Width(T(G,c))=Delta(G).",
+    "motivation": "Crossing C_n+2 chords are exactly the non-outerplanar members of that family and are the W>Delta cases; suggests outerplanarity (not just gamma) as the boundary.",
+    "variables": ["outerplanar G", "Delta<=3", "odd charge"],
+    "domain": "resolution proof complexity / Tseitin",
+    "evidence_for": [
+      "C-CYCLE-TWO-CHORDS-CROSSING-LAW (crossing <=> not outerplanar <=> W>Delta on that family)",
+      "reports/discovery/outerplanar_width_eq_delta.json — γ≤2 tree+k≤2: 19948 op|eq, 0 op|gt",
+      "reports/discovery/outerplanar_width_eq_delta_gamma3.json — C_n+3..4 noncrossing ears n=9..12: 78 checked, all W=Delta",
+      "reports/discovery/outerplanar_width_eq_delta_broad.json — ears/nested/triangle chains: 196 checked, 0 W>Delta",
+      "reports/discovery/outerplanar_pathfold_certificates.json — constructive pathfold 130/130",
+      "reports/discovery/outerplanar_full_closure_mass.json — noncrossing Closure_Δ∋□ 322/322 n≤10",
+      "reports/discovery/outerplanar_full_closure_mass_n11.json — selective n=11 span-2 ears 33/33",
+      "reports/discovery/outerplanar_ear_existence_mass_n14.json — ear existence 701/701",
+      "TERMINATION.md ear-decomposition argument for fold tip existence",
+      "lean/PNPLab/Outerplanar.lean EarExistenceClaim scaffold + Whitney tip lemmas (not yet graph-theoretic E5)"
+    ],
+    "evidence_against": [],
+    "minimal_counterexample": null,
+    "relation_to_known_results": "Classical tw≤2 for outerplanar already implies small proofs; exact Width=Delta + constructive pathfold is the local claim.",
+    "theoretical_barriers": ["restricted_vs_general_lower_bounds"],
+    "status": "experimental",
+    "evidence_level": "E2_REPRODUCIBLE_COMPUTATIONAL",
+    "proof_attempts": [],
+    "refutation_attempts": [],
+    "dependencies": ["C-CYCLE-TWO-CHORDS-CROSSING-LAW"],
+    "created_at": "2026-07-14T20:00:00+00:00",
+    "author": "anonymous",
+    "code_commit": "unknown",
+    "barrier_report": "E2 conjecture. Not P vs NP."
+  }
+]

@@ -1,0 +1,13 @@
+# Research campaign budget template (Stage A done)
+
+hypothesis: "Width(Tseitin)=Δ on trees/cycles; Width>Δ appears on 3-regular"
+variables: [n, Delta, family, seed]
+metric: exact_min_resolution_width
+stop_when: counterexample_to_survivor_or_budget
+cpu_budget_sec: 600
+max_instances_stage_A: 100
+adaptive_rule: "prefer 3-regular / bottleneck graphs that maximize Width-Delta"
+refutes_if: "tree with Width!=Delta OR cycle with Width!=2"
+expand_if: "holds on holdout trees n<=12 Delta<=3"
+status: stage_A_complete
+next_stage: "B adversarial search for tree counterexample + finish substitution lemma"

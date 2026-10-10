@@ -1,0 +1,58 @@
+{
+  "backend": "opencl_nvidia",
+  "device": "NVIDIA GeForce RTX 3050 6GB Laptop GPU",
+  "checked": 600,
+  "by_family": {
+    "bicyclic": {
+      "eq": 400,
+      "gt": 0,
+      "inconclusive": 0
+    },
+    "tricyclic": {
+      "eq": 0,
+      "gt": 200,
+      "inconclusive": 0
+    }
+  },
+  "first_gt": {
+    "family": "tricyclic",
+    "n": 5,
+    "delta": 3,
+    "gamma": 3,
+    "edges": [
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "label": "gt"
+  },
+  "elapsed_ms": 2803,
+  "cpu_refine": false,
+  "method": "gpu_bfs_sat_delta_and_delta_plus_1",
+  "max_c": 1536
+}

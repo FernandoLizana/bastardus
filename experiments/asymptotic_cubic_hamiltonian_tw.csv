@@ -1,0 +1,9 @@
+n,|V|,|E|,|V(L)|,tw_G,tw_L,method_L,max_degree
+6,6,9,9,3,5,exact_width_search,3
+8,8,12,12,4,5,exact_width_search,3
+10,10,15,15,4,5,networkx_upper_bound,3
+12,12,18,18,4,5,networkx_upper_bound,3
+14,14,21,21,4,5,networkx_upper_bound,3
+16,16,24,24,4,5,networkx_upper_bound,3
+18,18,27,27,4,5,networkx_upper_bound,3
+20,20,30,30,4,5,networkx_upper_bound,3

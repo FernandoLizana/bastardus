@@ -1,0 +1,25 @@
+{
+  "config": {
+    "ou": [
+      1
+    ],
+    "ow": [
+      6
+    ],
+    "delta": 3
+  },
+  "gaussian_attempt": {
+    "ok": true,
+    "splits_without_global_sat": false,
+    "resid_u": false,
+    "resid_w": false,
+    "log": [
+      "mid_xor_sum_ok",
+      "resid_u_local_fail local XOR fill failed: missing 2 for vars=[4, 1] \u03c7=0",
+      "resid_w_local_fail local XOR fill failed: missing 2 for vars=[4, 6] \u03c7=0"
+    ],
+    "mode": "local_incomplete",
+    "note": "Local-only fill after tip XOR-sum; fails when joint cancel needs bridge vars (matches XOR_EAR obstruction)."
+  },
+  "gap_remains": true
+}

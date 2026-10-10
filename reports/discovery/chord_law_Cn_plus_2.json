@@ -1,0 +1,1495 @@
+{
+  "family": "C_n + 2 chords, unit charge, Delta<=3",
+  "checked": 1421,
+  "by_n": {
+    "5": {
+      "eq": 0,
+      "gt": 5,
+      "inconclusive": 0
+    },
+    "6": {
+      "eq": 3,
+      "gt": 15,
+      "inconclusive": 0
+    },
+    "7": {
+      "eq": 14,
+      "gt": 35,
+      "inconclusive": 0
+    },
+    "8": {
+      "eq": 40,
+      "gt": 70,
+      "inconclusive": 0
+    },
+    "9": {
+      "eq": 90,
+      "gt": 126,
+      "inconclusive": 0
+    },
+    "10": {
+      "eq": 175,
+      "gt": 210,
+      "inconclusive": 0
+    },
+    "11": {
+      "eq": 308,
+      "gt": 330,
+      "inconclusive": 0
+    }
+  },
+  "best_exact_predicates": [
+    {
+      "name": "relation==disjoint",
+      "tp": 630,
+      "fp": 0,
+      "tn": 791,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "exact": true,
+      "safe_eq_rule": true,
+      "safe_gt_rule": true
+    },
+    {
+      "name": "disjoint & gaps has two >=2",
+      "tp": 630,
+      "fp": 0,
+      "tn": 791,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "exact": true,
+      "safe_eq_rule": true,
+      "safe_gt_rule": true
+    },
+    {
+      "name": "crossing \u21d2 gt? not-crossing",
+      "tp": 630,
+      "fp": 0,
+      "tn": 791,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "exact": true,
+      "safe_eq_rule": true,
+      "safe_gt_rule": true
+    }
+  ],
+  "best_safe_eq_predicates": [
+    {
+      "name": "relation==disjoint",
+      "tp": 630,
+      "fp": 0,
+      "tn": 791,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "exact": true,
+      "safe_eq_rule": true,
+      "safe_gt_rule": true
+    },
+    {
+      "name": "disjoint & gaps has two >=2",
+      "tp": 630,
+      "fp": 0,
+      "tn": 791,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "exact": true,
+      "safe_eq_rule": true,
+      "safe_gt_rule": true
+    },
+    {
+      "name": "crossing \u21d2 gt? not-crossing",
+      "tp": 630,
+      "fp": 0,
+      "tn": 791,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "exact": true,
+      "safe_eq_rule": true,
+      "safe_gt_rule": true
+    },
+    {
+      "name": "disjoint & sep>=2",
+      "tp": 182,
+      "fp": 0,
+      "tn": 791,
+      "fn": 448,
+      "precision": 1.0,
+      "recall": 0.28888888888888886,
+      "exact": false,
+      "safe_eq_rule": true,
+      "safe_gt_rule": false
+    },
+    {
+      "name": "sep>=2 & max_lens<=4 & sum_lens<=7",
+      "tp": 171,
+      "fp": 0,
+      "tn": 791,
+      "fn": 459,
+      "precision": 1.0,
+      "recall": 0.2714285714285714,
+      "exact": false,
+      "safe_eq_rule": true,
+      "safe_gt_rule": false
+    },
+    {
+      "name": "sep>=2 & max_lens<=4 & sum_lens<=6",
+      "tp": 160,
+      "fp": 0,
+      "tn": 791,
+      "fn": 470,
+      "precision": 1.0,
+      "recall": 0.25396825396825395,
+      "exact": false,
+      "safe_eq_rule": true,
+      "safe_gt_rule": false
+    },
+    {
+      "name": "sep>=2 & max_lens<=3",
+      "tp": 128,
+      "fp": 0,
+      "tn": 791,
+      "fn": 502,
+      "precision": 1.0,
+      "recall": 0.20317460317460317,
+      "exact": false,
+      "safe_eq_rule": true,
+      "safe_gt_rule": false
+    },
+    {
+      "name": "sep>=2 & max_lens<=3 & sum_lens<=6",
+      "tp": 128,
+      "fp": 0,
+      "tn": 791,
+      "fn": 502,
+      "precision": 1.0,
+      "recall": 0.20317460317460317,
+      "exact": false,
+      "safe_eq_rule": true,
+      "safe_gt_rule": false
+    },
+    {
+      "name": "sep>=2 & max_lens<=3 & sum_lens<=7",
+      "tp": 128,
+      "fp": 0,
+      "tn": 791,
+      "fn": 502,
+      "precision": 1.0,
+      "recall": 0.20317460317460317,
+      "exact": false,
+      "safe_eq_rule": true,
+      "safe_gt_rule": false
+    },
+    {
+      "name": "sep>=2 & max_lens<=3 & sum_lens<=5",
+      "tp": 112,
+      "fp": 0,
+      "tn": 791,
+      "fn": 518,
+      "precision": 1.0,
+      "recall": 0.17777777777777778,
+      "exact": false,
+      "safe_eq_rule": true,
+      "safe_gt_rule": false
+    },
+    {
+      "name": "sep>=2 & max_lens<=4 & sum_lens<=5",
+      "tp": 112,
+      "fp": 0,
+      "tn": 791,
+      "fn": 518,
+      "precision": 1.0,
+      "recall": 0.17777777777777778,
+      "exact": false,
+      "safe_eq_rule": true,
+      "safe_gt_rule": false
+    },
+    {
+      "name": "disjoint & sep>=2 & max_lens<=2",
+      "tp": 50,
+      "fp": 0,
+      "tn": 791,
+      "fn": 580,
+      "precision": 1.0,
+      "recall": 0.07936507936507936,
+      "exact": false,
+      "safe_eq_rule": true,
+      "safe_gt_rule": false
+    },
+    {
+      "name": "sep>=2 & max_lens<=2 & sum_lens<=4",
+      "tp": 50,
+      "fp": 0,
+      "tn": 791,
+      "fn": 580,
+      "precision": 1.0,
+      "recall": 0.07936507936507936,
+      "exact": false,
+      "safe_eq_rule": true,
+      "safe_gt_rule": false
+    },
+    {
+      "name": "sep>=2 & max_lens<=2 & sum_lens<=5",
+      "tp": 50,
+      "fp": 0,
+      "tn": 791,
+      "fn": 580,
+      "precision": 1.0,
+      "recall": 0.07936507936507936,
+      "exact": false,
+      "safe_eq_rule": true,
+      "safe_gt_rule": false
+    },
+    {
+      "name": "sep>=2 & max_lens<=2 & sum_lens<=6",
+      "tp": 50,
+      "fp": 0,
+      "tn": 791,
+      "fn": 580,
+      "precision": 1.0,
+      "recall": 0.07936507936507936,
+      "exact": false,
+      "safe_eq_rule": true,
+      "safe_gt_rule": false
+    }
+  ],
+  "top_predicates": [
+    {
+      "name": "relation==disjoint",
+      "tp": 630,
+      "fp": 0,
+      "tn": 791,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "exact": true,
+      "safe_eq_rule": true,
+      "safe_gt_rule": true
+    },
+    {
+      "name": "disjoint & gaps has two >=2",
+      "tp": 630,
+      "fp": 0,
+      "tn": 791,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "exact": true,
+      "safe_eq_rule": true,
+      "safe_gt_rule": true
+    },
+    {
+      "name": "crossing \u21d2 gt? not-crossing",
+      "tp": 630,
+      "fp": 0,
+      "tn": 791,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "exact": true,
+      "safe_eq_rule": true,
+      "safe_gt_rule": true
+    },
+    {
+      "name": "disjoint & sep>=2",
+      "tp": 182,
+      "fp": 0,
+      "tn": 791,
+      "fn": 448,
+      "precision": 1.0,
+      "recall": 0.28888888888888886,
+      "exact": false,
+      "safe_eq_rule": true,
+      "safe_gt_rule": false
+    },
+    {
+      "name": "sep>=2 & max_lens<=4 & sum_lens<=7",
+      "tp": 171,
+      "fp": 0,
+      "tn": 791,
+      "fn": 459,
+      "precision": 1.0,
+      "recall": 0.2714285714285714,
+      "exact": false,
+      "safe_eq_rule": true,
+      "safe_gt_rule": false
+    },
+    {
+      "name": "sep>=2 & max_lens<=4 & sum_lens<=6",
+      "tp": 160,
+      "fp": 0,
+      "tn": 791,
+      "fn": 470,
+      "precision": 1.0,
+      "recall": 0.25396825396825395,
+      "exact": false,
+      "safe_eq_rule": true,
+      "safe_gt_rule": false
+    },
+    {
+      "name": "sep>=2 & max_lens<=3",
+      "tp": 128,
+      "fp": 0,
+      "tn": 791,
+      "fn": 502,
+      "precision": 1.0,
+      "recall": 0.20317460317460317,
+      "exact": false,
+      "safe_eq_rule": true,
+      "safe_gt_rule": false
+    },
+    {
+      "name": "sep>=2 & max_lens<=3 & sum_lens<=6",
+      "tp": 128,
+      "fp": 0,
+      "tn": 791,
+      "fn": 502,
+      "precision": 1.0,
+      "recall": 0.20317460317460317,
+      "exact": false,
+      "safe_eq_rule": true,
+      "safe_gt_rule": false
+    },
+    {
+      "name": "sep>=2 & max_lens<=3 & sum_lens<=7",
+      "tp": 128,
+      "fp": 0,
+      "tn": 791,
+      "fn": 502,
+      "precision": 1.0,
+      "recall": 0.20317460317460317,
+      "exact": false,
+      "safe_eq_rule": true,
+      "safe_gt_rule": false
+    },
+    {
+      "name": "sep>=2 & max_lens<=3 & sum_lens<=5",
+      "tp": 112,
+      "fp": 0,
+      "tn": 791,
+      "fn": 518,
+      "precision": 1.0,
+      "recall": 0.17777777777777778,
+      "exact": false,
+      "safe_eq_rule": true,
+      "safe_gt_rule": false
+    },
+    {
+      "name": "sep>=2 & max_lens<=4 & sum_lens<=5",
+      "tp": 112,
+      "fp": 0,
+      "tn": 791,
+      "fn": 518,
+      "precision": 1.0,
+      "recall": 0.17777777777777778,
+      "exact": false,
+      "safe_eq_rule": true,
+      "safe_gt_rule": false
+    },
+    {
+      "name": "disjoint & sep>=2 & max_lens<=2",
+      "tp": 50,
+      "fp": 0,
+      "tn": 791,
+      "fn": 580,
+      "precision": 1.0,
+      "recall": 0.07936507936507936,
+      "exact": false,
+      "safe_eq_rule": true,
+      "safe_gt_rule": false
+    },
+    {
+      "name": "sep>=2 & max_lens<=2 & sum_lens<=4",
+      "tp": 50,
+      "fp": 0,
+      "tn": 791,
+      "fn": 580,
+      "precision": 1.0,
+      "recall": 0.07936507936507936,
+      "exact": false,
+      "safe_eq_rule": true,
+      "safe_gt_rule": false
+    },
+    {
+      "name": "sep>=2 & max_lens<=2 & sum_lens<=5",
+      "tp": 50,
+      "fp": 0,
+      "tn": 791,
+      "fn": 580,
+      "precision": 1.0,
+      "recall": 0.07936507936507936,
+      "exact": false,
+      "safe_eq_rule": true,
+      "safe_gt_rule": false
+    },
+    {
+      "name": "sep>=2 & max_lens<=2 & sum_lens<=6",
+      "tp": 50,
+      "fp": 0,
+      "tn": 791,
+      "fn": 580,
+      "precision": 1.0,
+      "recall": 0.07936507936507936,
+      "exact": false,
+      "safe_eq_rule": true,
+      "safe_gt_rule": false
+    },
+    {
+      "name": "sep>=2 & max_lens<=2 & sum_lens<=7",
+      "tp": 50,
+      "fp": 0,
+      "tn": 791,
+      "fn": 580,
+      "precision": 1.0,
+      "recall": 0.07936507936507936,
+      "exact": false,
+      "safe_eq_rule": true,
+      "safe_gt_rule": false
+    },
+    {
+      "name": "sep>=2 & max_lens<=3 & sum_lens<=4",
+      "tp": 50,
+      "fp": 0,
+      "tn": 791,
+      "fn": 580,
+      "precision": 1.0,
+      "recall": 0.07936507936507936,
+      "exact": false,
+      "safe_eq_rule": true,
+      "safe_gt_rule": false
+    },
+    {
+      "name": "sep>=2 & max_lens<=4 & sum_lens<=4",
+      "tp": 50,
+      "fp": 0,
+      "tn": 791,
+      "fn": 580,
+      "precision": 1.0,
+      "recall": 0.07936507936507936,
+      "exact": false,
+      "safe_eq_rule": true,
+      "safe_gt_rule": false
+    },
+    {
+      "name": "sep>=1 & max_lens<=4 & sum_lens<=7",
+      "tp": 485,
+      "fp": 449,
+      "tn": 342,
+      "fn": 145,
+      "precision": 0.5192719486081371,
+      "recall": 0.7698412698412699,
+      "exact": false,
+      "safe_eq_rule": false,
+      "safe_gt_rule": false
+    },
+    {
+      "name": "sep==1",
+      "tp": 448,
+      "fp": 700,
+      "tn": 91,
+      "fn": 182,
+      "precision": 0.3902439024390244,
+      "recall": 0.7111111111111111,
+      "exact": false,
+      "safe_eq_rule": false,
+      "safe_gt_rule": false
+    },
+    {
+      "name": "sep>=1 & max_lens<=4 & sum_lens<=6",
+      "tp": 423,
+      "fp": 313,
+      "tn": 478,
+      "fn": 207,
+      "precision": 0.5747282608695652,
+      "recall": 0.6714285714285714,
+      "exact": false,
+      "safe_eq_rule": false,
+      "safe_gt_rule": false
+    },
+    {
+      "name": "sep>=1 & max_lens<=3 & sum_lens<=6",
+      "tp": 293,
+      "fp": 245,
+      "tn": 546,
+      "fn": 337,
+      "precision": 0.5446096654275093,
+      "recall": 0.4650793650793651,
+      "exact": false,
+      "safe_eq_rule": false,
+      "safe_gt_rule": false
+    },
+    {
+      "name": "sep>=1 & max_lens<=3 & sum_lens<=7",
+      "tp": 293,
+      "fp": 245,
+      "tn": 546,
+      "fn": 337,
+      "precision": 0.5446096654275093,
+      "recall": 0.4650793650793651,
+      "exact": false,
+      "safe_eq_rule": false,
+      "safe_gt_rule": false
+    },
+    {
+      "name": "sum_lens<=5",
+      "tp": 243,
+      "fp": 152,
+      "tn": 639,
+      "fn": 387,
+      "precision": 0.6151898734177215,
+      "recall": 0.38571428571428573,
+      "exact": false,
+      "safe_eq_rule": false,
+      "safe_gt_rule": false
+    },
+    {
+      "name": "sep>=1 & max_lens<=3 & sum_lens<=5",
+      "tp": 243,
+      "fp": 152,
+      "tn": 639,
+      "fn": 387,
+      "precision": 0.6151898734177215,
+      "recall": 0.38571428571428573,
+      "exact": false,
+      "safe_eq_rule": false,
+      "safe_gt_rule": false
+    }
+  ],
+  "feature_tables": {
+    "relation": {
+      "crossing": {
+        "eq": 0,
+        "gt": 791
+      },
+      "disjoint": {
+        "eq": 630,
+        "gt": 0
+      }
+    },
+    "sep": {
+      "1": {
+        "eq": 448,
+        "gt": 700
+      },
+      "2": {
+        "eq": 182,
+        "gt": 91
+      }
+    },
+    "lens": {
+      "[2, 2]": {
+        "eq": 98,
+        "gt": 56
+      },
+      "[2, 3]": {
+        "eq": 145,
+        "gt": 96
+      },
+      "[3, 3]": {
+        "eq": 50,
+        "gt": 93
+      },
+      "[2, 4]": {
+        "eq": 130,
+        "gt": 68
+      },
+      "[3, 4]": {
+        "eq": 62,
+        "gt": 136
+      },
+      "[4, 4]": {
+        "eq": 16,
+        "gt": 96
+      },
+      "[2, 5]": {
+        "eq": 75,
+        "gt": 32
+      },
+      "[3, 5]": {
+        "eq": 43,
+        "gt": 64
+      },
+      "[4, 5]": {
+        "eq": 11,
+        "gt": 96
+      },
+      "[5, 5]": {
+        "eq": 0,
+        "gt": 54
+      }
+    },
+    "rel_sep": {
+      "crossing|sep=1": {
+        "eq": 0,
+        "gt": 700
+      },
+      "disjoint|sep=1": {
+        "eq": 448,
+        "gt": 0
+      },
+      "disjoint|sep=2": {
+        "eq": 182,
+        "gt": 0
+      },
+      "crossing|sep=2": {
+        "eq": 0,
+        "gt": 91
+      }
+    },
+    "gaps": {
+      "[1, 1, 1, 2]": {
+        "eq": 0,
+        "gt": 5
+      },
+      "[1, 1, 1, 3]": {
+        "eq": 0,
+        "gt": 6
+      },
+      "[1, 1, 2, 2]": {
+        "eq": 3,
+        "gt": 9
+      },
+      "[1, 1, 1, 4]": {
+        "eq": 0,
+        "gt": 7
+      },
+      "[1, 1, 2, 3]": {
+        "eq": 7,
+        "gt": 21
+      },
+      "[1, 2, 2, 2]": {
+        "eq": 7,
+        "gt": 7
+      },
+      "[1, 1, 1, 5]": {
+        "eq": 0,
+        "gt": 8
+      },
+      "[1, 1, 2, 4]": {
+        "eq": 8,
+        "gt": 24
+      },
+      "[1, 1, 3, 3]": {
+        "eq": 4,
+        "gt": 12
+      },
+      "[1, 2, 2, 3]": {
+        "eq": 24,
+        "gt": 24
+      },
+      "[2, 2, 2, 2]": {
+        "eq": 4,
+        "gt": 2
+      },
+      "[1, 1, 1, 6]": {
+        "eq": 0,
+        "gt": 9
+      },
+      "[1, 1, 2, 5]": {
+        "eq": 9,
+        "gt": 27
+      },
+      "[1, 1, 3, 4]": {
+        "eq": 9,
+        "gt": 27
+      },
+      "[1, 2, 2, 4]": {
+        "eq": 27,
+        "gt": 27
+      },
+      "[1, 2, 3, 3]": {
+        "eq": 27,
+        "gt": 27
+      },
+      "[2, 2, 2, 3]": {
+        "eq": 18,
+        "gt": 9
+      },
+      "[1, 1, 1, 7]": {
+        "eq": 0,
+        "gt": 10
+      },
+      "[1, 1, 2, 6]": {
+        "eq": 10,
+        "gt": 30
+      },
+      "[1, 1, 3, 5]": {
+        "eq": 10,
+        "gt": 30
+      },
+      "[1, 1, 4, 4]": {
+        "eq": 5,
+        "gt": 15
+      },
+      "[1, 2, 2, 5]": {
+        "eq": 30,
+        "gt": 30
+      },
+      "[1, 2, 3, 4]": {
+        "eq": 60,
+        "gt": 60
+      },
+      "[2, 2, 2, 4]": {
+        "eq": 20,
+        "gt": 10
+      },
+      "[2, 2, 3, 3]": {
+        "eq": 30,
+        "gt": 15
+      },
+      "[1, 3, 3, 3]": {
+        "eq": 10,
+        "gt": 10
+      },
+      "[1, 1, 1, 8]": {
+        "eq": 0,
+        "gt": 11
+      },
+      "[1, 1, 2, 7]": {
+        "eq": 11,
+        "gt": 33
+      },
+      "[1, 1, 3, 6]": {
+        "eq": 11,
+        "gt": 33
+      },
+      "[1, 1, 4, 5]": {
+        "eq": 11,
+        "gt": 33
+      },
+      "[1, 2, 2, 6]": {
+        "eq": 33,
+        "gt": 33
+      },
+      "[1, 2, 3, 5]": {
+        "eq": 66,
+        "gt": 66
+      },
+      "[1, 2, 4, 4]": {
+        "eq": 33,
+        "gt": 33
+      },
+      "[2, 2, 2, 5]": {
+        "eq": 22,
+        "gt": 11
+      },
+      "[2, 2, 3, 4]": {
+        "eq": 66,
+        "gt": 33
+      },
+      "[2, 3, 3, 3]": {
+        "eq": 22,
+        "gt": 11
+      },
+      "[1, 3, 3, 4]": {
+        "eq": 33,
+        "gt": 33
+      }
+    }
+  },
+  "eq_examples": [
+    {
+      "n": 6,
+      "chords": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "delta": 3,
+      "lens": [
+        2,
+        2
+      ],
+      "gaps": [
+        1,
+        1,
+        2,
+        2
+      ],
+      "sep": 1,
+      "relation": "disjoint",
+      "sum_lens": 4,
+      "max_lens": 2,
+      "label": "eq"
+    },
+    {
+      "n": 6,
+      "chords": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "delta": 3,
+      "lens": [
+        2,
+        2
+      ],
+      "gaps": [
+        1,
+        1,
+        2,
+        2
+      ],
+      "sep": 1,
+      "relation": "disjoint",
+      "sum_lens": 4,
+      "max_lens": 2,
+      "label": "eq"
+    },
+    {
+      "n": 6,
+      "chords": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "delta": 3,
+      "lens": [
+        2,
+        2
+      ],
+      "gaps": [
+        1,
+        1,
+        2,
+        2
+      ],
+      "sep": 1,
+      "relation": "disjoint",
+      "sum_lens": 4,
+      "max_lens": 2,
+      "label": "eq"
+    },
+    {
+      "n": 7,
+      "chords": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "delta": 3,
+      "lens": [
+        2,
+        2
+      ],
+      "gaps": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "sep": 1,
+      "relation": "disjoint",
+      "sum_lens": 4,
+      "max_lens": 2,
+      "label": "eq"
+    },
+    {
+      "n": 7,
+      "chords": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "delta": 3,
+      "lens": [
+        2,
+        3
+      ],
+      "gaps": [
+        1,
+        1,
+        2,
+        3
+      ],
+      "sep": 1,
+      "relation": "disjoint",
+      "sum_lens": 5,
+      "max_lens": 3,
+      "label": "eq"
+    },
+    {
+      "n": 7,
+      "chords": [
+        [
+          0,
+          2
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "delta": 3,
+      "lens": [
+        2,
+        2
+      ],
+      "gaps": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "sep": 1,
+      "relation": "disjoint",
+      "sum_lens": 4,
+      "max_lens": 2,
+      "label": "eq"
+    },
+    {
+      "n": 7,
+      "chords": [
+        [
+          0,
+          3
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "delta": 3,
+      "lens": [
+        2,
+        3
+      ],
+      "gaps": [
+        1,
+        1,
+        2,
+        3
+      ],
+      "sep": 1,
+      "relation": "disjoint",
+      "sum_lens": 5,
+      "max_lens": 3,
+      "label": "eq"
+    },
+    {
+      "n": 7,
+      "chords": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "delta": 3,
+      "lens": [
+        2,
+        3
+      ],
+      "gaps": [
+        1,
+        1,
+        2,
+        3
+      ],
+      "sep": 1,
+      "relation": "disjoint",
+      "sum_lens": 5,
+      "max_lens": 3,
+      "label": "eq"
+    },
+    {
+      "n": 7,
+      "chords": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "delta": 3,
+      "lens": [
+        2,
+        2
+      ],
+      "gaps": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "sep": 1,
+      "relation": "disjoint",
+      "sum_lens": 4,
+      "max_lens": 2,
+      "label": "eq"
+    },
+    {
+      "n": 7,
+      "chords": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "delta": 3,
+      "lens": [
+        2,
+        3
+      ],
+      "gaps": [
+        1,
+        1,
+        2,
+        3
+      ],
+      "sep": 1,
+      "relation": "disjoint",
+      "sum_lens": 5,
+      "max_lens": 3,
+      "label": "eq"
+    },
+    {
+      "n": 7,
+      "chords": [
+        [
+          0,
+          5
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "delta": 3,
+      "lens": [
+        2,
+        2
+      ],
+      "gaps": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "sep": 1,
+      "relation": "disjoint",
+      "sum_lens": 4,
+      "max_lens": 2,
+      "label": "eq"
+    },
+    {
+      "n": 7,
+      "chords": [
+        [
+          1,
+          3
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "delta": 3,
+      "lens": [
+        2,
+        2
+      ],
+      "gaps": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "sep": 1,
+      "relation": "disjoint",
+      "sum_lens": 4,
+      "max_lens": 2,
+      "label": "eq"
+    }
+  ],
+  "gt_examples": [
+    {
+      "n": 5,
+      "chords": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "delta": 3,
+      "lens": [
+        2,
+        2
+      ],
+      "gaps": [
+        1,
+        1,
+        1,
+        2
+      ],
+      "sep": 1,
+      "relation": "crossing",
+      "sum_lens": 4,
+      "max_lens": 2,
+      "label": "gt"
+    },
+    {
+      "n": 5,
+      "chords": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "delta": 3,
+      "lens": [
+        2,
+        2
+      ],
+      "gaps": [
+        1,
+        1,
+        1,
+        2
+      ],
+      "sep": 1,
+      "relation": "crossing",
+      "sum_lens": 4,
+      "max_lens": 2,
+      "label": "gt"
+    },
+    {
+      "n": 5,
+      "chords": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "delta": 3,
+      "lens": [
+        2,
+        2
+      ],
+      "gaps": [
+        1,
+        1,
+        1,
+        2
+      ],
+      "sep": 1,
+      "relation": "crossing",
+      "sum_lens": 4,
+      "max_lens": 2,
+      "label": "gt"
+    },
+    {
+      "n": 5,
+      "chords": [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "delta": 3,
+      "lens": [
+        2,
+        2
+      ],
+      "gaps": [
+        1,
+        1,
+        1,
+        2
+      ],
+      "sep": 1,
+      "relation": "crossing",
+      "sum_lens": 4,
+      "max_lens": 2,
+      "label": "gt"
+    },
+    {
+      "n": 5,
+      "chords": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "delta": 3,
+      "lens": [
+        2,
+        2
+      ],
+      "gaps": [
+        1,
+        1,
+        1,
+        2
+      ],
+      "sep": 1,
+      "relation": "crossing",
+      "sum_lens": 4,
+      "max_lens": 2,
+      "label": "gt"
+    },
+    {
+      "n": 6,
+      "chords": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "delta": 3,
+      "lens": [
+        2,
+        2
+      ],
+      "gaps": [
+        1,
+        1,
+        1,
+        3
+      ],
+      "sep": 1,
+      "relation": "crossing",
+      "sum_lens": 4,
+      "max_lens": 2,
+      "label": "gt"
+    },
+    {
+      "n": 6,
+      "chords": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "delta": 3,
+      "lens": [
+        2,
+        3
+      ],
+      "gaps": [
+        1,
+        1,
+        2,
+        2
+      ],
+      "sep": 1,
+      "relation": "crossing",
+      "sum_lens": 5,
+      "max_lens": 3,
+      "label": "gt"
+    },
+    {
+      "n": 6,
+      "chords": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "delta": 3,
+      "lens": [
+        2,
+        2
+      ],
+      "gaps": [
+        1,
+        1,
+        1,
+        3
+      ],
+      "sep": 1,
+      "relation": "crossing",
+      "sum_lens": 4,
+      "max_lens": 2,
+      "label": "gt"
+    },
+    {
+      "n": 6,
+      "chords": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "delta": 3,
+      "lens": [
+        3,
+        3
+      ],
+      "gaps": [
+        1,
+        1,
+        2,
+        2
+      ],
+      "sep": 1,
+      "relation": "crossing",
+      "sum_lens": 6,
+      "max_lens": 3,
+      "label": "gt"
+    },
+    {
+      "n": 6,
+      "chords": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "delta": 3,
+      "lens": [
+        2,
+        3
+      ],
+      "gaps": [
+        1,
+        1,
+        2,
+        2
+      ],
+      "sep": 1,
+      "relation": "crossing",
+      "sum_lens": 5,
+      "max_lens": 3,
+      "label": "gt"
+    },
+    {
+      "n": 6,
+      "chords": [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "delta": 3,
+      "lens": [
+        2,
+        3
+      ],
+      "gaps": [
+        1,
+        1,
+        2,
+        2
+      ],
+      "sep": 1,
+      "relation": "crossing",
+      "sum_lens": 5,
+      "max_lens": 3,
+      "label": "gt"
+    },
+    {
+      "n": 6,
+      "chords": [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "delta": 3,
+      "lens": [
+        3,
+        3
+      ],
+      "gaps": [
+        1,
+        1,
+        2,
+        2
+      ],
+      "sep": 1,
+      "relation": "crossing",
+      "sum_lens": 6,
+      "max_lens": 3,
+      "label": "gt"
+    }
+  ]
+}

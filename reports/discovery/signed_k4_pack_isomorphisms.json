@@ -1,0 +1,397 @@
+{
+  "total": 10,
+  "found": 10,
+  "results": {
+    "ofold": {
+      "clauses": 16,
+      "vars": 6,
+      "found": true,
+      "witness": {
+        "src": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "dst_signed": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "permutation": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "flips": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      }
+    },
+    "mf": {
+      "clauses": 16,
+      "vars": 6,
+      "found": true,
+      "witness": {
+        "src": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          8
+        ],
+        "dst_signed": [
+          1,
+          2,
+          3,
+          5,
+          6,
+          4
+        ],
+        "permutation": [
+          1,
+          2,
+          3,
+          5,
+          6,
+          4
+        ],
+        "flips": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      }
+    },
+    "tf": {
+      "clauses": 16,
+      "vars": 6,
+      "found": true,
+      "witness": {
+        "src": [
+          1,
+          2,
+          5,
+          6,
+          8,
+          9
+        ],
+        "dst_signed": [
+          1,
+          2,
+          5,
+          4,
+          6,
+          3
+        ],
+        "permutation": [
+          1,
+          2,
+          5,
+          4,
+          6,
+          3
+        ],
+        "flips": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      }
+    },
+    "ff": {
+      "clauses": 16,
+      "vars": 6,
+      "found": true,
+      "witness": {
+        "src": [
+          1,
+          2,
+          5,
+          6,
+          8,
+          10
+        ],
+        "dst_signed": [
+          1,
+          2,
+          5,
+          4,
+          6,
+          3
+        ],
+        "permutation": [
+          1,
+          2,
+          5,
+          4,
+          6,
+          3
+        ],
+        "flips": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      }
+    },
+    "xf": {
+      "clauses": 16,
+      "vars": 6,
+      "found": true,
+      "witness": {
+        "src": [
+          1,
+          2,
+          5,
+          6,
+          9,
+          11
+        ],
+        "dst_signed": [
+          1,
+          2,
+          5,
+          4,
+          6,
+          3
+        ],
+        "permutation": [
+          1,
+          2,
+          5,
+          4,
+          6,
+          3
+        ],
+        "flips": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      }
+    },
+    "sf": {
+      "clauses": 16,
+      "vars": 6,
+      "found": true,
+      "witness": {
+        "src": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          8
+        ],
+        "dst_signed": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          3
+        ],
+        "permutation": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          3
+        ],
+        "flips": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      }
+    },
+    "vf": {
+      "clauses": 16,
+      "vars": 6,
+      "found": true,
+      "witness": {
+        "src": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          8
+        ],
+        "dst_signed": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          3
+        ],
+        "permutation": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          3
+        ],
+        "flips": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      }
+    },
+    "ef": {
+      "clauses": 16,
+      "vars": 6,
+      "found": true,
+      "witness": {
+        "src": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          8
+        ],
+        "dst_signed": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          3
+        ],
+        "permutation": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          3
+        ],
+        "flips": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      }
+    },
+    "nf": {
+      "clauses": 16,
+      "vars": 6,
+      "found": true,
+      "witness": {
+        "src": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          8
+        ],
+        "dst_signed": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          3
+        ],
+        "permutation": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          3
+        ],
+        "flips": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      }
+    },
+    "zf": {
+      "clauses": 16,
+      "vars": 6,
+      "found": true,
+      "witness": {
+        "src": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          8
+        ],
+        "dst_signed": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          3
+        ],
+        "permutation": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          3
+        ],
+        "flips": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      }
+    }
+  },
+  "claim": "Each residual pack is isomorphic to k4Axioms under a signed variable bijection (permutation + optional complementation)."
+}

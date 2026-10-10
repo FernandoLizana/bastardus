@@ -1,0 +1,28 @@
+{
+  "conjecture_id": "C2_width_eq_max_degree_always",
+  "statement_refuted": "Width(T(G,c)) = Δ(G) for all connected G with odd charge",
+  "minimal_known": {
+    "family": "random_3_regular",
+    "n": 6,
+    "d": 3,
+    "seed": 0,
+    "width": 4,
+    "max_degree": 3,
+    "formula_hash": "cd137fa2592305e69f0f2837fdeb8c248159cb29da39be188736889dfdc90ea4",
+    "note": "Smallest n in Stage-A sample with W>Δ; seed=1 even has W=5"
+  },
+  "stronger_witness": {
+    "n": 6,
+    "d": 3,
+    "seed": 1,
+    "width": 5,
+    "max_degree": 3
+  },
+  "certificate_type": "width_saturation_lower_and_upper",
+  "evidence_level": "E2",
+  "promotion_rank": "R2_refutation",
+  "human_explanation": "Axiom width is only 3, but saturation shows no width-3 (or for seed1: width-4) refutation exists, while a larger-width refutation does. Thus Width > Δ already for some 3-regular graphs on 6 vertices.",
+  "date": "2026-07-14",
+  "commit": "uncommitted",
+  "independent_check": "Re-run backend.proof_complexity.width.min_resolution_width on regenerated instance"
+}

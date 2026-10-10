@@ -1,0 +1,9 @@
+n,p0,p1,p2,p3,pairing,gap_pattern,chord_spec,crosses,delta,tw_line_graph,tw_expected,match,tw_method,line_graph_order
+15,0,1,2,3,crossing,"(1, 1, 1, 12)","(0,2)+(1,3)",True,3,4,4,True,networkx_upper_bound,17
+15,0,1,2,3,nested,"(1, 1, 1, 12)","(0,3)+(1,2)",False,3,3,3,True,networkx_upper_bound,16
+15,0,2,4,5,crossing,"(2, 2, 1, 10)","(0,4)+(2,5)",True,3,4,4,True,networkx_upper_bound,17
+15,0,2,3,5,nested,"(2, 1, 2, 10)","(0,5)+(2,3)",False,3,3,3,True,networkx_upper_bound,16
+16,0,1,2,3,crossing,"(1, 1, 1, 13)","(0,2)+(1,3)",True,3,4,4,True,networkx_upper_bound,18
+16,0,1,2,3,nested,"(1, 1, 1, 13)","(0,3)+(1,2)",False,3,3,3,True,networkx_upper_bound,17
+16,0,2,4,5,crossing,"(2, 2, 1, 11)","(0,4)+(2,5)",True,3,4,4,True,networkx_upper_bound,18
+16,0,2,3,5,nested,"(2, 1, 2, 11)","(0,5)+(2,3)",False,3,3,3,True,networkx_upper_bound,17

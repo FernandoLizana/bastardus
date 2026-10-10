@@ -1,0 +1,11074 @@
+{
+  "total": 461,
+  "chains": [
+    {
+      "n": 5,
+      "chords": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "tips": 1,
+      "hop_sizes": [
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 5,
+      "chords": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "tips": 1,
+      "hop_sizes": [
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 5,
+      "chords": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "tips": 1,
+      "hop_sizes": [
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 5,
+      "chords": [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "tips": 1,
+      "hop_sizes": [
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 5,
+      "chords": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "tips": 1,
+      "hop_sizes": [
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 6,
+      "chords": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "tips": 2,
+      "hop_sizes": [
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 6,
+      "chords": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "tips": 2,
+      "hop_sizes": [
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 6,
+      "chords": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "tips": 2,
+      "hop_sizes": [
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 6,
+      "chords": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "tips": 2,
+      "hop_sizes": [
+        68,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 6,
+      "chords": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "tips": 2,
+      "hop_sizes": [
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 6,
+      "chords": [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "tips": 2,
+      "hop_sizes": [
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 6,
+      "chords": [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "tips": 2,
+      "hop_sizes": [
+        68,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 6,
+      "chords": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "tips": 2,
+      "hop_sizes": [
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 6,
+      "chords": [
+        [
+          0,
+          4
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "tips": 2,
+      "hop_sizes": [
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 6,
+      "chords": [
+        [
+          0,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "tips": 2,
+      "hop_sizes": [
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 6,
+      "chords": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "tips": 2,
+      "hop_sizes": [
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 6,
+      "chords": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "tips": 2,
+      "hop_sizes": [
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 6,
+      "chords": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "tips": 2,
+      "hop_sizes": [
+        68,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 6,
+      "chords": [
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "tips": 2,
+      "hop_sizes": [
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 6,
+      "chords": [
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "tips": 2,
+      "hop_sizes": [
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 7,
+      "chords": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "tips": 3,
+      "hop_sizes": [
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 7,
+      "chords": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "tips": 3,
+      "hop_sizes": [
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 7,
+      "chords": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "tips": 3,
+      "hop_sizes": [
+        146,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 7,
+      "chords": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          6
+        ]
+      ],
+      "tips": 3,
+      "hop_sizes": [
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 7,
+      "chords": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "tips": 3,
+      "hop_sizes": [
+        118,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 7,
+      "chords": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "tips": 3,
+      "hop_sizes": [
+        118,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 7,
+      "chords": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          6
+        ]
+      ],
+      "tips": 3,
+      "hop_sizes": [
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 7,
+      "chords": [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "tips": 3,
+      "hop_sizes": [
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 7,
+      "chords": [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "tips": 3,
+      "hop_sizes": [
+        118,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 7,
+      "chords": [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      "tips": 3,
+      "hop_sizes": [
+        118,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 7,
+      "chords": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "tips": 3,
+      "hop_sizes": [
+        118,
+        68,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 7,
+      "chords": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          6
+        ]
+      ],
+      "tips": 3,
+      "hop_sizes": [
+        146,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 7,
+      "chords": [
+        [
+          0,
+          4
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "tips": 3,
+      "hop_sizes": [
+        118,
+        68,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 7,
+      "chords": [
+        [
+          0,
+          4
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      "tips": 3,
+      "hop_sizes": [
+        118,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 7,
+      "chords": [
+        [
+          0,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "tips": 3,
+      "hop_sizes": [
+        146,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 7,
+      "chords": [
+        [
+          0,
+          4
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "tips": 3,
+      "hop_sizes": [
+        118,
+        68,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 7,
+      "chords": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          6
+        ]
+      ],
+      "tips": 3,
+      "hop_sizes": [
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 7,
+      "chords": [
+        [
+          0,
+          5
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      "tips": 3,
+      "hop_sizes": [
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 7,
+      "chords": [
+        [
+          0,
+          5
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "tips": 3,
+      "hop_sizes": [
+        146,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 7,
+      "chords": [
+        [
+          0,
+          5
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "tips": 3,
+      "hop_sizes": [
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 7,
+      "chords": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "tips": 3,
+      "hop_sizes": [
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 7,
+      "chords": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "tips": 3,
+      "hop_sizes": [
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 7,
+      "chords": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      "tips": 3,
+      "hop_sizes": [
+        146,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 7,
+      "chords": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "tips": 3,
+      "hop_sizes": [
+        118,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 7,
+      "chords": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      "tips": 3,
+      "hop_sizes": [
+        118,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 7,
+      "chords": [
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "tips": 3,
+      "hop_sizes": [
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 7,
+      "chords": [
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "tips": 3,
+      "hop_sizes": [
+        118,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 7,
+      "chords": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      "tips": 3,
+      "hop_sizes": [
+        118,
+        68,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 7,
+      "chords": [
+        [
+          1,
+          5
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "tips": 3,
+      "hop_sizes": [
+        118,
+        68,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 7,
+      "chords": [
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "tips": 3,
+      "hop_sizes": [
+        146,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 7,
+      "chords": [
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "tips": 3,
+      "hop_sizes": [
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 7,
+      "chords": [
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "tips": 3,
+      "hop_sizes": [
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 7,
+      "chords": [
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "tips": 3,
+      "hop_sizes": [
+        118,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 7,
+      "chords": [
+        [
+          2,
+          5
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "tips": 3,
+      "hop_sizes": [
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 7,
+      "chords": [
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "tips": 3,
+      "hop_sizes": [
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 8,
+      "chords": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "tips": 4,
+      "hop_sizes": [
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 8,
+      "chords": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "tips": 4,
+      "hop_sizes": [
+        246,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 8,
+      "chords": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "tips": 4,
+      "hop_sizes": [
+        232,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 8,
+      "chords": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          6
+        ]
+      ],
+      "tips": 4,
+      "hop_sizes": [
+        246,
+        146,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 8,
+      "chords": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          7
+        ]
+      ],
+      "tips": 4,
+      "hop_sizes": [
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 8,
+      "chords": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "tips": 4,
+      "hop_sizes": [
+        198,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 8,
+      "chords": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "tips": 4,
+      "hop_sizes": [
+        184,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 8,
+      "chords": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          6
+        ]
+      ],
+      "tips": 4,
+      "hop_sizes": [
+        200,
+        146,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 8,
+      "chords": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          7
+        ]
+      ],
+      "tips": 4,
+      "hop_sizes": [
+        246,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 8,
+      "chords": [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "tips": 4,
+      "hop_sizes": [
+        246,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 8,
+      "chords": [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "tips": 4,
+      "hop_sizes": [
+        200,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 8,
+      "chords": [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      "tips": 4,
+      "hop_sizes": [
+        184,
+        146,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 8,
+      "chords": [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          7
+        ]
+      ],
+      "tips": 4,
+      "hop_sizes": [
+        198,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 8,
+      "chords": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "tips": 4,
+      "hop_sizes": [
+        168,
+        118,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 8,
+      "chords": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          6
+        ]
+      ],
+      "tips": 4,
+      "hop_sizes": [
+        184,
+        118,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 8,
+      "chords": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          7
+        ]
+      ],
+      "tips": 4,
+      "hop_sizes": [
+        232,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 8,
+      "chords": [
+        [
+          0,
+          4
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "tips": 4,
+      "hop_sizes": [
+        184,
+        118,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 8,
+      "chords": [
+        [
+          0,
+          4
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      "tips": 4,
+      "hop_sizes": [
+        168,
+        118,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 8,
+      "chords": [
+        [
+          0,
+          4
+        ],
+        [
+          2,
+          7
+        ]
+      ],
+      "tips": 4,
+      "hop_sizes": [
+        184,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 8,
+      "chords": [
+        [
+          0,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "tips": 4,
+      "hop_sizes": [
+        232,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 8,
+      "chords": [
+        [
+          0,
+          4
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "tips": 4,
+      "hop_sizes": [
+        184,
+        118,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 8,
+      "chords": [
+        [
+          0,
+          4
+        ],
+        [
+          3,
+          7
+        ]
+      ],
+      "tips": 4,
+      "hop_sizes": [
+        168,
+        118,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 8,
+      "chords": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          6
+        ]
+      ],
+      "tips": 4,
+      "hop_sizes": [
+        198,
+        118,
+        68,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 8,
+      "chords": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          7
+        ]
+      ],
+      "tips": 4,
+      "hop_sizes": [
+        246,
+        146,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 8,
+      "chords": [
+        [
+          0,
+          5
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      "tips": 4,
+      "hop_sizes": [
+        184,
+        118,
+        68,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 8,
+      "chords": [
+        [
+          0,
+          5
+        ],
+        [
+          2,
+          7
+        ]
+      ],
+      "tips": 4,
+      "hop_sizes": [
+        200,
+        146,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 8,
+      "chords": [
+        [
+          0,
+          5
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "tips": 4,
+      "hop_sizes": [
+        200,
+        118,
+        68,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 8,
+      "chords": [
+        [
+          0,
+          5
+        ],
+        [
+          3,
+          7
+        ]
+      ],
+      "tips": 4,
+      "hop_sizes": [
+        184,
+        118,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 8,
+      "chords": [
+        [
+          0,
+          5
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "tips": 4,
+      "hop_sizes": [
+        246,
+        146,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 8,
+      "chords": [
+        [
+          0,
+          5
+        ],
+        [
+          4,
+          7
+        ]
+      ],
+      "tips": 4,
+      "hop_sizes": [
+        198,
+        118,
+        68,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 8,
+      "chords": [
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          7
+        ]
+      ],
+      "tips": 4,
+      "hop_sizes": [
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 8,
+      "chords": [
+        [
+          0,
+          6
+        ],
+        [
+          2,
+          7
+        ]
+      ],
+      "tips": 4,
+      "hop_sizes": [
+        246,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 8,
+      "chords": [
+        [
+          0,
+          6
+        ],
+        [
+          3,
+          7
+        ]
+      ],
+      "tips": 4,
+      "hop_sizes": [
+        232,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 8,
+      "chords": [
+        [
+          0,
+          6
+        ],
+        [
+          4,
+          7
+        ]
+      ],
+      "tips": 4,
+      "hop_sizes": [
+        246,
+        146,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 8,
+      "chords": [
+        [
+          0,
+          6
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "tips": 4,
+      "hop_sizes": [
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 8,
+      "chords": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "tips": 4,
+      "hop_sizes": [
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 8,
+      "chords": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "tips": 4,
+      "hop_sizes": [
+        246,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 8,
+      "chords": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      "tips": 4,
+      "hop_sizes": [
+        232,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 8,
+      "chords": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          7
+        ]
+      ],
+      "tips": 4,
+      "hop_sizes": [
+        246,
+        146,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 8,
+      "chords": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "tips": 4,
+      "hop_sizes": [
+        198,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 8,
+      "chords": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      "tips": 4,
+      "hop_sizes": [
+        184,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 8,
+      "chords": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          7
+        ]
+      ],
+      "tips": 4,
+      "hop_sizes": [
+        200,
+        146,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 8,
+      "chords": [
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "tips": 4,
+      "hop_sizes": [
+        246,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 8,
+      "chords": [
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "tips": 4,
+      "hop_sizes": [
+        200,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 8,
+      "chords": [
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          7
+        ]
+      ],
+      "tips": 4,
+      "hop_sizes": [
+        184,
+        146,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 8,
+      "chords": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      "tips": 4,
+      "hop_sizes": [
+        168,
+        118,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 8,
+      "chords": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          7
+        ]
+      ],
+      "tips": 4,
+      "hop_sizes": [
+        184,
+        118,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 8,
+      "chords": [
+        [
+          1,
+          5
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "tips": 4,
+      "hop_sizes": [
+        184,
+        118,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 8,
+      "chords": [
+        [
+          1,
+          5
+        ],
+        [
+          3,
+          7
+        ]
+      ],
+      "tips": 4,
+      "hop_sizes": [
+        168,
+        118,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 8,
+      "chords": [
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "tips": 4,
+      "hop_sizes": [
+        232,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 8,
+      "chords": [
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          7
+        ]
+      ],
+      "tips": 4,
+      "hop_sizes": [
+        184,
+        118,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 8,
+      "chords": [
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ]
+      ],
+      "tips": 4,
+      "hop_sizes": [
+        198,
+        118,
+        68,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 8,
+      "chords": [
+        [
+          1,
+          6
+        ],
+        [
+          3,
+          7
+        ]
+      ],
+      "tips": 4,
+      "hop_sizes": [
+        184,
+        118,
+        68,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 8,
+      "chords": [
+        [
+          1,
+          6
+        ],
+        [
+          4,
+          7
+        ]
+      ],
+      "tips": 4,
+      "hop_sizes": [
+        200,
+        118,
+        68,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 8,
+      "chords": [
+        [
+          1,
+          6
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "tips": 4,
+      "hop_sizes": [
+        246,
+        146,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 8,
+      "chords": [
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "tips": 4,
+      "hop_sizes": [
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 8,
+      "chords": [
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "tips": 4,
+      "hop_sizes": [
+        246,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 8,
+      "chords": [
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          7
+        ]
+      ],
+      "tips": 4,
+      "hop_sizes": [
+        232,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 8,
+      "chords": [
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "tips": 4,
+      "hop_sizes": [
+        198,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 8,
+      "chords": [
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          7
+        ]
+      ],
+      "tips": 4,
+      "hop_sizes": [
+        184,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 8,
+      "chords": [
+        [
+          2,
+          5
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "tips": 4,
+      "hop_sizes": [
+        246,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 8,
+      "chords": [
+        [
+          2,
+          5
+        ],
+        [
+          4,
+          7
+        ]
+      ],
+      "tips": 4,
+      "hop_sizes": [
+        200,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 8,
+      "chords": [
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          7
+        ]
+      ],
+      "tips": 4,
+      "hop_sizes": [
+        168,
+        118,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 8,
+      "chords": [
+        [
+          2,
+          6
+        ],
+        [
+          4,
+          7
+        ]
+      ],
+      "tips": 4,
+      "hop_sizes": [
+        184,
+        118,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 8,
+      "chords": [
+        [
+          2,
+          6
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "tips": 4,
+      "hop_sizes": [
+        232,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 8,
+      "chords": [
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "tips": 4,
+      "hop_sizes": [
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 8,
+      "chords": [
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          7
+        ]
+      ],
+      "tips": 4,
+      "hop_sizes": [
+        246,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 8,
+      "chords": [
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          7
+        ]
+      ],
+      "tips": 4,
+      "hop_sizes": [
+        198,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 8,
+      "chords": [
+        [
+          3,
+          6
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "tips": 4,
+      "hop_sizes": [
+        246,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 8,
+      "chords": [
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "tips": 4,
+      "hop_sizes": [
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        446,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        386,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        356,
+        246,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          6
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        356,
+        232,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          7
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        386,
+        246,
+        146,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          8
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        446,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        314,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        284,
+        246,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          6
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        286,
+        232,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          7
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        320,
+        246,
+        146,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          8
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        386,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        386,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        320,
+        246,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        286,
+        232,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          7
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        284,
+        246,
+        146,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          8
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        314,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        248,
+        198,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          6
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        250,
+        184,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          7
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        286,
+        200,
+        146,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          8
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        356,
+        246,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          0,
+          4
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        284,
+        198,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          0,
+          4
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        250,
+        184,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          0,
+          4
+        ],
+        [
+          2,
+          7
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        250,
+        200,
+        146,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          0,
+          4
+        ],
+        [
+          2,
+          8
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        284,
+        246,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          0,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        356,
+        246,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          0,
+          4
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        286,
+        200,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          0,
+          4
+        ],
+        [
+          3,
+          7
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        250,
+        184,
+        146,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          0,
+          4
+        ],
+        [
+          3,
+          8
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        248,
+        198,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          6
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        248,
+        168,
+        118,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          7
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        284,
+        184,
+        118,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          8
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        356,
+        232,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          0,
+          5
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        250,
+        168,
+        118,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          0,
+          5
+        ],
+        [
+          2,
+          7
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        250,
+        184,
+        118,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          0,
+          5
+        ],
+        [
+          2,
+          8
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        286,
+        232,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          0,
+          5
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        286,
+        184,
+        118,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          0,
+          5
+        ],
+        [
+          3,
+          7
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        250,
+        168,
+        118,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          0,
+          5
+        ],
+        [
+          3,
+          8
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        250,
+        184,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          0,
+          5
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        356,
+        232,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          0,
+          5
+        ],
+        [
+          4,
+          7
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        284,
+        184,
+        118,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          0,
+          5
+        ],
+        [
+          4,
+          8
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        248,
+        168,
+        118,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          7
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        314,
+        198,
+        118,
+        68,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          8
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        386,
+        246,
+        146,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          0,
+          6
+        ],
+        [
+          2,
+          7
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        284,
+        198,
+        118,
+        68,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          0,
+          6
+        ],
+        [
+          2,
+          8
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        320,
+        246,
+        146,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          0,
+          6
+        ],
+        [
+          3,
+          7
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        286,
+        184,
+        118,
+        68,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          0,
+          6
+        ],
+        [
+          3,
+          8
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        286,
+        200,
+        146,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          0,
+          6
+        ],
+        [
+          4,
+          7
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        320,
+        200,
+        118,
+        68,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          0,
+          6
+        ],
+        [
+          4,
+          8
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        284,
+        184,
+        118,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          0,
+          6
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        386,
+        246,
+        146,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          0,
+          6
+        ],
+        [
+          5,
+          8
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        314,
+        198,
+        118,
+        68,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          8
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        446,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          0,
+          7
+        ],
+        [
+          2,
+          8
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        386,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          0,
+          7
+        ],
+        [
+          3,
+          8
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        356,
+        246,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          0,
+          7
+        ],
+        [
+          4,
+          8
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        356,
+        232,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          0,
+          7
+        ],
+        [
+          5,
+          8
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        386,
+        246,
+        146,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          0,
+          7
+        ],
+        [
+          6,
+          8
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        446,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        446,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        386,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        356,
+        246,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          7
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        356,
+        232,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          8
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        386,
+        246,
+        146,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        314,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        284,
+        246,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          7
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        286,
+        232,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          8
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        320,
+        246,
+        146,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        386,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        320,
+        246,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          7
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        286,
+        232,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          8
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        284,
+        246,
+        146,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        248,
+        198,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          7
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        250,
+        184,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          8
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        286,
+        200,
+        146,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          1,
+          5
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        284,
+        198,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          1,
+          5
+        ],
+        [
+          3,
+          7
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        250,
+        184,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          1,
+          5
+        ],
+        [
+          3,
+          8
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        250,
+        200,
+        146,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        356,
+        246,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          7
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        286,
+        200,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          8
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        250,
+        184,
+        146,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        248,
+        168,
+        118,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          8
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        284,
+        184,
+        118,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          1,
+          6
+        ],
+        [
+          3,
+          7
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        250,
+        168,
+        118,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          1,
+          6
+        ],
+        [
+          3,
+          8
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        250,
+        184,
+        118,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          1,
+          6
+        ],
+        [
+          4,
+          7
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        286,
+        184,
+        118,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          1,
+          6
+        ],
+        [
+          4,
+          8
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        250,
+        168,
+        118,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          1,
+          6
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        356,
+        232,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          1,
+          6
+        ],
+        [
+          5,
+          8
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        284,
+        184,
+        118,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          8
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        314,
+        198,
+        118,
+        68,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          1,
+          7
+        ],
+        [
+          3,
+          8
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        284,
+        198,
+        118,
+        68,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          1,
+          7
+        ],
+        [
+          4,
+          8
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        286,
+        184,
+        118,
+        68,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          1,
+          7
+        ],
+        [
+          5,
+          8
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        320,
+        200,
+        118,
+        68,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          1,
+          7
+        ],
+        [
+          6,
+          8
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        386,
+        246,
+        146,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        446,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        386,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          7
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        356,
+        246,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          8
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        356,
+        232,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        314,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          7
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        284,
+        246,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          8
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        286,
+        232,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          2,
+          5
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        386,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          2,
+          5
+        ],
+        [
+          4,
+          7
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        320,
+        246,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          2,
+          5
+        ],
+        [
+          4,
+          8
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        286,
+        232,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          7
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        248,
+        198,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          8
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        250,
+        184,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          2,
+          6
+        ],
+        [
+          4,
+          7
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        284,
+        198,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          2,
+          6
+        ],
+        [
+          4,
+          8
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        250,
+        184,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          2,
+          6
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        356,
+        246,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          2,
+          6
+        ],
+        [
+          5,
+          8
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        286,
+        200,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          8
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        248,
+        168,
+        118,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          2,
+          7
+        ],
+        [
+          4,
+          8
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        250,
+        168,
+        118,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          2,
+          7
+        ],
+        [
+          5,
+          8
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        286,
+        184,
+        118,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          2,
+          7
+        ],
+        [
+          6,
+          8
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        356,
+        232,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        446,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          7
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        386,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          8
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        356,
+        246,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          7
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        314,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          8
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        284,
+        246,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          3,
+          6
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        386,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          3,
+          6
+        ],
+        [
+          5,
+          8
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        320,
+        246,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          8
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        248,
+        198,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          3,
+          7
+        ],
+        [
+          5,
+          8
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        284,
+        198,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          3,
+          7
+        ],
+        [
+          6,
+          8
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        356,
+        246,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        446,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          8
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        386,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          8
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        314,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          4,
+          7
+        ],
+        [
+          6,
+          8
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        386,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 9,
+      "chords": [
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          8
+        ]
+      ],
+      "tips": 5,
+      "hop_sizes": [
+        446,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        652,
+        446,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        572,
+        446,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        524,
+        386,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          6
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        508,
+        356,
+        246,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          7
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        524,
+        356,
+        232,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          8
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        572,
+        386,
+        246,
+        146,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        652,
+        446,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        472,
+        446,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        424,
+        386,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          6
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        410,
+        356,
+        246,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          7
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        430,
+        356,
+        232,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          8
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        484,
+        386,
+        246,
+        146,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        572,
+        446,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        572,
+        446,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        484,
+        386,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        430,
+        356,
+        246,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          7
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        410,
+        356,
+        232,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          8
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        424,
+        386,
+        246,
+        146,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        472,
+        446,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        364,
+        314,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          6
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        350,
+        284,
+        246,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          7
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        372,
+        286,
+        232,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          8
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        430,
+        320,
+        246,
+        146,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        524,
+        386,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          4
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        424,
+        314,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          4
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        370,
+        284,
+        246,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          4
+        ],
+        [
+          2,
+          7
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        352,
+        286,
+        232,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          4
+        ],
+        [
+          2,
+          8
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        370,
+        320,
+        246,
+        146,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          4
+        ],
+        [
+          2,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        424,
+        386,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        524,
+        386,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          4
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        430,
+        320,
+        246,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          4
+        ],
+        [
+          3,
+          7
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        372,
+        286,
+        232,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          4
+        ],
+        [
+          3,
+          8
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        350,
+        284,
+        246,
+        146,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          4
+        ],
+        [
+          3,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        364,
+        314,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          6
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        328,
+        248,
+        198,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          7
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        350,
+        250,
+        184,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          8
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        410,
+        286,
+        200,
+        146,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        508,
+        356,
+        246,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          5
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        350,
+        248,
+        198,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          5
+        ],
+        [
+          2,
+          7
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        332,
+        250,
+        184,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          5
+        ],
+        [
+          2,
+          8
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        352,
+        286,
+        200,
+        146,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          5
+        ],
+        [
+          2,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        410,
+        356,
+        246,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          5
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        410,
+        284,
+        198,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          5
+        ],
+        [
+          3,
+          7
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        352,
+        250,
+        184,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          5
+        ],
+        [
+          3,
+          8
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        332,
+        250,
+        200,
+        146,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          5
+        ],
+        [
+          3,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        350,
+        284,
+        246,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          5
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        508,
+        356,
+        246,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          5
+        ],
+        [
+          4,
+          7
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        410,
+        286,
+        200,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          5
+        ],
+        [
+          4,
+          8
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        350,
+        250,
+        184,
+        146,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          5
+        ],
+        [
+          4,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        328,
+        248,
+        198,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          7
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        364,
+        248,
+        168,
+        118,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          8
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        424,
+        284,
+        184,
+        118,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        524,
+        356,
+        232,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          6
+        ],
+        [
+          2,
+          7
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        350,
+        248,
+        168,
+        118,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          6
+        ],
+        [
+          2,
+          8
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        370,
+        284,
+        184,
+        118,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          6
+        ],
+        [
+          2,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        430,
+        356,
+        232,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          6
+        ],
+        [
+          3,
+          7
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        372,
+        250,
+        168,
+        118,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          6
+        ],
+        [
+          3,
+          8
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        352,
+        250,
+        184,
+        118,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          6
+        ],
+        [
+          3,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        372,
+        286,
+        232,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          6
+        ],
+        [
+          4,
+          7
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        430,
+        286,
+        184,
+        118,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          6
+        ],
+        [
+          4,
+          8
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        370,
+        250,
+        168,
+        118,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          6
+        ],
+        [
+          4,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        350,
+        250,
+        184,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          6
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        524,
+        356,
+        232,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          6
+        ],
+        [
+          5,
+          8
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        424,
+        284,
+        184,
+        118,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          6
+        ],
+        [
+          5,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        364,
+        248,
+        168,
+        118,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          8
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        472,
+        314,
+        198,
+        118,
+        68,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        572,
+        386,
+        246,
+        146,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          7
+        ],
+        [
+          2,
+          8
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        424,
+        314,
+        198,
+        118,
+        68,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          7
+        ],
+        [
+          2,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        484,
+        386,
+        246,
+        146,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          7
+        ],
+        [
+          3,
+          8
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        410,
+        284,
+        198,
+        118,
+        68,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          7
+        ],
+        [
+          3,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        430,
+        320,
+        246,
+        146,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          7
+        ],
+        [
+          4,
+          8
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        430,
+        286,
+        184,
+        118,
+        68,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          7
+        ],
+        [
+          4,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        410,
+        286,
+        200,
+        146,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          7
+        ],
+        [
+          5,
+          8
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        484,
+        320,
+        200,
+        118,
+        68,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          7
+        ],
+        [
+          5,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        424,
+        284,
+        184,
+        118,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          7
+        ],
+        [
+          6,
+          8
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        572,
+        386,
+        246,
+        146,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          7
+        ],
+        [
+          6,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        472,
+        314,
+        198,
+        118,
+        68,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        652,
+        446,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          8
+        ],
+        [
+          2,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        572,
+        446,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          8
+        ],
+        [
+          3,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        524,
+        386,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          8
+        ],
+        [
+          4,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        508,
+        356,
+        246,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          8
+        ],
+        [
+          5,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        524,
+        356,
+        232,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          8
+        ],
+        [
+          6,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        572,
+        386,
+        246,
+        146,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          0,
+          8
+        ],
+        [
+          7,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        652,
+        446,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        652,
+        446,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        572,
+        446,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        524,
+        386,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          7
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        508,
+        356,
+        246,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          8
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        524,
+        356,
+        232,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        572,
+        386,
+        246,
+        146,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        472,
+        446,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        424,
+        386,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          7
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        410,
+        356,
+        246,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          8
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        430,
+        356,
+        232,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        484,
+        386,
+        246,
+        146,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        572,
+        446,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        484,
+        386,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          7
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        430,
+        356,
+        246,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          8
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        410,
+        356,
+        232,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        424,
+        386,
+        246,
+        146,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        364,
+        314,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          7
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        350,
+        284,
+        246,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          8
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        372,
+        286,
+        232,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        430,
+        320,
+        246,
+        146,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          1,
+          5
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        424,
+        314,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          1,
+          5
+        ],
+        [
+          3,
+          7
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        370,
+        284,
+        246,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          1,
+          5
+        ],
+        [
+          3,
+          8
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        352,
+        286,
+        232,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          1,
+          5
+        ],
+        [
+          3,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        370,
+        320,
+        246,
+        146,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        524,
+        386,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          7
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        430,
+        320,
+        246,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          8
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        372,
+        286,
+        232,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        350,
+        284,
+        246,
+        146,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        328,
+        248,
+        198,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          8
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        350,
+        250,
+        184,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        410,
+        286,
+        200,
+        146,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          1,
+          6
+        ],
+        [
+          3,
+          7
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        350,
+        248,
+        198,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          1,
+          6
+        ],
+        [
+          3,
+          8
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        332,
+        250,
+        184,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          1,
+          6
+        ],
+        [
+          3,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        352,
+        286,
+        200,
+        146,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          1,
+          6
+        ],
+        [
+          4,
+          7
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        410,
+        284,
+        198,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          1,
+          6
+        ],
+        [
+          4,
+          8
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        352,
+        250,
+        184,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          1,
+          6
+        ],
+        [
+          4,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        332,
+        250,
+        200,
+        146,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          1,
+          6
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        508,
+        356,
+        246,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          1,
+          6
+        ],
+        [
+          5,
+          8
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        410,
+        286,
+        200,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          1,
+          6
+        ],
+        [
+          5,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        350,
+        250,
+        184,
+        146,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          8
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        364,
+        248,
+        168,
+        118,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        424,
+        284,
+        184,
+        118,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          1,
+          7
+        ],
+        [
+          3,
+          8
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        350,
+        248,
+        168,
+        118,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          1,
+          7
+        ],
+        [
+          3,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        370,
+        284,
+        184,
+        118,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          1,
+          7
+        ],
+        [
+          4,
+          8
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        372,
+        250,
+        168,
+        118,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          1,
+          7
+        ],
+        [
+          4,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        352,
+        250,
+        184,
+        118,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          1,
+          7
+        ],
+        [
+          5,
+          8
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        430,
+        286,
+        184,
+        118,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          1,
+          7
+        ],
+        [
+          5,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        370,
+        250,
+        168,
+        118,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          1,
+          7
+        ],
+        [
+          6,
+          8
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        524,
+        356,
+        232,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          1,
+          7
+        ],
+        [
+          6,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        424,
+        284,
+        184,
+        118,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          1,
+          8
+        ],
+        [
+          2,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        472,
+        314,
+        198,
+        118,
+        68,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          1,
+          8
+        ],
+        [
+          3,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        424,
+        314,
+        198,
+        118,
+        68,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          1,
+          8
+        ],
+        [
+          4,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        410,
+        284,
+        198,
+        118,
+        68,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          1,
+          8
+        ],
+        [
+          5,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        430,
+        286,
+        184,
+        118,
+        68,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          1,
+          8
+        ],
+        [
+          6,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        484,
+        320,
+        200,
+        118,
+        68,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          1,
+          8
+        ],
+        [
+          7,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        572,
+        386,
+        246,
+        146,
+        80,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        652,
+        446,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        572,
+        446,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          7
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        524,
+        386,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          8
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        508,
+        356,
+        246,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        524,
+        356,
+        232,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        472,
+        446,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          7
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        424,
+        386,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          8
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        410,
+        356,
+        246,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        430,
+        356,
+        232,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          2,
+          5
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        572,
+        446,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          2,
+          5
+        ],
+        [
+          4,
+          7
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        484,
+        386,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          2,
+          5
+        ],
+        [
+          4,
+          8
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        430,
+        356,
+        246,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          2,
+          5
+        ],
+        [
+          4,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        410,
+        356,
+        232,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          7
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        364,
+        314,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          8
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        350,
+        284,
+        246,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        372,
+        286,
+        232,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          2,
+          6
+        ],
+        [
+          4,
+          7
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        424,
+        314,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          2,
+          6
+        ],
+        [
+          4,
+          8
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        370,
+        284,
+        246,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          2,
+          6
+        ],
+        [
+          4,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        352,
+        286,
+        232,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          2,
+          6
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        524,
+        386,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          2,
+          6
+        ],
+        [
+          5,
+          8
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        430,
+        320,
+        246,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          2,
+          6
+        ],
+        [
+          5,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        372,
+        286,
+        232,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          8
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        328,
+        248,
+        198,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        350,
+        250,
+        184,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          2,
+          7
+        ],
+        [
+          4,
+          8
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        350,
+        248,
+        198,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          2,
+          7
+        ],
+        [
+          4,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        332,
+        250,
+        184,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          2,
+          7
+        ],
+        [
+          5,
+          8
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        410,
+        284,
+        198,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          2,
+          7
+        ],
+        [
+          5,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        352,
+        250,
+        184,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          2,
+          7
+        ],
+        [
+          6,
+          8
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        508,
+        356,
+        246,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          2,
+          7
+        ],
+        [
+          6,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        410,
+        286,
+        200,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        364,
+        248,
+        168,
+        118,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        350,
+        248,
+        168,
+        118,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          2,
+          8
+        ],
+        [
+          5,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        372,
+        250,
+        168,
+        118,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          2,
+          8
+        ],
+        [
+          6,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        430,
+        286,
+        184,
+        118,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          2,
+          8
+        ],
+        [
+          7,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        524,
+        356,
+        232,
+        146,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        652,
+        446,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          7
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        572,
+        446,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          8
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        524,
+        386,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        508,
+        356,
+        246,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          7
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        472,
+        446,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          8
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        424,
+        386,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        410,
+        356,
+        246,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          3,
+          6
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        572,
+        446,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          3,
+          6
+        ],
+        [
+          5,
+          8
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        484,
+        386,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          3,
+          6
+        ],
+        [
+          5,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        430,
+        356,
+        246,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          8
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        364,
+        314,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        350,
+        284,
+        246,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          3,
+          7
+        ],
+        [
+          5,
+          8
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        424,
+        314,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          3,
+          7
+        ],
+        [
+          5,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        370,
+        284,
+        246,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          3,
+          7
+        ],
+        [
+          6,
+          8
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        524,
+        386,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          3,
+          7
+        ],
+        [
+          6,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        430,
+        320,
+        246,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          3,
+          8
+        ],
+        [
+          4,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        328,
+        248,
+        198,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          3,
+          8
+        ],
+        [
+          5,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        350,
+        248,
+        198,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          3,
+          8
+        ],
+        [
+          6,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        410,
+        284,
+        198,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          3,
+          8
+        ],
+        [
+          7,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        508,
+        356,
+        246,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        652,
+        446,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          8
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        572,
+        446,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        524,
+        386,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          8
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        472,
+        446,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        424,
+        386,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          4,
+          7
+        ],
+        [
+          6,
+          8
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        572,
+        446,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          4,
+          7
+        ],
+        [
+          6,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        484,
+        386,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          4,
+          8
+        ],
+        [
+          5,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        364,
+        314,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          4,
+          8
+        ],
+        [
+          6,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        424,
+        314,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          4,
+          8
+        ],
+        [
+          7,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        524,
+        386,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          8
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        652,
+        446,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        572,
+        446,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          5,
+          8
+        ],
+        [
+          6,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        472,
+        446,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          5,
+          8
+        ],
+        [
+          7,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        572,
+        446,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    },
+    {
+      "n": 10,
+      "chords": [
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          9
+        ]
+      ],
+      "tips": 6,
+      "hop_sizes": [
+        652,
+        446,
+        288,
+        172,
+        92,
+        42,
+        16
+      ],
+      "nest_monotone": true,
+      "ok": true
+    }
+  ]
+}

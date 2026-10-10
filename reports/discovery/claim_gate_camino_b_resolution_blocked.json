@@ -1,0 +1,91 @@
+{
+  "intent": "Show Camino B via resolution width is BLOCKED by claim gate",
+  "may_present_as_resolution": false,
+  "blocking_reasons": [
+    "path_requirements",
+    "problem_modes",
+    "barriers",
+    "approval_checklist"
+  ],
+  "sections": [
+    {
+      "section": "claim_side",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "section": "path_requirements",
+      "passed": false,
+      "failures": [
+        "b_some_np_hard: FAIL",
+        "b_future_algorithms: FAIL",
+        "b_asymptotic: FAIL",
+        "b_not_method_specific: FAIL"
+      ]
+    },
+    {
+      "section": "npc_families",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "section": "problem_modes",
+      "passed": false,
+      "failures": [
+        "decision: NA requires \u226520-char justification",
+        "search: NA requires \u226520-char justification",
+        "optimization: NA requires \u226520-char justification",
+        "yes_and_no: NA requires \u226520-char justification"
+      ]
+    },
+    {
+      "section": "error_discards",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "section": "barriers",
+      "passed": false,
+      "failures": [
+        "restricted_model: FAIL"
+      ]
+    },
+    {
+      "section": "consequences",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "section": "approval_checklist",
+      "passed": false,
+      "failures": [
+        "exact_claim: FAIL",
+        "formal_defs: FAIL",
+        "machine_model: FAIL",
+        "input_bits: FAIL",
+        "correctness_all: FAIL",
+        "subroutine_complexity: FAIL",
+        "worst_case_time: FAIL",
+        "memory: FAIL",
+        "no_exp_preprocess: FAIL",
+        "no_exp_parallel: FAIL",
+        "no_hidden_params: FAIL",
+        "yes_no_cases: FAIL",
+        "decision_to_search: FAIL",
+        "reductions_formal: FAIL",
+        "relativization_review: FAIL",
+        "natural_proofs_review: FAIL",
+        "algebrization_review: FAIL",
+        "literature_compare: FAIL",
+        "adversarial_search: FAIL",
+        "formal_lemmas: FAIL",
+        "independent_review: FAIL",
+        "lean_artifact_ids empty (E5 formalization required)",
+        "independent_reviewer_ids: need \u22652 specialists (E6 process)",
+        "evidence_level E2_REPRODUCIBLE_COMPUTATIONAL < E5_LEAN_VERIFIED",
+        "evidence_level must reach E6_EXTERNALLY_REVIEWED for resolution presentation"
+      ]
+    }
+  ],
+  "disclaimer": "Passing this gate only means the *process checklist* is complete. It does not by itself establish mathematical truth. The laboratory never treats experimental evidence as a P vs NP resolution."
+}

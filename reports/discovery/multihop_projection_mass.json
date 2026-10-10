@@ -1,0 +1,33 @@
+{
+  "total_ok": 461,
+  "total_fail": 0,
+  "by_n": {
+    "5": {
+      "ok": 5,
+      "fail": 0
+    },
+    "6": {
+      "ok": 15,
+      "fail": 0
+    },
+    "7": {
+      "ok": 35,
+      "fail": 0
+    },
+    "8": {
+      "ok": 70,
+      "fail": 0
+    },
+    "9": {
+      "ok": 126,
+      "fail": 0
+    },
+    "10": {
+      "ok": 210,
+      "fail": 0
+    }
+  },
+  "max_tips": 6,
+  "fails": [],
+  "claim": "Tip-by-tip path-fold multihop: supported Closure\u2083(G_i) \u2286 Closure\u2083(G_{i+1}); final residual Closure\u2083 size 16 without \u25a1 (n=5..10 crossings)."
+}

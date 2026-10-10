@@ -1,0 +1,368 @@
+{
+  "total": 45,
+  "gap_remains_count": 45,
+  "pure_local_gaussian_count": 0,
+  "samples": [
+    {
+      "n": 5,
+      "a": 0,
+      "pure": false,
+      "mode": "local_incomplete",
+      "resid_u": false,
+      "resid_w": false
+    },
+    {
+      "n": 5,
+      "a": 1,
+      "pure": false,
+      "mode": "local_incomplete",
+      "resid_u": false,
+      "resid_w": false
+    },
+    {
+      "n": 5,
+      "a": 2,
+      "pure": false,
+      "mode": "local_incomplete",
+      "resid_u": false,
+      "resid_w": false
+    },
+    {
+      "n": 5,
+      "a": 3,
+      "pure": false,
+      "mode": "local_incomplete",
+      "resid_u": false,
+      "resid_w": false
+    },
+    {
+      "n": 5,
+      "a": 4,
+      "pure": false,
+      "mode": "local_incomplete",
+      "resid_u": false,
+      "resid_w": false
+    },
+    {
+      "n": 6,
+      "a": 0,
+      "pure": false,
+      "mode": "local_incomplete",
+      "resid_u": false,
+      "resid_w": false
+    },
+    {
+      "n": 6,
+      "a": 1,
+      "pure": false,
+      "mode": "local_incomplete",
+      "resid_u": false,
+      "resid_w": false
+    },
+    {
+      "n": 6,
+      "a": 2,
+      "pure": false,
+      "mode": "local_incomplete",
+      "resid_u": false,
+      "resid_w": false
+    },
+    {
+      "n": 6,
+      "a": 3,
+      "pure": false,
+      "mode": "local_incomplete",
+      "resid_u": false,
+      "resid_w": false
+    },
+    {
+      "n": 6,
+      "a": 4,
+      "pure": false,
+      "mode": "local_incomplete",
+      "resid_u": false,
+      "resid_w": false
+    },
+    {
+      "n": 6,
+      "a": 5,
+      "pure": false,
+      "mode": "local_incomplete",
+      "resid_u": false,
+      "resid_w": false
+    },
+    {
+      "n": 7,
+      "a": 0,
+      "pure": false,
+      "mode": "local_incomplete",
+      "resid_u": false,
+      "resid_w": false
+    },
+    {
+      "n": 7,
+      "a": 1,
+      "pure": false,
+      "mode": "local_incomplete",
+      "resid_u": false,
+      "resid_w": false
+    },
+    {
+      "n": 7,
+      "a": 2,
+      "pure": false,
+      "mode": "local_incomplete",
+      "resid_u": false,
+      "resid_w": false
+    },
+    {
+      "n": 7,
+      "a": 3,
+      "pure": false,
+      "mode": "local_incomplete",
+      "resid_u": false,
+      "resid_w": false
+    },
+    {
+      "n": 7,
+      "a": 4,
+      "pure": false,
+      "mode": "local_incomplete",
+      "resid_u": false,
+      "resid_w": false
+    },
+    {
+      "n": 7,
+      "a": 5,
+      "pure": false,
+      "mode": "local_incomplete",
+      "resid_u": false,
+      "resid_w": false
+    },
+    {
+      "n": 7,
+      "a": 6,
+      "pure": false,
+      "mode": "local_incomplete",
+      "resid_u": false,
+      "resid_w": false
+    },
+    {
+      "n": 8,
+      "a": 0,
+      "pure": false,
+      "mode": "local_incomplete",
+      "resid_u": false,
+      "resid_w": false
+    },
+    {
+      "n": 8,
+      "a": 1,
+      "pure": false,
+      "mode": "local_incomplete",
+      "resid_u": false,
+      "resid_w": false
+    },
+    {
+      "n": 8,
+      "a": 2,
+      "pure": false,
+      "mode": "local_incomplete",
+      "resid_u": false,
+      "resid_w": false
+    },
+    {
+      "n": 8,
+      "a": 3,
+      "pure": false,
+      "mode": "local_incomplete",
+      "resid_u": false,
+      "resid_w": false
+    },
+    {
+      "n": 8,
+      "a": 4,
+      "pure": false,
+      "mode": "local_incomplete",
+      "resid_u": false,
+      "resid_w": false
+    },
+    {
+      "n": 8,
+      "a": 5,
+      "pure": false,
+      "mode": "local_incomplete",
+      "resid_u": false,
+      "resid_w": false
+    },
+    {
+      "n": 8,
+      "a": 6,
+      "pure": false,
+      "mode": "local_incomplete",
+      "resid_u": false,
+      "resid_w": false
+    },
+    {
+      "n": 8,
+      "a": 7,
+      "pure": false,
+      "mode": "local_incomplete",
+      "resid_u": false,
+      "resid_w": false
+    },
+    {
+      "n": 9,
+      "a": 0,
+      "pure": false,
+      "mode": "local_incomplete",
+      "resid_u": false,
+      "resid_w": false
+    },
+    {
+      "n": 9,
+      "a": 1,
+      "pure": false,
+      "mode": "local_incomplete",
+      "resid_u": false,
+      "resid_w": false
+    },
+    {
+      "n": 9,
+      "a": 2,
+      "pure": false,
+      "mode": "local_incomplete",
+      "resid_u": false,
+      "resid_w": false
+    },
+    {
+      "n": 9,
+      "a": 3,
+      "pure": false,
+      "mode": "local_incomplete",
+      "resid_u": false,
+      "resid_w": false
+    },
+    {
+      "n": 9,
+      "a": 4,
+      "pure": false,
+      "mode": "local_incomplete",
+      "resid_u": false,
+      "resid_w": false
+    },
+    {
+      "n": 9,
+      "a": 5,
+      "pure": false,
+      "mode": "local_incomplete",
+      "resid_u": false,
+      "resid_w": false
+    },
+    {
+      "n": 9,
+      "a": 6,
+      "pure": false,
+      "mode": "local_incomplete",
+      "resid_u": false,
+      "resid_w": false
+    },
+    {
+      "n": 9,
+      "a": 7,
+      "pure": false,
+      "mode": "local_incomplete",
+      "resid_u": false,
+      "resid_w": false
+    },
+    {
+      "n": 9,
+      "a": 8,
+      "pure": false,
+      "mode": "local_incomplete",
+      "resid_u": false,
+      "resid_w": false
+    },
+    {
+      "n": 10,
+      "a": 0,
+      "pure": false,
+      "mode": "local_incomplete",
+      "resid_u": false,
+      "resid_w": false
+    },
+    {
+      "n": 10,
+      "a": 1,
+      "pure": false,
+      "mode": "local_incomplete",
+      "resid_u": false,
+      "resid_w": false
+    },
+    {
+      "n": 10,
+      "a": 2,
+      "pure": false,
+      "mode": "local_incomplete",
+      "resid_u": false,
+      "resid_w": false
+    },
+    {
+      "n": 10,
+      "a": 3,
+      "pure": false,
+      "mode": "local_incomplete",
+      "resid_u": false,
+      "resid_w": false
+    },
+    {
+      "n": 10,
+      "a": 4,
+      "pure": false,
+      "mode": "local_incomplete",
+      "resid_u": false,
+      "resid_w": false
+    },
+    {
+      "n": 10,
+      "a": 5,
+      "pure": false,
+      "mode": "local_incomplete",
+      "resid_u": false,
+      "resid_w": false
+    },
+    {
+      "n": 10,
+      "a": 6,
+      "pure": false,
+      "mode": "local_incomplete",
+      "resid_u": false,
+      "resid_w": false
+    },
+    {
+      "n": 10,
+      "a": 7,
+      "pure": false,
+      "mode": "local_incomplete",
+      "resid_u": false,
+      "resid_w": false
+    },
+    {
+      "n": 10,
+      "a": 8,
+      "pure": false,
+      "mode": "local_incomplete",
+      "resid_u": false,
+      "resid_w": false
+    },
+    {
+      "n": 10,
+      "a": 9,
+      "pure": false,
+      "mode": "local_incomplete",
+      "resid_u": false,
+      "resid_w": false
+    }
+  ],
+  "claim": "Pure local-Gaussian residual fill after tip XOR-sum fails on every sampled length-2 both-stub ear (n=5..10); gap_remains is systematic, not a C6 quirk. Hybrid target-sat / clips still OK (xor_ear_modes)."
+}

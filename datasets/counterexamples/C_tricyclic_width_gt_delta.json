@@ -1,0 +1,86 @@
+{
+  "conjecture_related": "boundary at gamma=3",
+  "statement": "Minimal tricyclic Delta<=3 unit-charge witness with Width>Delta",
+  "minimal_known": {
+    "n": 5,
+    "delta": 3,
+    "width": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "chords": [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "tree_edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        4
+      ]
+    ],
+    "charges": [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "formula_hash": "004e61d5c61d06170d0f6d9d1efa560b801c301f96f0c268554891af5ed26def"
+  },
+  "native_campaign": {
+    "n5_tricyclic_unit": {
+      "checked": 720,
+      "width_gt_delta": 720
+    }
+  },
+  "evidence_level": "E2"
+}

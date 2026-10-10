@@ -1,0 +1,54 @@
+{
+  "evidence_level": "E2_certified_computation",
+  "claim_type": "observation_experimental_mass_verification",
+  "disclaimer": "Mass verification is NOT a proof of P vs NP.",
+  "profile": "smoke",
+  "elapsed_ms": 1,
+  "variants": [
+    {
+      "variant": "V2_paths_Z2ChargeOrbits_n2..6",
+      "checked": 34,
+      "failed": 0,
+      "elapsed_ms": 0,
+      "note": "Paths ⊆ trees ⇒ Width=Δ (=2 for n≥3). Group ℤ₂ (reversal).",
+      "first_failure": null
+    },
+    {
+      "variant": "V3_stars_SymChargeOrbits_n3..5",
+      "checked": 12,
+      "failed": 0,
+      "elapsed_ms": 0,
+      "note": "Stars: Width=Δ=n-1. Group S_{n-1} via sorted leaf-charge canonicalization.",
+      "first_failure": null
+    },
+    {
+      "variant": "V4_cycles_DihedralChargeOrbits_n3..6",
+      "checked": 13,
+      "failed": 0,
+      "elapsed_ms": 0,
+      "note": "Claim: Width=Δ=2. Group: D_n acting on GF(2)^n charges.",
+      "first_failure": null
+    },
+    {
+      "variant": "V1_trees_labeled_allOddCharges_n2..4",
+      "checked": 142,
+      "failed": 0,
+      "elapsed_ms": 0,
+      "note": "Claim: Width=Δ. Enumerates all labeled trees × all odd GF(2) charges (no Aut filter).",
+      "first_failure": null
+    },
+    {
+      "variant": "FRONTIER_sanity_cycle_path",
+      "checked": 2,
+      "failed": 0,
+      "elapsed_ms": 0,
+      "note": "C5 W=2 (expect 2); P6 W=2 (expect 2)",
+      "first_failure": null
+    }
+  ],
+  "frontier": [],
+  "total_checked": 203,
+  "total_failed": 0,
+  "camino_b_status": "BLOCKED: resolution-width LBs are restricted-model",
+  "compute": "cpu_bitmask threads=4"
+}

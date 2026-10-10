@@ -1,0 +1,52 @@
+{
+  "bicyclic_cycle_chord_ok": 5,
+  "noncrossing_constructive": 3,
+  "crossing_lower_bounds": [
+    {
+      "certified": "Width > \u0394",
+      "delta": 3,
+      "closure_size_at_delta": 92,
+      "empty_at_delta": false,
+      "peeled_leaves": 0,
+      "core_n": 6,
+      "chords": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "notes": [
+        "After peeling trees, 2-core chords cross",
+        "Complete width-\u0394 resolution closure of core avoids empty clause",
+        "Odd-charge connected Tseitin is UNSAT \u21d2 Width \u2265 \u0394+1"
+      ]
+    },
+    {
+      "certified": "Width > \u0394",
+      "delta": 3,
+      "closure_size_at_delta": 68,
+      "empty_at_delta": false,
+      "peeled_leaves": 0,
+      "core_n": 6,
+      "chords": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "notes": [
+        "After peeling trees, 2-core chords cross",
+        "Complete width-\u0394 resolution closure of core avoids empty clause",
+        "Odd-charge connected Tseitin is UNSAT \u21d2 Width \u2265 \u0394+1"
+      ]
+    }
+  ]
+}

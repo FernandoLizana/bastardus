@@ -1,0 +1,192 @@
+{
+  "ok": 462,
+  "fails": [],
+  "shortcut_fold_instances": 461,
+  "examples": [
+    {
+      "n": 4,
+      "chords": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "ends": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "modes": [],
+      "residual_charges": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "width_eq_4_certified": true,
+      "charges_match_contracted": true,
+      "proof_steps": 16
+    },
+    {
+      "n": 5,
+      "chords": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "ends": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "modes": [
+        "shortcut_fold"
+      ],
+      "residual_charges": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "width_eq_4_certified": true,
+      "charges_match_contracted": true,
+      "proof_steps": 22
+    },
+    {
+      "n": 5,
+      "chords": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "ends": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "modes": [
+        "shortcut_fold"
+      ],
+      "residual_charges": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "width_eq_4_certified": true,
+      "charges_match_contracted": true,
+      "proof_steps": 22
+    },
+    {
+      "n": 5,
+      "chords": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "ends": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "modes": [
+        "shortcut_fold"
+      ],
+      "residual_charges": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "width_eq_4_certified": true,
+      "charges_match_contracted": true,
+      "proof_steps": 22
+    },
+    {
+      "n": 5,
+      "chords": [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "ends": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "modes": [
+        "shortcut_fold"
+      ],
+      "residual_charges": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "width_eq_4_certified": true,
+      "charges_match_contracted": true,
+      "proof_steps": 22
+    },
+    {
+      "n": 5,
+      "chords": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "ends": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "modes": [
+        "shortcut_fold"
+      ],
+      "residual_charges": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "width_eq_4_certified": true,
+      "charges_match_contracted": true,
+      "proof_steps": 22
+    }
+  ],
+  "note": "Forward path-fold derives residual K4 XORs at width\u2264\u0394 for crossing instances (triangle ears + shortcut folds). Analytic projection lemma (refutation restriction) remains open for Lean/human."
+}
